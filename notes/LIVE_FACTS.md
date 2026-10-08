@@ -206,7 +206,8 @@ Corrections to the above (from the core agent, confirmed): city+0x13C = founding
 ## Verified, round 4 (2026-10-07): data layers, buildings, demographics (all memory-only)
 Reports: re/agents/layers, re/agents/buildings, re/agents/uistate (REPORT.md each). Checked live in Berlin:
 - Pollution grid *(P-4) (P = *(city+0xD4)), shift 1, u32: air = bits 15..29 (non-zero average 2051 = the city's
-  air average 2058), water = bits 0..14, radiation bit 31; bit 30 seen on 975 cells (meaning open).
+  air average 2058), water = bits 0..14, radiation bit 31; bit 30 seen on 975 cells = salt water (matched later
+  against the game's Query "Salt Water" / "Fresh Water"; tile_info water_body).
 - Garbage grid *(P+0x128+0xC), u16 per tile: landfill contents (0..32767), bit 15 set on exactly the landfill
   tiles (720 = *(P+0x468), the landfill tile count). Garbage flows: produced P+0x154 = landfill P+0x184 +
   recycled P+0x16C (x 0.1 t/year).

@@ -114,5 +114,5 @@ B9EC8F72 and flags bytes 1-3; texture-metadata category / uid / flags; uv corner
 "%08lx |name" texture-name form (0x12009A5C; LIKELY uid-prefixed); which lot side the game treats as the street front
 (Maxis buildings face +x in canonical view 0); whether Baapp and the game's renderer accept generated files (next step:
 load the example in Baapp).
-(Later answer, tested in the game 2026-10-08: SimCity 3000 does not turn buildings toward their street - every copy is
+(Later answers: the generated files load and render in Baapp (notes/BAT_PHASE0.md). Tested in the game 2026-10-08: SimCity 3000 does not turn buildings toward their street - every copy is
 drawn the same way; the game's houses show their fronts on +x in view 0. See notes/PHOTO_TO_BUILDING.md.)

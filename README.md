@@ -52,6 +52,9 @@ for clients that connect to a URL. Set `SC3K_GAME_DIR` if the game is not in the
 - `live/`: tests against the running game or Building Architect (`t6_stdio.py` drives the game server over MCP
   stdio, `t9_trials.py` checks reproducibility, `b1_stdio.py` the Architect server, `p1_photo.py` the photo route),
   plus the memory tools used to find things (`memscan.py`, `refs.py`, `dump.py`, `trace_run.py`, `watch_run.py`).
+  Most game tests load a test city saved as `mcp_e2e`: make one with `new_city` (128x128, founded 1900, a small
+  powered town with water) and `save_city("mcp_e2e")`. Coordinates in `t6_stdio.py` refer to the developers' copy;
+  adjust them for yours.
 
 ## Tools (86)
 
@@ -196,8 +199,9 @@ MCP client --stdio or HTTP--> Python FastMCP server (64-bit)
   recording metrics changes nothing); different seeds give independent trials.
 - Speed: a 128x128 test city runs ~400 days/s; Berlin (256x256, 794k people) ~60-80 days/s (5-6 s per year),
   steady over 28 simulated years with flat handle counts. Display preferences do not change it (measured).
-- Test cities written while building this: `Cities\mcp_test*.sc3`, `mcp_eff1.sc3`, `mcp_e2e.sc3`, `mcp_repl_test.sc3`;
-  test snapshots in `Albums\MCP E2E--589383940\`.
+- The live tests write files named `mcp_*` / `MCP *` into the game folders (test cities, snapshots, Architect
+  projects, `BACustom` paints and props) and leave them there for inspection; remove them when done. Note that the
+  game stores the Windows user name in saved cities and snapshot details.
 
 ## Removing
 

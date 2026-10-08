@@ -98,7 +98,7 @@ Static only (disassembly of Apps\Baapp.exe, base 0x400000). L methods are thisca
 
 Limits: adding the same file twice duplicates; an overwritten file gives a second item (newest wins name lookups);
 re-parsing a .met never updates an existing prop's size; re-showing B9 re-appends custom .plt sets (unverified).
-In-place pixel refresh (unverified): 0x4178D8(item, 0) then 0x419697(L, &item->name).
+In-place pixel refresh: 0x4178D8(item, 0) then 0x419697(L, &item->name) (verified live: notes/BAT_PHASE0.md).
 Restart alternative: exit and relaunch (init runs once per process; BACustom and first-level subfolders are loaded
 eagerly).
 
