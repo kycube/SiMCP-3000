@@ -1,34 +1,50 @@
 # SiMCP 3000
 
-**MCP servers that let AI agents play SimCity 3000 Unlimited - and design new buildings for it.**
+**A fully featured MCP server for the entirety of SimCity 3000 Unlimited: an AI agent can play every part of the
+game and develop new buildings and tiles for it.**
 
-SiMCP 3000 is two [Model Context Protocol](https://modelcontextprotocol.io) servers for **SimCity 3000 Unlimited**
-(the stock GOG build 2.0.949, Windows):
+SiMCP 3000 turns SimCity 3000 Unlimited (the GOG release, Windows) into a set of
+[Model Context Protocol](https://modelcontextprotocol.io) tools that any AI agent can use: Claude, OpenAI and
+Gemini agents, local models, or your own code. Everything happens in the real game, through the game's own code,
+with the game's own rules and prices.
 
-- **simcity3000** (`python -m sc3k_mcp`, 88 tools): plays the game. It reads the game's state from process memory
-  and acts by calling the game's own code on its UI thread, so costs, placement rules, availability and the
-  simulation are the game's own. No screenshots are needed to know anything: every number comes from memory.
-  Time steps exactly and reproducibly, which makes it a tool for city-efficiency experiments as much as for play.
-- **buildingarchitect** (`python -m bat_mcp`, 47 tools): creates new buildings, either with the game's own
-  Building Architect or straight from a photograph, and shows them as images without screenshots (see
-  [Building Architect server](#building-architect-server)).
+<p align="center">
+  <img src="examples/photo_queen_anne/v3_ingame_vs_photo.png" width="760"
+       alt="A Victorian house designed by an agent from one photograph, standing in a SimCity 3000 city">
+  <br><em>A building designed by an agent from a single photograph, rendered into the game's own sprite format and
+  placed in a SimCity 3000 city (right: the reference photo by Ppienovagem,
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
+</p>
 
-It works with any MCP client and any model: Claude Code / Claude Desktop, OpenAI Codex CLI and the OpenAI Agents
-SDK, Gemini CLI and Google's Agent Development Kit, local models through Ollama (`live/other_agent.py`, tested with
-Qwen 3), editors with MCP support, or your own code. Every tool is fully
-described in its JSON schema, carries the standard MCP annotations (read-only / destructive / idempotent) and
-reports failures as MCP tool errors with a JSON `{error, hint}`.
+| What an agent can do | |
+|---|---|
+| **Play the entire game** | Start, load and save cities, starter towns, real-city maps and scenarios; zone; build roads, highways, rail, subways, power lines, pipes; place power plants, water and garbage buildings, services, parks, landmarks and rewards; set taxes, department funding and ordinances; issue bonds; answer petitions, neighbor and business deals; trigger and fight disasters; shape terrain in the map editor; enter cheat codes; take snapshots; run time day by day or in real time. |
+| **See everything, without screenshots** | Every number comes straight from the game's memory: funds and budgets, population and demographics, every data layer per tile (land value, crime, pollution, traffic, power, water, density...), every building, advisors, petitions, news, graphs, and the game's own Query window. |
+| **Develop buildings and tiles** | Design new buildings in the game's Building Architect, tool by tool (blocks, roofs, paints, details, props, custom textures and props), or straight from photographs (a 3D model with drawn facades, rendered into the game's sprite format); render them for the game and show them on the map in place of the game's own lots. |
+| **Write scenarios** | Read any scenario and its scripts; create new scenarios from your own cities, with goals and time limits. This replaces the game's Scenario Creator, which no longer runs on current Windows and Office. |
+| **Run experiments** | Exact, reproducible time steps; seeded trials (the same seed and actions give the same city); metrics recorded month by month; far faster than real time. |
+
+**Two servers, 135 tools:**
+- **simcity3000** (`python -m sc3k_mcp`, 88 tools): the game itself.
+- **buildingarchitect** (`python -m bat_mcp`, 47 tools): new buildings, with the game's Building Architect or from
+  photos (see [Building Architect server](#building-architect-server)).
+
+The game server reads the game's state from process memory and acts by calling the game's own code on its UI
+thread, so costs, placement rules, availability and the simulation are the game's own. Every tool is fully described
+in its JSON schema, carries the standard MCP annotations (read-only / destructive / idempotent) and reports failures
+as MCP tool errors with a JSON `{error, hint}`. Each server has a `guide` tool that teaches an agent how to use it.
 
 > SiMCP 3000 is a fan project, not affiliated with or endorsed by Electronic Arts or Maxis. SimCity is a trademark of
 > Electronic Arts Inc. You need your own copy of SimCity 3000 Unlimited; this repository contains no game files.
 
 | Document | For |
 |---|---|
-| [docs/CLIENTS.md](docs/CLIENTS.md) | Install, and connecting Claude, OpenAI, Gemini / ADK and other clients (timeouts, tool filters, HTTP) |
-| [sc3k_mcp/guide.md](sc3k_mcp/guide.md) | How an agent plays: coordinates, building, time, dialogs, money, experiments, errors (also the `guide` tool) |
-| [docs/TOOLS.md](docs/TOOLS.md) | Every tool with its parameters, types, defaults and annotations (generated from the server) |
-| [bat_mcp/guide.md](bat_mcp/guide.md), [docs/BAT_TOOLS.md](docs/BAT_TOOLS.md) | The Building Architect server: agent guide and generated tool reference |
-| [notes/LIVE_FACTS.md](notes/LIVE_FACTS.md) | Verified memory layouts and recipes behind the tools |
+| [docs/CLIENTS.md](docs/CLIENTS.md) | Install, and connecting Claude, OpenAI, Gemini / ADK, local models and other clients (timeouts, tool filters, HTTP) |
+| [sc3k_mcp/guide.md](sc3k_mcp/guide.md) | How an agent plays: coordinates, building, time, dialogs, money, scenarios, experiments, errors (also the `guide` tool) |
+| [docs/TOOLS.md](docs/TOOLS.md) | Every game tool with its parameters, types, defaults and annotations (generated from the server) |
+| [bat_mcp/guide.md](bat_mcp/guide.md), [docs/BAT_TOOLS.md](docs/BAT_TOOLS.md) | The building server: agent guide with best practices, and its generated tool reference |
+| [examples/](examples/) | Complete building projects: the Empire State Building, a Queen Anne house, a house from a photo |
+| [notes/](notes/), [re/](re/) | How it works: verified memory layouts, file formats and reverse-engineering notes |
 
 ## Quick start
 
@@ -44,20 +60,7 @@ reports failures as MCP tool errors with a JSON `{error, hint}`.
 `python -m sc3k_mcp --transport streamable-http --port 8765` serves the same tools at `http://127.0.0.1:8765/mcp`
 for clients that connect to a URL. Set `SC3K_GAME_DIR` if the game is not in the GOG default folder.
 
-## Tests
-
-- `python -m pytest` (install with `pip install -e ".[test]"`): offline tests that need no game - the sprite and
-  database formats, authored facades and the software renderer, roofs, both servers' tool schemas over MCP stdio,
-  and that the generated tool references are current. With the game installed it also round-trips the
-  Architect's sample projects byte for byte. CI runs it on every push, and builds the bridge DLLs.
-- `live/`: tests against the running game or Building Architect (`t6_stdio.py` drives the game server over MCP
-  stdio, `t9_trials.py` checks reproducibility, `b1_stdio.py` the Architect server, `p1_photo.py` the photo route),
-  plus the memory tools used to find things (`memscan.py`, `refs.py`, `dump.py`, `trace_run.py`, `watch_run.py`).
-  Most game tests load a test city saved as `mcp_e2e`: make one with `new_city` (128x128, founded 1900, a small
-  powered town with water) and `save_city("mcp_e2e")`. Coordinates in `t6_stdio.py` refer to the developers' copy;
-  adjust them for yours.
-
-## Tools (88)
+## Game server tools (88)
 
 | Group | Tools |
 |---|---|
@@ -160,6 +163,19 @@ MCP client --stdio or HTTP--> Python FastMCP server (64-bit)
 | `live/` | scripts that talk to the live game (tests t1-t11; `t6_stdio.py` drives the server over MCP stdio; `b1_stdio.py` the Architect server; `p1_photo.py` the photo route; `mcp_run.py` runs any list of tool calls against either server) and the memory tools used to find things |
 | `tests/` | offline pytest suite (no game needed); `.github/workflows/ci.yml` runs it and builds the bridge DLLs |
 | `examples/` | complete examples as plain MCP calls: the Empire State Building (4x4) and a Queen Anne house (2x2) with the Architect, the Haas-Lilienthal House from a photograph without it (`examples/README.md`, with credits) |
+
+## Tests
+
+- `python -m pytest` (install with `pip install -e ".[test]"`): offline tests that need no game - the sprite and
+  database formats, authored facades and the software renderer, roofs, both servers' tool schemas over MCP stdio,
+  and that the generated tool references are current. With the game installed it also round-trips the
+  Architect's sample projects byte for byte. CI runs it on every push, and builds the bridge DLLs.
+- `live/`: tests against the running game or Building Architect (`t6_stdio.py` drives the game server over MCP
+  stdio, `t9_trials.py` checks reproducibility, `b1_stdio.py` the Architect server, `p1_photo.py` the photo route),
+  plus the memory tools used to find things (`memscan.py`, `refs.py`, `dump.py`, `trace_run.py`, `watch_run.py`).
+  Most game tests load a test city saved as `mcp_e2e`: make one with `new_city` (128x128, founded 1900, a small
+  powered town with water) and `save_city("mcp_e2e")`. Coordinates in `t6_stdio.py` refer to the developers' copy;
+  adjust them for yours.
 
 ## Known limits
 

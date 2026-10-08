@@ -1,7 +1,7 @@
 [project]
 name = "simcp-3000"
 version = "0.1.0"
-description = "SiMCP 3000: MCP servers that let AI agents play SimCity 3000 Unlimited and design buildings for it"
+description = "SiMCP 3000: a fully featured MCP server for SimCity 3000 Unlimited - play the entire game and develop new buildings for it"
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
