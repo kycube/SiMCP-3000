@@ -14,7 +14,8 @@ SiMCP 3000 is two [Model Context Protocol](https://modelcontextprotocol.io) serv
   [Building Architect server](#building-architect-server)).
 
 It works with any MCP client and any model: Claude Code / Claude Desktop, OpenAI Codex CLI and the OpenAI Agents
-SDK, Gemini CLI and Google's Agent Development Kit, editors with MCP support, or your own code. Every tool is fully
+SDK, Gemini CLI and Google's Agent Development Kit, local models through Ollama (`live/other_agent.py`, tested with
+Qwen 3), editors with MCP support, or your own code. Every tool is fully
 described in its JSON schema, carries the standard MCP annotations (read-only / destructive / idempotent) and
 reports failures as MCP tool errors with a JSON `{error, hint}`.
 

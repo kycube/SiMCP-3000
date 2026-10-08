@@ -117,8 +117,9 @@ def _project_path(name: str) -> str:
 
 @tool("read")
 def projects() -> dict:
-    """The Building Architect projects (*.bld) in the game's Buildings folder: file, building name, architect, lot
-    size (tiles a side) and building id, read from each file."""
+    """List the building projects: every Building Architect project (*.bld) in the game's Buildings folder with its
+    file, building name, architect, lot size (tiles a side) and building id, read from each file (the Architect need
+    not be running). open_building opens one."""
     def run():
         out = []
         for f in sorted(os.listdir(BUILDINGS_DIR)) if os.path.isdir(BUILDINGS_DIR) else []:

@@ -22,7 +22,7 @@ All tools have openWorldHint false (they act on the local game only).
 | [`guide`](#guide) | read | How to use this server (markdown): what the Building Architect is, building with blocks, roofs, paints, details and props, your own textures and props, coordinates, seeing the building as images, best practices learned from complete builds (scale, colours through the renderer, roofs, houses, towers), saving and rendering for SimCity. |
 | [`bat_launch`](#bat_launch) | set | Start the Building Architect (windowed 1024x768) and attach to it, or attach to the copy already running. |
 | [`bat_status`](#bat_status) | read | Whether the Building Architect runs, its window, and the folders it uses (projects, rendered output). |
-| [`projects`](#projects) | read | The Building Architect projects (*.bld) in the game's Buildings folder: file, building name, architect, lot size (tiles a side) and building id, read from each file. |
+| [`projects`](#projects) | read | List the building projects: every Building Architect project (*.bld) in the game's Buildings folder with its file, building name, architect, lot size (tiles a side) and building id, read from each file (the Architect need not be running). |
 | [`project_image`](#project_image) | read | The preview picture a project file carries (200x200, the Architect's own render of the building, saved with it), as a PNG. |
 | [`rendered_buildings`](#rendered_buildings) | read | The buildings rendered for SimCity 3000 (the game reads them from Apps\BARender\BAT.DAT): name, architect, lot size and id. |
 | [`rendered_image`](#rendered_image) | read | A rendered building exactly as SimCity 3000 draws it (decoded from the render output, transparent background, no screenshot): one view, or all four rotations side by side. |
@@ -103,7 +103,7 @@ No parameters.
 
 *read*
 
-The Building Architect projects (*.bld) in the game's Buildings folder: file, building name, architect, lot size (tiles a side) and building id, read from each file.
+List the building projects: every Building Architect project (*.bld) in the game's Buildings folder with its file, building name, architect, lot size (tiles a side) and building id, read from each file (the Architect need not be running). open_building opens one.
 
 No parameters.
 

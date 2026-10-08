@@ -14,6 +14,7 @@ or your own code using an MCP SDK. Nothing in the server depends on a particular
 - [Claude Code](#claude-code) · [Claude Desktop](#claude-desktop)
 - [OpenAI Codex CLI](#openai-codex-cli) · [OpenAI Agents SDK](#openai-agents-sdk-python)
 - [Gemini CLI](#gemini-cli) · [Google ADK](#google-agent-development-kit-python)
+- [Local models with Ollama](#local-models-with-ollama)
 - [HTTP transport](#http-transport) · [MCP Inspector](#mcp-inspector) · [Your own code](#your-own-code-python-mcp-sdk)
 
 In the examples, replace `C:\path\to\SiMCP-3000` with this folder and `C:\Python313\python.exe` with your Python.
@@ -219,6 +220,22 @@ root_agent = LlmAgent(
 
 ADK's class and module names have changed between versions (`MCPToolset` in older releases); check the version you
 use.
+
+## Local models with Ollama
+
+`live/other_agent.py` is a complete, minimal agent loop for any model served by [Ollama](https://ollama.com) that
+supports tool calling (no API key; the model runs locally): it starts the server over stdio, gives the model the
+tool schemas exactly as the server publishes them, runs the tools it calls and feeds back the results.
+
+```bash
+python live/other_agent.py qwen3:0.6b "Load the saved city 'Madison, WI' and tell me its funds."
+```
+
+By default it offers a small set of tools (a small local context fits them easily); `TOOLS=all` offers all of
+them. Tested with Qwen 3 (0.6B): with all 86 game tools offered it chose `game_status` and answered correctly; it
+loaded a city with the right `load_city` arguments and read the server's error messages correctly. A model that
+small still mixes up facts in its answers - use a larger model for real play. Models without tool support in
+Ollama (Gemma 3, Phi-3) are refused by Ollama itself.
 
 ## HTTP transport
 
