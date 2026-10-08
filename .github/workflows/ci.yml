@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    # the servers drive a Windows game; the offline tests and the tool-schema checks need no game install
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -e ".[test]"
+      - run: python -m pytest -q -rs
+
+  bridge:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the 32-bit bridge and plugin DLLs
+        shell: cmd
+        run: |
+          call bridge\build.bat || exit /b 1
+          call bridge\build.bat plug || exit /b 1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bridge-dlls
+          path: |
+            bridge/build/sc3kbridge.dll
+            bridge/build/sc3kplug.dll

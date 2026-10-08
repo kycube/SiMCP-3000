@@ -1,0 +1,2408 @@
+{
+ "name": "MCP Haas-Lilienthal House",
+ "architect": "SiMCP 3000 example (authored from a photo)",
+ "description": "Queen Anne Victorian, San Francisco 1886 - recreated in drawn pixels from a photograph (reference: Ppienovagem, CC BY 4.0)",
+ "lot": 2,
+ "lighting": "game",
+ "materials": {
+  "front": {
+   "facade": {
+    "size_m": [
+     10.5,
+     10.4
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "pattern": "clapboard",
+     "color": "body",
+     "size_m": [
+      1.0,
+      1.0
+     ]
+    },
+    "elements": [
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.4,
+      "style": "brackets",
+      "spacing": 0.9
+     },
+     {
+      "type": "band",
+      "v": 2.2,
+      "h": 0.3,
+      "style": "dentil"
+     },
+     {
+      "type": "band",
+      "v": 5.75,
+      "h": 0.3,
+      "style": "molding"
+     },
+     {
+      "type": "window",
+      "u": 7.0,
+      "v": 0.55,
+      "w": 0.85,
+      "h": 1.5,
+      "hood": true
+     },
+     {
+      "type": "window",
+      "u": 9.0,
+      "v": 0.55,
+      "w": 0.85,
+      "h": 1.5,
+      "hood": true
+     },
+     {
+      "type": "window",
+      "u": 8.7,
+      "v": 2.9,
+      "w": 0.85,
+      "h": 2.3,
+      "pediment": true,
+      "curtain": "curtain"
+     },
+     {
+      "type": "window",
+      "u": 4.75,
+      "v": 7.0,
+      "w": 0.7,
+      "h": 2.6,
+      "hood": true
+     },
+     {
+      "type": "door",
+      "u": 6.2,
+      "v": 7.3,
+      "w": 1.9,
+      "h": 3.1
+     },
+     {
+      "type": "window",
+      "u": 8.75,
+      "v": 7.0,
+      "w": 0.95,
+      "h": 2.6,
+      "hood": true,
+      "curtain": "curtain"
+     }
+    ]
+   }
+  },
+  "loggia": {
+   "facade": {
+    "size_m": [
+     5.8,
+     2.2
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "pattern": "clapboard",
+     "color": "body",
+     "size_m": [
+      1.0,
+      1.0
+     ]
+    },
+    "elements": [
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.3,
+      "style": "brackets",
+      "spacing": 0.45
+     },
+     {
+      "type": "arch",
+      "u": 1.75,
+      "v": 0.35,
+      "w": 2.25,
+      "h": 1.85,
+      "rise": 0.35,
+      "color": "#232a27"
+     },
+     {
+      "type": "railing",
+      "u": 1.75,
+      "v": 0.5,
+      "w": 2.25,
+      "h": 0.28,
+      "spindle": 0.12
+     },
+     {
+      "type": "window",
+      "u": 4.3,
+      "v": 0.45,
+      "w": 0.9,
+      "h": 1.5,
+      "hood": true
+     }
+    ]
+   }
+  },
+  "gable": {
+   "facade": {
+    "size_m": [
+     5.8,
+     3.1098692590715795
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "color": "body"
+    },
+    "elements": [
+     {
+      "type": "field",
+      "u": 0,
+      "v": 2.15986925907158,
+      "w": 5.8,
+      "h": 0.95,
+      "pattern": "fishscale",
+      "color": "body",
+      "size_m": [
+       0.5,
+       0.5
+      ]
+     },
+     {
+      "type": "band",
+      "v": 1.8598692590715795,
+      "h": 0.3,
+      "style": "brackets",
+      "spacing": 0.4
+     },
+     {
+      "type": "ornament",
+      "u": 2.0999999999999996,
+      "v": 0.85,
+      "w": 1.6,
+      "h": 0.8,
+      "style": "sunburst"
+     },
+     {
+      "type": "rect",
+      "u": 2.84,
+      "v": 0.2,
+      "w": 0.12,
+      "h": 2.1098692590715795,
+      "color": "light"
+     },
+     {
+      "type": "ornament",
+      "u": 2.75,
+      "v": 2.15986925907158,
+      "w": 0.3,
+      "h": 0.3,
+      "style": "diamond",
+      "color": "light"
+     }
+    ]
+   }
+  },
+  "bay_box": {
+   "facade": {
+    "size_m": [
+     3.15,
+     3.25
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "pattern": "clapboard",
+     "color": "body",
+     "size_m": [
+      1.0,
+      1.0
+     ]
+    },
+    "elements": [
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.35,
+      "style": "frieze"
+     },
+     {
+      "type": "ornament",
+      "u": 0.2,
+      "v": 0.45,
+      "w": 0.65,
+      "h": 0.4,
+      "style": "sunburst"
+     },
+     {
+      "type": "ornament",
+      "u": 2.3,
+      "v": 0.45,
+      "w": 0.65,
+      "h": 0.4,
+      "style": "sunburst"
+     },
+     {
+      "type": "window",
+      "u": 0.25,
+      "v": 0.95,
+      "w": 0.55,
+      "h": 2.0
+     },
+     {
+      "type": "window",
+      "u": 0.95,
+      "v": 0.6,
+      "w": 1.25,
+      "h": 2.35,
+      "transom": true,
+      "curtain": "curtain"
+     },
+     {
+      "type": "window",
+      "u": 2.35,
+      "v": 0.95,
+      "w": 0.55,
+      "h": 2.0
+     },
+     {
+      "type": "band",
+      "v": 3.0,
+      "h": 0.25,
+      "style": "molding"
+     }
+    ]
+   }
+  },
+  "bay_side": {
+   "facade": {
+    "size_m": [
+     0.7,
+     3.25
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "pattern": "clapboard",
+     "color": "body",
+     "size_m": [
+      1.0,
+      1.0
+     ]
+    },
+    "elements": [
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.35,
+      "style": "frieze"
+     },
+     {
+      "type": "window",
+      "u": 0.12,
+      "v": 0.95,
+      "w": 0.46,
+      "h": 2.0
+     },
+     {
+      "type": "band",
+      "v": 3.0,
+      "h": 0.25,
+      "style": "molding"
+     }
+    ]
+   }
+  },
+  "pediment": {
+   "facade": {
+    "size_m": [
+     6.1,
+     1.9058515233234488
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "color": "body"
+    },
+    "elements": [
+     {
+      "type": "ornament",
+      "u": 2.15,
+      "v": 0.55,
+      "w": 1.8,
+      "h": 0.9,
+      "style": "fan"
+     },
+     {
+      "type": "railing",
+      "u": 0.9,
+      "v": 1.45,
+      "w": 4.3,
+      "h": 0.35,
+      "spindle": 0.16,
+      "color": "light"
+     },
+     {
+      "type": "band",
+      "v": 1.65,
+      "h": 0.25,
+      "style": "dentil"
+     }
+    ]
+   }
+  },
+  "fascia_front": {
+   "facade": {
+    "size_m": [
+     6.1,
+     1.6
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "color": "body"
+    },
+    "elements": [
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.45,
+      "style": "dentil"
+     },
+     {
+      "type": "arch",
+      "u": 0.35,
+      "v": 0.6,
+      "w": 5.3999999999999995,
+      "h": 1.0,
+      "rise": 0.45,
+      "color": "clear"
+     }
+    ]
+   }
+  },
+  "fascia_side": {
+   "facade": {
+    "size_m": [
+     2.8,
+     1.6
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "color": "body"
+    },
+    "elements": [
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.45,
+      "style": "dentil"
+     },
+     {
+      "type": "arch",
+      "u": 0.35,
+      "v": 0.6,
+      "w": 2.0999999999999996,
+      "h": 1.0,
+      "rise": 0.45,
+      "color": "clear"
+     }
+    ]
+   }
+  },
+  "balustrade": {
+   "facade": {
+    "size_m": [
+     2.0,
+     0.95
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "color": "clear"
+    },
+    "elements": [
+     {
+      "type": "railing",
+      "u": 0,
+      "v": 0,
+      "w": 2.0,
+      "h": 0.95,
+      "spindle": 0.17,
+      "color": "light"
+     }
+    ]
+   }
+  },
+  "iron": {
+   "facade": {
+    "size_m": [
+     4.0,
+     0.85
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "color": "clear"
+    },
+    "elements": [
+     {
+      "type": "railing",
+      "u": 0,
+      "v": 0,
+      "w": 4.0,
+      "h": 0.85,
+      "spindle": 0.13,
+      "style": "iron",
+      "color": "#1d2120"
+     }
+    ]
+   }
+  },
+  "bay": {
+   "facade": {
+    "size_m": [
+     10.053096491487338,
+     10.2
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "pattern": "clapboard",
+     "color": "body",
+     "size_m": [
+      1.0,
+      1.0
+     ]
+    },
+    "elements": [
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.3,
+      "style": "molding"
+     },
+     {
+      "type": "band",
+      "v": 2.0,
+      "h": 0.3,
+      "style": "dentil"
+     },
+     {
+      "type": "band",
+      "v": 5.6,
+      "h": 0.3,
+      "style": "molding"
+     },
+     {
+      "type": "band",
+      "v": 9.35,
+      "h": 0.4,
+      "style": "frieze"
+     },
+     {
+      "type": "window",
+      "u": 3.001032163829113,
+      "v": 0.45,
+      "w": 0.7,
+      "h": 1.35,
+      "hood": true
+     },
+     {
+      "type": "window",
+      "u": 4.676548245743669,
+      "v": 0.45,
+      "w": 0.7,
+      "h": 1.35,
+      "hood": true
+     },
+     {
+      "type": "window",
+      "u": 6.352064327658225,
+      "v": 0.45,
+      "w": 0.7,
+      "h": 1.35,
+      "hood": true
+     },
+     {
+      "type": "window",
+      "u": 2.951032163829113,
+      "v": 2.6,
+      "w": 0.8,
+      "h": 2.5,
+      "transom": true,
+      "curtain": "curtain"
+     },
+     {
+      "type": "window",
+      "u": 4.626548245743669,
+      "v": 2.6,
+      "w": 0.8,
+      "h": 2.5,
+      "transom": true,
+      "curtain": "curtain"
+     },
+     {
+      "type": "window",
+      "u": 6.302064327658225,
+      "v": 2.6,
+      "w": 0.8,
+      "h": 2.5,
+      "transom": true,
+      "curtain": "curtain"
+     },
+     {
+      "type": "window",
+      "u": 2.951032163829113,
+      "v": 6.2,
+      "w": 0.8,
+      "h": 2.9,
+      "hood": true,
+      "curtain": "curtain"
+     },
+     {
+      "type": "window",
+      "u": 4.626548245743669,
+      "v": 6.2,
+      "w": 0.8,
+      "h": 2.9,
+      "hood": true,
+      "curtain": "curtain"
+     },
+     {
+      "type": "window",
+      "u": 6.302064327658225,
+      "v": 6.2,
+      "w": 0.8,
+      "h": 2.9,
+      "hood": true,
+      "curtain": "curtain"
+     }
+    ]
+   }
+  },
+  "turret": {
+   "facade": {
+    "size_m": [
+     12.252211349000193,
+     3.1
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "color": "body"
+    },
+    "elements": [
+     {
+      "type": "field",
+      "u": 0,
+      "v": 1.35,
+      "w": 12.252211349000193,
+      "h": 1.45,
+      "pattern": "fishscale",
+      "color": "body",
+      "size_m": [
+       0.5,
+       0.5
+      ]
+     },
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.3,
+      "style": "brackets",
+      "spacing": 0.5
+     },
+     {
+      "type": "band",
+      "v": 0.4,
+      "h": 0.55,
+      "style": "frieze",
+      "color": "trim"
+     },
+     {
+      "type": "band",
+      "v": 2.8,
+      "h": 0.3,
+      "style": "brackets",
+      "spacing": 0.5
+     },
+     {
+      "type": "window",
+      "u": 3.368731245527837,
+      "v": 0.35,
+      "w": 0.75,
+      "h": 1.15,
+      "pediment": true
+     },
+     {
+      "type": "window",
+      "u": 8.133480103472357,
+      "v": 0.35,
+      "w": 0.75,
+      "h": 1.15,
+      "pediment": true
+     }
+    ]
+   }
+  },
+  "dormer": {
+   "facade": {
+    "size_m": [
+     1.2,
+     2.3
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "pattern": "clapboard",
+     "color": "body",
+     "size_m": [
+      1.0,
+      1.0
+     ]
+    },
+    "elements": [
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.2,
+      "style": "plain"
+     },
+     {
+      "type": "window",
+      "u": 0.2,
+      "v": 0.35,
+      "w": 0.8,
+      "h": 1.5,
+      "transom": true
+     },
+     {
+      "type": "band",
+      "v": 2.0,
+      "h": 0.3,
+      "style": "brackets",
+      "spacing": 0.3
+     }
+    ]
+   }
+  },
+  "dormer_gable": {
+   "facade": {
+    "size_m": [
+     1.2,
+     0.8568888040452686
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "color": "body"
+    },
+    "elements": [
+     {
+      "type": "ornament",
+      "u": 0.3,
+      "v": 0.35,
+      "w": 0.6,
+      "h": 0.4,
+      "style": "sunburst"
+     }
+    ]
+   }
+  },
+  "sbay_front": {
+   "facade": {
+    "size_m": [
+     2.6,
+     8.2
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "pattern": "clapboard",
+     "color": "body",
+     "size_m": [
+      1.0,
+      1.0
+     ]
+    },
+    "elements": [
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.35,
+      "style": "brackets",
+      "spacing": 0.5
+     },
+     {
+      "type": "window",
+      "u": 0.75,
+      "v": 0.7,
+      "w": 1.1,
+      "h": 2.3,
+      "pediment": true,
+      "curtain": "curtain"
+     },
+     {
+      "type": "band",
+      "v": 3.55,
+      "h": 0.25,
+      "style": "dentil"
+     },
+     {
+      "type": "window",
+      "u": 0.7,
+      "v": 4.6,
+      "w": 1.2,
+      "h": 2.9,
+      "transom": true,
+      "curtain": "curtain"
+     },
+     {
+      "type": "band",
+      "v": 7.8,
+      "h": 0.4,
+      "style": "frieze"
+     }
+    ]
+   }
+  },
+  "sbay_side": {
+   "facade": {
+    "size_m": [
+     1.17,
+     8.2
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "pattern": "clapboard",
+     "color": "body",
+     "size_m": [
+      1.0,
+      1.0
+     ]
+    },
+    "elements": [
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.35,
+      "style": "brackets",
+      "spacing": 0.5
+     },
+     {
+      "type": "window",
+      "u": 0.3,
+      "v": 0.9,
+      "w": 0.57,
+      "h": 2.1
+     },
+     {
+      "type": "band",
+      "v": 3.55,
+      "h": 0.25,
+      "style": "dentil"
+     },
+     {
+      "type": "window",
+      "u": 0.3,
+      "v": 4.8,
+      "w": 0.57,
+      "h": 2.7
+     },
+     {
+      "type": "band",
+      "v": 7.8,
+      "h": 0.4,
+      "style": "frieze"
+     }
+    ]
+   }
+  },
+  "basement_front": {
+   "facade": {
+    "size_m": [
+     10.5,
+     2.0
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "pattern": "stone",
+     "color": "#b9bcb8",
+     "size_m": [
+      2.0,
+      1.0
+     ]
+    },
+    "elements": [
+     {
+      "type": "repeat",
+      "n": 3,
+      "du": 2.6,
+      "element": {
+       "type": "rect",
+       "u": 3.0,
+       "v": 0.6,
+       "w": 0.7,
+       "h": 0.6,
+       "color": "#2a302e"
+      }
+     },
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.18,
+      "style": "plain",
+      "color": "#9a9e98"
+     }
+    ]
+   }
+  },
+  "side_bay": {
+   "facade": {
+    "size_m": [
+     5.0,
+     10.4
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "pattern": "clapboard",
+     "color": "body",
+     "size_m": [
+      1.0,
+      1.0
+     ]
+    },
+    "elements": [
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.4,
+      "style": "brackets",
+      "spacing": 0.9
+     },
+     {
+      "type": "band",
+      "v": 2.2,
+      "h": 0.3,
+      "style": "dentil"
+     },
+     {
+      "type": "band",
+      "v": 5.75,
+      "h": 0.3,
+      "style": "molding"
+     },
+     {
+      "type": "repeat",
+      "n": 2,
+      "du": 2.3,
+      "element": {
+       "type": "window",
+       "u": 1.0,
+       "v": 0.55,
+       "w": 0.85,
+       "h": 1.5,
+       "hood": true
+      }
+     },
+     {
+      "type": "repeat",
+      "n": 2,
+      "du": 2.3,
+      "element": {
+       "type": "window",
+       "u": 1.0,
+       "v": 3.0,
+       "w": 0.85,
+       "h": 2.3,
+       "transom": true,
+       "curtain": "curtain"
+      }
+     },
+     {
+      "type": "repeat",
+      "n": 3,
+      "du": 1.5,
+      "element": {
+       "type": "window",
+       "u": 0.85,
+       "v": 6.7,
+       "w": 0.8,
+       "h": 2.7,
+       "hood": true,
+       "curtain": "curtain"
+      }
+     }
+    ]
+   }
+  },
+  "side_gable": {
+   "facade": {
+    "size_m": [
+     5.0,
+     2.6809217750617065
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "color": "body"
+    },
+    "elements": [
+     {
+      "type": "field",
+      "u": 0,
+      "v": 1.2,
+      "w": 5.0,
+      "h": 1.5,
+      "pattern": "fishscale",
+      "color": "body",
+      "size_m": [
+       0.5,
+       0.5
+      ]
+     },
+     {
+      "type": "window",
+      "u": 2.1,
+      "v": 0.75,
+      "w": 0.8,
+      "h": 1.0,
+      "arch": true
+     }
+    ]
+   }
+  },
+  "side_y": {
+   "facade": {
+    "size_m": [
+     17.5,
+     10.4
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "pattern": "clapboard",
+     "color": "body",
+     "size_m": [
+      1.0,
+      1.0
+     ]
+    },
+    "elements": [
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.4,
+      "style": "brackets",
+      "spacing": 0.9
+     },
+     {
+      "type": "band",
+      "v": 2.2,
+      "h": 0.3,
+      "style": "dentil"
+     },
+     {
+      "type": "band",
+      "v": 5.75,
+      "h": 0.3,
+      "style": "molding"
+     },
+     {
+      "type": "repeat",
+      "n": 6,
+      "du": 2.4,
+      "element": {
+       "type": "window",
+       "u": 2.3,
+       "v": 0.55,
+       "w": 0.9,
+       "h": 1.5,
+       "hood": true,
+       "curtain": null
+      }
+     },
+     {
+      "type": "repeat",
+      "n": 6,
+      "du": 2.4,
+      "element": {
+       "type": "window",
+       "u": 2.3,
+       "v": 3.0,
+       "w": 0.9,
+       "h": 2.3,
+       "hood": true,
+       "curtain": "curtain"
+      }
+     },
+     {
+      "type": "repeat",
+      "n": 6,
+      "du": 2.4,
+      "element": {
+       "type": "window",
+       "u": 2.3,
+       "v": 6.7,
+       "w": 0.9,
+       "h": 2.7,
+       "hood": true,
+       "curtain": "curtain"
+      }
+     }
+    ]
+   }
+  },
+  "side_x": {
+   "facade": {
+    "size_m": [
+     10.5,
+     10.4
+    ],
+    "palette": {
+     "body": "#76897a",
+     "trim": "#a6b2a3",
+     "dark": "#2f3833",
+     "light": "#d6d2be",
+     "glass": "#232c37",
+     "sky": "#58708a",
+     "sash": "#3a4540",
+     "accent": "#b08c48",
+     "door": "#4c3a2e",
+     "curtain": "#d9cfb6"
+    },
+    "base": {
+     "pattern": "clapboard",
+     "color": "body",
+     "size_m": [
+      1.0,
+      1.0
+     ]
+    },
+    "elements": [
+     {
+      "type": "band",
+      "v": 0.0,
+      "h": 0.4,
+      "style": "brackets",
+      "spacing": 0.9
+     },
+     {
+      "type": "band",
+      "v": 2.2,
+      "h": 0.3,
+      "style": "dentil"
+     },
+     {
+      "type": "band",
+      "v": 5.75,
+      "h": 0.3,
+      "style": "molding"
+     },
+     {
+      "type": "repeat",
+      "n": 3,
+      "du": 2.4,
+      "element": {
+       "type": "window",
+       "u": 2.4,
+       "v": 0.55,
+       "w": 0.9,
+       "h": 1.5,
+       "hood": true,
+       "curtain": null
+      }
+     },
+     {
+      "type": "repeat",
+      "n": 3,
+      "du": 2.4,
+      "element": {
+       "type": "window",
+       "u": 2.4,
+       "v": 3.0,
+       "w": 0.9,
+       "h": 2.3,
+       "hood": true,
+       "curtain": "curtain"
+      }
+     },
+     {
+      "type": "repeat",
+      "n": 3,
+      "du": 2.4,
+      "element": {
+       "type": "window",
+       "u": 2.4,
+       "v": 6.7,
+       "w": 0.9,
+       "h": 2.7,
+       "hood": true,
+       "curtain": "curtain"
+      }
+     }
+    ]
+   }
+  },
+  "stone": {
+   "pattern": "stone",
+   "color": "#b9bcb8",
+   "size_m": [
+    2.0,
+    1.0
+   ]
+  },
+  "roof": {
+   "pattern": "slate",
+   "color": "#3e434f",
+   "size_m": [
+    1.2,
+    1.2
+   ]
+  },
+  "ridge": {
+   "color": "#7c8390"
+  },
+  "cone": {
+   "pattern": "shingle",
+   "color": "#6a645d",
+   "color2": "#46403b",
+   "size_m": [
+    0.8,
+    0.6
+   ]
+  },
+  "trim": {
+   "color": "#97a396"
+  },
+  "light": {
+   "color": "#dcd8c4"
+  },
+  "barge": {
+   "color": "#b3bdaf"
+  },
+  "finial": {
+   "color": "#353d3a"
+  },
+  "finial_body": {
+   "color": "#6b7a72"
+  },
+  "body": {
+   "color": "#76897a"
+  },
+  "brick": {
+   "pattern": "brick",
+   "color": "#7b5d52",
+   "color2": "#4b3a33",
+   "size_m": [
+    1.0,
+    1.0
+   ]
+  },
+  "lawn": {
+   "texture": "grass",
+   "size_m": [
+    16,
+    16
+   ]
+  },
+  "path": {
+   "texture": "walkway",
+   "size_m": [
+    8,
+    8
+   ]
+  }
+ },
+ "parts": [
+  {
+   "type": "ground",
+   "mat": "lawn"
+  },
+  {
+   "type": "patch",
+   "x": 28.3,
+   "y": 15.6,
+   "w": 3.7,
+   "d": 2.0,
+   "mat": "path"
+  },
+  {
+   "type": "box",
+   "x": 8,
+   "y": 9.5,
+   "z": 0,
+   "w": 17.5,
+   "d": 10.5,
+   "h": 2,
+   "mat": "stone",
+   "faces": {
+    "+x": "basement_front"
+   }
+  },
+  {
+   "type": "box",
+   "x": 8,
+   "y": 9.5,
+   "z": 2,
+   "w": 17.5,
+   "d": 10.5,
+   "h": 10.4,
+   "mat": "side_x",
+   "faces": {
+    "+x": "front",
+    "+y": "side_y",
+    "-y": "side_y"
+   }
+  },
+  {
+   "type": "box",
+   "x": 7.9,
+   "y": 9.4,
+   "z": 1.85,
+   "w": 17.7,
+   "d": 10.7,
+   "h": 0.2,
+   "mat": "trim"
+  },
+  {
+   "type": "box",
+   "x": 7.92,
+   "y": 9.42,
+   "z": 6.45,
+   "w": 17.66,
+   "d": 10.66,
+   "h": 0.18,
+   "mat": "trim"
+  },
+  {
+   "type": "box",
+   "x": 7.92,
+   "y": 9.42,
+   "z": 10.05,
+   "w": 17.66,
+   "d": 10.66,
+   "h": 0.15,
+   "mat": "trim"
+  },
+  {
+   "type": "box",
+   "x": 7.8,
+   "y": 9.3,
+   "z": 12.1,
+   "w": 17.9,
+   "d": 10.9,
+   "h": 0.3,
+   "mat": "trim"
+  },
+  {
+   "type": "roof",
+   "mat": "roof",
+   "ridge_cap": {
+    "mat": "ridge"
+   },
+   "x": 8,
+   "y": 9.5,
+   "w": 17.5,
+   "d": 10.5,
+   "z": 12.4,
+   "style": "hip",
+   "pitch": 40,
+   "overhang": 0.5
+  },
+  {
+   "type": "box",
+   "x": 25.5,
+   "y": 14.35,
+   "z": 6.6,
+   "w": 0.7,
+   "d": 3.15,
+   "h": 3.25,
+   "mat": "bay_side",
+   "faces": {
+    "+x": "bay_box",
+    "top": "trim"
+   }
+  },
+  {
+   "type": "box",
+   "x": 25.5,
+   "y": 11.9,
+   "z": 9.85,
+   "w": 1.1,
+   "d": 5.6,
+   "h": 0.3,
+   "mat": "trim",
+   "faces": {
+    "top": "body"
+   }
+  },
+  {
+   "type": "box",
+   "x": 25.5,
+   "y": 10.4,
+   "z": 10.15,
+   "w": 0.5,
+   "d": 5.8,
+   "h": 2.25,
+   "mat": "body",
+   "faces": {
+    "+x": "loggia"
+   }
+  },
+  {
+   "type": "panel",
+   "from": [
+    26.5,
+    12.0
+   ],
+   "to": [
+    26.5,
+    14.4
+   ],
+   "z": 10.15,
+   "h": 0.95,
+   "mat": "balustrade"
+  },
+  {
+   "type": "box",
+   "x": 26.0,
+   "y": 10.4,
+   "z": 12.200000000000001,
+   "w": 0.55,
+   "d": 5.8,
+   "h": 0.2,
+   "mat": "trim"
+  },
+  {
+   "type": "roof",
+   "mat": "roof",
+   "ridge_cap": {
+    "mat": "ridge"
+   },
+   "x": 18,
+   "y": 10.4,
+   "w": 8.0,
+   "d": 5.8,
+   "z": 12.4,
+   "style": "gable_x",
+   "pitch": 47,
+   "overhang": 0.5,
+   "gable": "gable",
+   "ends": [
+    "+x"
+   ],
+   "bargeboard": {
+    "mat": "barge",
+    "w": 0.16,
+    "h": 0.38
+   },
+   "finial": {
+    "mat": "barge",
+    "h": 1.0,
+    "r": 0.09
+   }
+  },
+  {
+   "type": "box",
+   "x": 13,
+   "y": 20.0,
+   "z": 0,
+   "w": 5,
+   "d": 1.0,
+   "h": 2,
+   "mat": "stone"
+  },
+  {
+   "type": "box",
+   "x": 13,
+   "y": 20.0,
+   "z": 2,
+   "w": 5,
+   "d": 1.0,
+   "h": 10.4,
+   "mat": "body",
+   "faces": {
+    "+y": "side_bay"
+   }
+  },
+  {
+   "type": "box",
+   "x": 12.9,
+   "y": 20.0,
+   "z": 12.1,
+   "w": 5.2,
+   "d": 1.1,
+   "h": 0.3,
+   "mat": "trim"
+  },
+  {
+   "type": "roof",
+   "mat": "roof",
+   "ridge_cap": {
+    "mat": "ridge"
+   },
+   "x": 13,
+   "y": 14,
+   "w": 5,
+   "d": 7.0,
+   "z": 12.4,
+   "style": "gable_y",
+   "pitch": 47,
+   "overhang": 0.5,
+   "gable": "side_gable",
+   "ends": [
+    "+y"
+   ],
+   "bargeboard": {
+    "mat": "barge",
+    "w": 0.16,
+    "h": 0.38
+   },
+   "finial": {
+    "mat": "barge",
+    "h": 0.8,
+    "r": 0.08
+   }
+  },
+  {
+   "type": "extrude",
+   "points": [
+    [
+     24.8,
+     20.0
+    ],
+    [
+     24.2,
+     21.0
+    ],
+    [
+     21.6,
+     21.0
+    ],
+    [
+     21.0,
+     20.0
+    ]
+   ],
+   "z": 0,
+   "h": 2,
+   "mat": "stone"
+  },
+  {
+   "type": "extrude",
+   "points": [
+    [
+     24.8,
+     20.0
+    ],
+    [
+     24.2,
+     21.0
+    ],
+    [
+     21.6,
+     21.0
+    ],
+    [
+     21.0,
+     20.0
+    ]
+   ],
+   "z": 2,
+   "h": 8.2,
+   "mat": "body",
+   "faces": {
+    "0": "sbay_side",
+    "1": "sbay_front",
+    "2": "sbay_side",
+    "top": "trim"
+   }
+  },
+  {
+   "type": "extrude",
+   "points": [
+    [
+     24.8,
+     20.0
+    ],
+    [
+     24.2,
+     21.08
+    ],
+    [
+     21.6,
+     21.08
+    ],
+    [
+     21.0,
+     20.0
+    ]
+   ],
+   "z": 10.2,
+   "h": 0.25,
+   "mat": "trim"
+  },
+  {
+   "type": "roof",
+   "mat": "roof",
+   "ridge_cap": {
+    "mat": "ridge"
+   },
+   "x": 21.2,
+   "y": 20.0,
+   "w": 3.4,
+   "d": 0.95,
+   "z": 10.45,
+   "style": "hip",
+   "pitch": 40,
+   "overhang": 0.25
+  },
+  {
+   "type": "extrude",
+   "points": [
+    [
+     17.8,
+     9.5
+    ],
+    [
+     14.0,
+     9.5
+    ],
+    [
+     14.6,
+     8.5
+    ],
+    [
+     17.2,
+     8.5
+    ]
+   ],
+   "z": 0,
+   "h": 2,
+   "mat": "stone"
+  },
+  {
+   "type": "extrude",
+   "points": [
+    [
+     17.8,
+     9.5
+    ],
+    [
+     14.0,
+     9.5
+    ],
+    [
+     14.6,
+     8.5
+    ],
+    [
+     17.2,
+     8.5
+    ]
+   ],
+   "z": 2,
+   "h": 8.2,
+   "mat": "body",
+   "faces": {
+    "1": "sbay_side",
+    "2": "sbay_front",
+    "3": "sbay_side",
+    "top": "trim"
+   }
+  },
+  {
+   "type": "extrude",
+   "points": [
+    [
+     17.8,
+     9.5
+    ],
+    [
+     14.0,
+     9.5
+    ],
+    [
+     14.6,
+     8.42
+    ],
+    [
+     17.2,
+     8.42
+    ]
+   ],
+   "z": 10.2,
+   "h": 0.25,
+   "mat": "trim"
+  },
+  {
+   "type": "roof",
+   "mat": "roof",
+   "ridge_cap": {
+    "mat": "ridge"
+   },
+   "x": 14.2,
+   "y": 8.55,
+   "w": 3.4,
+   "d": 0.95,
+   "z": 10.45,
+   "style": "hip",
+   "pitch": 40,
+   "overhang": 0.25
+  },
+  {
+   "type": "box",
+   "x": 11.5,
+   "y": 17.8,
+   "z": 12.4,
+   "w": 1.0,
+   "d": 1.0,
+   "h": 6.6,
+   "mat": "brick"
+  },
+  {
+   "type": "box",
+   "x": 11.35,
+   "y": 17.65,
+   "z": 19.0,
+   "w": 1.3,
+   "d": 1.3,
+   "h": 0.25,
+   "mat": "trim"
+  },
+  {
+   "type": "box",
+   "x": 19.0,
+   "y": 9.9,
+   "z": 12.4,
+   "w": 1.0,
+   "d": 0.9,
+   "h": 5.8,
+   "mat": "brick"
+  },
+  {
+   "type": "box",
+   "x": 18.85,
+   "y": 9.75,
+   "z": 18.2,
+   "w": 1.3,
+   "d": 1.2,
+   "h": 0.25,
+   "mat": "trim"
+  },
+  {
+   "type": "cylinder",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 0,
+   "r": 1.6,
+   "h": 2,
+   "mat": "stone"
+  },
+  {
+   "type": "cylinder",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 2,
+   "r": 1.6,
+   "h": 10.2,
+   "angle": -180,
+   "mat": "bay"
+  },
+  {
+   "type": "cylinder",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 6.45,
+   "r": 1.7000000000000002,
+   "h": 0.18,
+   "mat": "trim"
+  },
+  {
+   "type": "cylinder",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 10.05,
+   "r": 1.7000000000000002,
+   "h": 0.15,
+   "mat": "trim"
+  },
+  {
+   "type": "cylinder",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 12.05,
+   "r": 2.05,
+   "h": 0.25,
+   "mat": "trim"
+  },
+  {
+   "type": "cylinder",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 12.3,
+   "r": 1.95,
+   "h": 3.1,
+   "angle": -180,
+   "mat": "turret"
+  },
+  {
+   "type": "cylinder",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 15.4,
+   "r": 2.3,
+   "h": 0.3,
+   "mat": "trim"
+  },
+  {
+   "type": "cone",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 15.7,
+   "r": 2.2,
+   "h": 3.4,
+   "mat": "cone"
+  },
+  {
+   "type": "box",
+   "x": 26.85,
+   "y": 9.8,
+   "z": 13.6,
+   "w": 0.7,
+   "d": 1.2,
+   "h": 2.3,
+   "mat": "body",
+   "faces": {
+    "+x": "dormer"
+   }
+  },
+  {
+   "type": "roof",
+   "mat": "roof",
+   "ridge_cap": {
+    "mat": "ridge"
+   },
+   "x": 25.900000000000002,
+   "y": 9.8,
+   "w": 1.65,
+   "d": 1.2,
+   "z": 15.9,
+   "style": "gable_x",
+   "pitch": 55,
+   "overhang": 0.15,
+   "gable": "dormer_gable",
+   "ends": [
+    "+x"
+   ],
+   "bargeboard": {
+    "mat": "barge",
+    "w": 0.1,
+    "h": 0.2
+   },
+   "finial": {
+    "mat": "barge",
+    "h": 0.5,
+    "r": 0.05
+   }
+  },
+  {
+   "type": "cylinder",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 18.3,
+   "r": 0.55,
+   "h": 0.2,
+   "mat": "finial_body"
+  },
+  {
+   "type": "cone",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 18.5,
+   "r": 0.55,
+   "h": 0.6,
+   "mat": "finial_body"
+  },
+  {
+   "type": "cylinder",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 18.85,
+   "r": 0.25,
+   "h": 0.3,
+   "mat": "finial"
+  },
+  {
+   "type": "cylinder",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 19.15,
+   "r": 0.11,
+   "h": 0.25,
+   "mat": "finial"
+  },
+  {
+   "type": "cylinder",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 19.4,
+   "r": 0.2,
+   "h": 0.25,
+   "mat": "finial"
+  },
+  {
+   "type": "cone",
+   "cx": 25.3,
+   "cy": 10.4,
+   "z": 19.65,
+   "r": 0.09,
+   "h": 1.1,
+   "mat": "finial"
+  },
+  {
+   "type": "box",
+   "x": 25.5,
+   "y": 13.9,
+   "z": 0,
+   "w": 2.8,
+   "d": 6.1,
+   "h": 2,
+   "mat": "stone"
+  },
+  {
+   "type": "box",
+   "x": 25.5,
+   "y": 13.85,
+   "z": 1.9,
+   "w": 2.85,
+   "d": 6.199999999999999,
+   "h": 0.12,
+   "mat": "trim"
+  },
+  {
+   "type": "cylinder",
+   "cx": 28.0,
+   "cy": 14.2,
+   "z": 2,
+   "r": 0.18,
+   "h": 3.0,
+   "sides": 8,
+   "mat": "barge"
+  },
+  {
+   "type": "cylinder",
+   "cx": 28.0,
+   "cy": 15.55,
+   "z": 2,
+   "r": 0.18,
+   "h": 3.0,
+   "sides": 8,
+   "mat": "barge"
+  },
+  {
+   "type": "cylinder",
+   "cx": 28.0,
+   "cy": 17.65,
+   "z": 2,
+   "r": 0.18,
+   "h": 3.0,
+   "sides": 8,
+   "mat": "barge"
+  },
+  {
+   "type": "cylinder",
+   "cx": 28.0,
+   "cy": 19.7,
+   "z": 2,
+   "r": 0.18,
+   "h": 3.0,
+   "sides": 8,
+   "mat": "barge"
+  },
+  {
+   "type": "box",
+   "x": 27.78,
+   "y": 13.979999999999999,
+   "z": 2,
+   "w": 0.44,
+   "d": 0.44,
+   "h": 0.3,
+   "mat": "trim"
+  },
+  {
+   "type": "box",
+   "x": 27.78,
+   "y": 15.33,
+   "z": 2,
+   "w": 0.44,
+   "d": 0.44,
+   "h": 0.3,
+   "mat": "trim"
+  },
+  {
+   "type": "box",
+   "x": 27.78,
+   "y": 17.43,
+   "z": 2,
+   "w": 0.44,
+   "d": 0.44,
+   "h": 0.3,
+   "mat": "trim"
+  },
+  {
+   "type": "box",
+   "x": 27.78,
+   "y": 19.48,
+   "z": 2,
+   "w": 0.44,
+   "d": 0.44,
+   "h": 0.3,
+   "mat": "trim"
+  },
+  {
+   "type": "panel",
+   "from": [
+    28.3,
+    13.9
+   ],
+   "to": [
+    28.3,
+    20.0
+   ],
+   "z": 5.0,
+   "h": 1.6,
+   "mat": "fascia_front"
+  },
+  {
+   "type": "panel",
+   "from": [
+    25.5,
+    20.0
+   ],
+   "to": [
+    28.3,
+    20.0
+   ],
+   "z": 5.0,
+   "h": 1.6,
+   "mat": "fascia_side"
+  },
+  {
+   "type": "panel",
+   "from": [
+    28.3,
+    13.9
+   ],
+   "to": [
+    25.5,
+    13.9
+   ],
+   "z": 5.0,
+   "h": 1.6,
+   "mat": "fascia_side"
+  },
+  {
+   "type": "box",
+   "x": 25.5,
+   "y": 13.85,
+   "z": 6.6,
+   "w": 2.85,
+   "d": 6.199999999999999,
+   "h": 0.12,
+   "mat": "trim"
+  },
+  {
+   "type": "panel",
+   "from": [
+    28.0,
+    14.4
+   ],
+   "to": [
+    28.0,
+    15.35
+   ],
+   "z": 2.02,
+   "h": 0.95,
+   "mat": "balustrade"
+  },
+  {
+   "type": "panel",
+   "from": [
+    28.0,
+    17.85
+   ],
+   "to": [
+    28.0,
+    19.5
+   ],
+   "z": 2.02,
+   "h": 0.95,
+   "mat": "balustrade"
+  },
+  {
+   "type": "roof",
+   "mat": "roof",
+   "ridge_cap": {
+    "mat": "ridge"
+   },
+   "x": 25.5,
+   "y": 13.9,
+   "w": 2.8,
+   "d": 6.1,
+   "z": 6.72,
+   "style": "gable_x",
+   "pitch": 32,
+   "overhang": 0.3,
+   "gable": "pediment",
+   "ends": [
+    "+x"
+   ],
+   "bargeboard": {
+    "mat": "barge",
+    "w": 0.14,
+    "h": 0.3
+   },
+   "finial": {
+    "mat": "barge",
+    "h": 0.8,
+    "r": 0.08
+   }
+  },
+  {
+   "type": "box",
+   "x": 28.3,
+   "y": 15.65,
+   "z": 0,
+   "w": 0.8,
+   "d": 1.9,
+   "h": 1.5,
+   "mat": "stone"
+  },
+  {
+   "type": "box",
+   "x": 29.1,
+   "y": 15.65,
+   "z": 0,
+   "w": 0.8,
+   "d": 1.9,
+   "h": 1.0,
+   "mat": "stone"
+  },
+  {
+   "type": "box",
+   "x": 29.9,
+   "y": 15.65,
+   "z": 0,
+   "w": 0.8,
+   "d": 1.9,
+   "h": 0.5,
+   "mat": "stone"
+  },
+  {
+   "type": "box",
+   "x": 31.2,
+   "y": 0.5,
+   "z": 0,
+   "w": 0.5,
+   "d": 15.0,
+   "h": 0.9,
+   "mat": "stone"
+  },
+  {
+   "type": "box",
+   "x": 31.2,
+   "y": 17.7,
+   "z": 0,
+   "w": 0.5,
+   "d": 13.8,
+   "h": 0.9,
+   "mat": "stone"
+  },
+  {
+   "type": "panel",
+   "from": [
+    31.45,
+    0.5
+   ],
+   "to": [
+    31.45,
+    15.5
+   ],
+   "z": 0.9,
+   "h": 0.85,
+   "mat": "iron"
+  },
+  {
+   "type": "panel",
+   "from": [
+    31.45,
+    17.7
+   ],
+   "to": [
+    31.45,
+    31.5
+   ],
+   "z": 0.9,
+   "h": 0.85,
+   "mat": "iron"
+  },
+  {
+   "type": "prop",
+   "name": "sm shrub1",
+   "x": 29.6,
+   "y": 12.5,
+   "z": 0
+  },
+  {
+   "type": "prop",
+   "name": "floweringbush1",
+   "x": 29.8,
+   "y": 14.4,
+   "z": 0
+  },
+  {
+   "type": "prop",
+   "name": "sm shrub2",
+   "x": 29.8,
+   "y": 19.2,
+   "z": 0
+  },
+  {
+   "type": "prop",
+   "name": "floweringbush1",
+   "x": 29.6,
+   "y": 21.5,
+   "z": 0
+  },
+  {
+   "type": "prop",
+   "name": "sm decid1",
+   "x": 15,
+   "y": 28,
+   "z": 0
+  },
+  {
+   "type": "prop",
+   "name": "med decid1",
+   "x": 4,
+   "y": 26,
+   "z": 0
+  },
+  {
+   "type": "prop",
+   "name": "med decid1",
+   "x": 4,
+   "y": 5,
+   "z": 0
+  }
+ ]
+}

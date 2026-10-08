@@ -1,0 +1,306 @@
+{
+ "source": "Sys/SYS.PAK Advisor-CityPlanner.ini [REWARD_BUILDINGS] category=name;population;year;petition;flag, [REWARD_BUILDINGS_2] extra conditions",
+ "rewards": [
+  {
+   "category": 10110,
+   "ini_name": "MayorHouse",
+   "names": [
+    "Mayor's House"
+   ],
+   "population": 5000,
+   "year": 0,
+   "petition": 1,
+   "kind": "reward",
+   "requires": {}
+  },
+  {
+   "category": 10120,
+   "ini_name": "CityHall",
+   "names": [
+    "City Hall"
+   ],
+   "population": 20000,
+   "year": 0,
+   "petition": 4,
+   "kind": "reward",
+   "requires": {}
+  },
+  {
+   "category": 13005,
+   "ini_name": "Judicial",
+   "names": [
+    "County Courthouse"
+   ],
+   "population": 25000,
+   "year": 0,
+   "petition": 138,
+   "kind": "reward",
+   "requires": {}
+  },
+  {
+   "category": 14003,
+   "ini_name": "National Park",
+   "names": [
+    "Geyser Park"
+   ],
+   "population": 0,
+   "year": 0,
+   "petition": 136,
+   "kind": "reward",
+   "requires": {
+    "parks": 35
+   }
+  },
+  {
+   "category": 14150,
+   "ini_name": "StatueFountains",
+   "names": [
+    "Historic Statue"
+   ],
+   "population": 35000,
+   "year": 0,
+   "petition": 7,
+   "kind": "reward",
+   "requires": {}
+  },
+  {
+   "category": 14550,
+   "ini_name": "Lighthouse",
+   "names": [
+    "Lighthouse"
+   ],
+   "population": 15000,
+   "year": 0,
+   "petition": 139,
+   "kind": "reward",
+   "requires": {}
+  },
+  {
+   "category": 14370,
+   "ini_name": "Golfcourse",
+   "names": [
+    "Country Club"
+   ],
+   "population": 125000,
+   "year": 0,
+   "petition": 140,
+   "kind": "reward",
+   "requires": {}
+  },
+  {
+   "category": 11002,
+   "ini_name": "Military Base",
+   "names": [
+    "Military Base"
+   ],
+   "population": 75000,
+   "year": 0,
+   "petition": 205,
+   "kind": "reward",
+   "requires": {}
+  },
+  {
+   "category": 13872,
+   "ini_name": "Medical Research Institute",
+   "names": [
+    "Medical Research Center"
+   ],
+   "population": 80000,
+   "year": 1975,
+   "petition": 142,
+   "kind": "reward",
+   "requires": {
+    "life_expectancy": 70
+   }
+  },
+  {
+   "category": 13874,
+   "ini_name": "Research and Development",
+   "names": [
+    "Science Center"
+   ],
+   "population": 0,
+   "year": 1999,
+   "petition": 132,
+   "kind": "reward",
+   "requires": {
+    "education_eq": 135
+   }
+  },
+  {
+   "category": 14170,
+   "ini_name": "Performing Arts",
+   "names": [
+    "Performing Arts Center"
+   ],
+   "population": 100000,
+   "year": 0,
+   "petition": 144,
+   "kind": "reward",
+   "requires": {}
+  },
+  {
+   "category": 13871,
+   "ini_name": "Generic University",
+   "names": [
+    "University"
+   ],
+   "population": 0,
+   "year": 0,
+   "petition": 151,
+   "kind": "reward",
+   "requires": {
+    "education_eq": 105
+   }
+  },
+  {
+   "category": 14600,
+   "ini_name": "Stadium",
+   "names": [
+    "Stadium"
+   ],
+   "population": 150000,
+   "year": 0,
+   "petition": 148,
+   "kind": "reward",
+   "requires": {}
+  },
+  {
+   "category": 14325,
+   "ini_name": "Theme Park",
+   "names": [
+    "Theme Park",
+    "They Paved Paradise"
+   ],
+   "population": 80000,
+   "year": 0,
+   "petition": 141,
+   "kind": "reward",
+   "requires": {}
+  },
+  {
+   "category": 11001,
+   "ini_name": "Defense Contractor",
+   "names": [
+    "Defense Contractor"
+   ],
+   "population": 0,
+   "year": 0,
+   "petition": 143,
+   "kind": "reward",
+   "requires": {}
+  },
+  {
+   "category": 1002,
+   "ini_name": "Stock Exchange",
+   "names": [
+    "Stock Exchange"
+   ],
+   "population": 200000,
+   "year": 0,
+   "petition": 10,
+   "kind": "reward",
+   "requires": {
+    "funds": 50000
+   }
+  },
+  {
+   "category": 12350,
+   "ini_name": "Spaceport",
+   "names": [
+    "Space Port"
+   ],
+   "population": 350000,
+   "year": 2050,
+   "petition": 150,
+   "kind": "reward",
+   "requires": {
+    "airport_tiles": 50
+   }
+  },
+  {
+   "category": 20001,
+   "ini_name": "Haunted House",
+   "names": [
+    "Haunted House"
+   ],
+   "population": 5000,
+   "year": 0,
+   "petition": 300,
+   "kind": "reward",
+   "requires": {}
+  },
+  {
+   "category": 20002,
+   "ini_name": "Skating Rink",
+   "names": [
+    "Winter Wonderland"
+   ],
+   "population": 15000,
+   "year": 0,
+   "petition": 303,
+   "kind": "reward",
+   "requires": {}
+  },
+  {
+   "category": 19003,
+   "ini_name": "Casino",
+   "names": [
+    "Casino Row"
+   ],
+   "population": 0,
+   "year": 0,
+   "petition": 0,
+   "kind": "business_deal",
+   "requires": {}
+  },
+  {
+   "category": 19004,
+   "ini_name": "Prison",
+   "names": [
+    "Maximum Security Prison"
+   ],
+   "population": 0,
+   "year": 0,
+   "petition": 0,
+   "kind": "business_deal",
+   "requires": {}
+  },
+  {
+   "category": 19001,
+   "ini_name": "Toxic_Factory",
+   "names": [
+    "Toxic Waste Conversion Plant"
+   ],
+   "population": 0,
+   "year": 0,
+   "petition": 0,
+   "kind": "business_deal",
+   "requires": {}
+  },
+  {
+   "category": 19002,
+   "ini_name": "MegaMall",
+   "names": [
+    "GigaMall 9th Wonder of the World"
+   ],
+   "population": 0,
+   "year": 0,
+   "petition": 0,
+   "kind": "business_deal",
+   "requires": {}
+  },
+  {
+   "category": 19999,
+   "ini_name": "Castle",
+   "names": [
+    "Quigley Castle"
+   ],
+   "population": 0,
+   "year": 0,
+   "petition": 0,
+   "kind": "business_deal",
+   "requires": {}
+  }
+ ]
+}

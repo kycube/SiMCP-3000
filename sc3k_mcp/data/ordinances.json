@@ -1,0 +1,296 @@
+[
+{
+"id": 3267304901,
+"advisor": "PublicSafety",
+"year": 9999,
+"cost_hint": 8000,
+"name": "Youth Curfew"
+},
+{
+"id": 2698015017,
+"advisor": "Finance",
+"year": 0,
+"cost_hint": 1050,
+"name": "Legalized Gambling"
+},
+{
+"id": 3771757107,
+"advisor": "HEA",
+"year": 0,
+"cost_hint": 8000,
+"name": "Pro-Reading"
+},
+{
+"id": 2170244335,
+"advisor": "HEA",
+"year": 0,
+"cost_hint": 14000,
+"name": "Junior Sports"
+},
+{
+"id": 22760734,
+"advisor": "Transport",
+"year": 0,
+"cost_hint": 1550,
+"name": "Parking Fines"
+},
+{
+"id": 550531445,
+"advisor": "CityPlanner",
+"year": 9999,
+"cost_hint": 7250,
+"name": "Homeless Shelters"
+},
+{
+"id": 3267304943,
+"advisor": "PublicSafety",
+"year": 0,
+"cost_hint": 2007,
+"name": "Crossing Guards"
+},
+{
+"id": 2730434021,
+"advisor": "Transport",
+"year": 9999,
+"cost_hint": 1259,
+"name": "Shuttle Service"
+},
+{
+"id": 46079482,
+"advisor": "Utilities",
+"year": 1960,
+"cost_hint": 4125,
+"name": "Water Conservation"
+},
+{
+"id": 3267304913,
+"advisor": "CityPlanner",
+"year": 9999,
+"cost_hint": 900,
+"name": "Earthquake Resistance and Retro-Fitting"
+},
+{
+"id": 2195992112,
+"advisor": "Utilities",
+"year": 1930,
+"cost_hint": 8593,
+"name": "Stairwell Lighting"
+},
+{
+"id": 2730434115,
+"advisor": "Environment",
+"year": 1950,
+"cost_hint": 4587,
+"name": "Clean Air"
+},
+{
+"id": 3804175914,
+"advisor": "Transport",
+"year": 1950,
+"cost_hint": 10443,
+"name": "Alternate Day Driving"
+},
+{
+"id": 1087402550,
+"advisor": "HEA",
+"year": 1960,
+"cost_hint": 10006,
+"name": "Free Clinics"
+},
+{
+"id": 582950453,
+"advisor": "Environment",
+"year": 1960,
+"cost_hint": 9999,
+"name": "Leaf Burning Ban"
+},
+{
+"id": 13660733,
+"advisor": "HEA",
+"year": 1970,
+"cost_hint": 33057,
+"name": "Community CPR Training"
+},
+{
+"id": 1656692138,
+"advisor": "PublicSafety",
+"year": 1970,
+"cost_hint": 959,
+"name": "Mandatory Smoke Detectors"
+},
+{
+"id": 1656692153,
+"advisor": "PublicSafety",
+"year": 1970,
+"cost_hint": 18613,
+"name": "Neighborhood Watch"
+},
+{
+"id": 2730434012,
+"advisor": "Transport",
+"year": 1980,
+"cost_hint": 1531,
+"name": "Carpool Incentive"
+},
+{
+"id": 1119821336,
+"advisor": "Environment",
+"year": 1980,
+"cost_hint": 13768,
+"name": "Trash Presort"
+},
+{
+"id": 3267304964,
+"advisor": "Environment",
+"year": 1980,
+"cost_hint": 12583,
+"name": "Mandatory Car Smogging"
+},
+{
+"id": 3771757113,
+"advisor": "HEA",
+"year": 1990,
+"cost_hint": 1645,
+"name": "Public Smoking Ban"
+},
+{
+"id": 3771757102,
+"advisor": "HEA",
+"year": 1990,
+"cost_hint": 39187,
+"name": "Nuclear Free Zone"
+},
+{
+"id": 3268522021,
+"advisor": "Transport",
+"year": 9999,
+"cost_hint": 1000,
+"name": "Subsidized Mass Transit"
+},
+{
+"id": 2193201563,
+"advisor": "Utilities",
+"year": 1970,
+"cost_hint": 2364,
+"name": "Power Conservation"
+},
+{
+"id": 1660348367,
+"advisor": "CityPlanner",
+"year": 9999,
+"cost_hint": 3521,
+"name": "Tourist Promotion"
+},
+{
+"id": 2734090202,
+"advisor": "CityPlanner",
+"year": 1915,
+"cost_hint": 3011,
+"name": "Conservation Corps"
+},
+{
+"id": 49735650,
+"advisor": "CityPlanner",
+"year": 1950,
+"cost_hint": 42659,
+"name": "Industrial Pollutant Impact Fee"
+},
+{
+"id": 586606604,
+"advisor": "Environment",
+"year": 1990,
+"cost_hint": 28703,
+"name": "Landfill Gas Recovery"
+},
+{
+"id": 2734233551,
+"advisor": "Environment",
+"year": 1950,
+"cost_hint": 20828,
+"name": "Industrial Waste Disposal"
+},
+{
+"id": 3807832042,
+"advisor": "CityPlanner",
+"year": 1930,
+"cost_hint": 2546,
+"name": "Clean Industry Association"
+},
+{
+"id": 49735663,
+"advisor": "CityPlanner",
+"year": 1950,
+"cost_hint": 3345,
+"name": "Electronics Tax Incentive"
+},
+{
+"id": 586606580,
+"advisor": "CityPlanner",
+"year": 9999,
+"cost_hint": 3593,
+"name": "Aerospace Tax Incentive"
+},
+{
+"id": 2734090233,
+"advisor": "CityPlanner",
+"year": 1970,
+"cost_hint": 4256,
+"name": "Electronics Job Fair"
+},
+{
+"id": 3807832062,
+"advisor": "CityPlanner",
+"year": 1980,
+"cost_hint": 3542,
+"name": "Biotech Tax Incentives"
+},
+{
+"id": 3270961156,
+"advisor": "CityPlanner",
+"year": 1980,
+"cost_hint": 3452,
+"name": "Public Access Cable"
+},
+{
+"id": 1660348424,
+"advisor": "Environment",
+"year": 1970,
+"cost_hint": 17612,
+"name": "Lawn Chemicals Ban"
+},
+{
+"id": 586606612,
+"advisor": "Environment",
+"year": 1970,
+"cost_hint": 45349,
+"name": "Backyard Composting"
+},
+{
+"id": 586606619,
+"advisor": "Environment",
+"year": 1960,
+"cost_hint": 53517,
+"name": "Paper Reduction Act"
+},
+{
+"id": 3270961183,
+"advisor": "Environment",
+"year": 1940,
+"cost_hint": 39315,
+"name": "Tire Recycling"
+},
+{
+"id": 1660348459,
+"advisor": "CityPlanner",
+"year": 0,
+"cost_hint": 9999,
+"name": "Farmer's Market"
+},
+{
+"id": 3271102129,
+"advisor": "Utilities",
+"year": 1930,
+"cost_hint": 16521,
+"name": "Mandatory Water Meters"
+}
+]

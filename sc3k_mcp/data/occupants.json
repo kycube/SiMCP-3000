@@ -1,0 +1,12102 @@
+{
+"6": {
+"name": "Small Deciduous Tree",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7": {
+"name": "Deciduous Tree",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"8": {
+"name": "Two Deciduous Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"9": {
+"name": "Big Deciduous Tree",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"10": {
+"name": "Big Deciduous Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"11": {
+"name": "Three Deciduous Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"12": {
+"name": "Four Deciduous Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"13": {
+"name": "Small Park",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14311,
+"size": [
+1,
+1,
+1
+]
+},
+"14": {
+"name": "Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"15": {
+"name": "Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"20": {
+"name": "Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"21": {
+"name": "Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"22": {
+"name": "Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"23": {
+"name": "Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"24": {
+"name": "Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"26": {
+"name": "Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"28": {
+"name": "Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"29": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"31": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"32": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"35": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"39": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"40": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"41": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"42": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"43": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"44": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"46": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"47": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+0,
+1
+]
+},
+"50": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"51": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"54": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"58": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"59": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17004,
+"size": [
+1,
+1,
+1
+]
+},
+"60": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17004,
+"size": [
+1,
+0,
+1
+]
+},
+"63": {
+"name": "Road Tunnel Entrance",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16006,
+"size": [
+1,
+2,
+1
+]
+},
+"64": {
+"name": "Road Tunnel Entrance",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16006,
+"size": [
+1,
+2,
+1
+]
+},
+"67": {
+"name": "Wire Crossing Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17105,
+"size": [
+1,
+1,
+1
+]
+},
+"69": {
+"name": "Train Crossing Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16014,
+"size": [
+1,
+1,
+1
+]
+},
+"71": {
+"name": "Wire Crossing Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"73": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"81": {
+"name": "Brooklyn Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+3,
+1
+]
+},
+"82": {
+"name": "Brooklyn Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+4,
+1
+]
+},
+"83": {
+"name": "Brooklyn Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+4,
+1
+]
+},
+"87": {
+"name": "Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+2,
+1
+]
+},
+"88": {
+"name": "Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+2,
+1
+]
+},
+"90": {
+"name": "Railroad Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17003,
+"size": [
+1,
+2,
+1
+]
+},
+"91": {
+"name": "Railroad Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17003,
+"size": [
+1,
+2,
+1
+]
+},
+"92": {
+"name": "Inclined Power Lines",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17100,
+"size": [
+1,
+3,
+1
+]
+},
+"108": {
+"name": "Subway to Rail Connection",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12361,
+"size": [
+1,
+1,
+1
+]
+},
+"109": {
+"name": "Subway to Rail Connection",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12361,
+"size": [
+1,
+1,
+1
+]
+},
+"110": {
+"name": "Subway to Rail Connection",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12361,
+"size": [
+1,
+1,
+1
+]
+},
+"111": {
+"name": "Subway to Rail Connection",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12361,
+"size": [
+1,
+1,
+1
+]
+},
+"112": {
+"name": "Squat St.",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"113": {
+"name": "Dingy Ave.",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"114": {
+"name": "Meager Pl.",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"115": {
+"name": "Meek Cr.",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3300,
+"size": [
+1,
+1,
+1
+]
+},
+"116": {
+"name": "Elm St.",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3300,
+"size": [
+1,
+1,
+1
+]
+},
+"117": {
+"name": "Quality Dr.",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3300,
+"size": [
+1,
+1,
+1
+]
+},
+"118": {
+"name": "Middle Rd.",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3300,
+"size": [
+1,
+1,
+1
+]
+},
+"119": {
+"name": "Elem Station",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3300,
+"size": [
+1,
+1,
+1
+]
+},
+"120": {
+"name": "Fancy House",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+1,
+1,
+1
+]
+},
+"121": {
+"name": "High St.",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3300,
+"size": [
+1,
+1,
+1
+]
+},
+"122": {
+"name": "Quigley Acres",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+1,
+2,
+1
+]
+},
+"123": {
+"name": "Ranchero Dr.",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3300,
+"size": [
+1,
+1,
+1
+]
+},
+"124": {
+"name": "Corner Gas",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5100,
+"size": [
+1,
+1,
+1
+]
+},
+"125": {
+"name": "Insurance Office",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5500,
+"size": [
+1,
+1,
+1
+]
+},
+"126": {
+"name": "Ben's Diner",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5100,
+"size": [
+1,
+1,
+1
+]
+},
+"127": {
+"name": "Pump and Scoot Gas Station",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5100,
+"size": [
+1,
+1,
+1
+]
+},
+"128": {
+"name": "Bowling  Accountancy",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5100,
+"size": [
+1,
+1,
+1
+]
+},
+"129": {
+"name": "Lick's Ice Cream",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5100,
+"size": [
+1,
+1,
+1
+]
+},
+"130": {
+"name": "U-Store-It",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5100,
+"size": [
+1,
+1,
+1
+]
+},
+"131": {
+"name": "Toy Store",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5500,
+"size": [
+1,
+1,
+1
+]
+},
+"132": {
+"name": "Small Storage Facility",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8100,
+"size": [
+1,
+1,
+1
+]
+},
+"133": {
+"name": "Smog-o-matic",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8100,
+"size": [
+1,
+1,
+1
+]
+},
+"134": {
+"name": "Auto Parts Warehouse",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8700,
+"size": [
+1,
+1,
+1
+]
+},
+"135": {
+"name": "Soot Sifter",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8500,
+"size": [
+1,
+3,
+1
+]
+},
+"136": {
+"name": "Residential Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+1,
+1,
+1
+]
+},
+"137": {
+"name": "Commercial Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+1,
+1,
+1
+]
+},
+"138": {
+"name": "Abandoned Residential Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+1,
+1,
+1
+]
+},
+"139": {
+"name": "Abandoned Industrial Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+1,
+1,
+1
+]
+},
+"140": {
+"name": "Pinky's Plaza",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3900,
+"size": [
+2,
+2,
+2
+]
+},
+"141": {
+"name": "Land's End Apartments",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3700,
+"size": [
+2,
+2,
+2
+]
+},
+"142": {
+"name": "Plush Manor",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4100,
+"size": [
+2,
+3,
+2
+]
+},
+"143": {
+"name": "Middletown Row Houses",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3900,
+"size": [
+2,
+2,
+2
+]
+},
+"144": {
+"name": "Even Keel Estate",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4500,
+"size": [
+2,
+4,
+2
+]
+},
+"145": {
+"name": "Red Brick Apartments",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4300,
+"size": [
+2,
+6,
+2
+]
+},
+"146": {
+"name": "Dark Brick Abode",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4500,
+"size": [
+2,
+5,
+2
+]
+},
+"147": {
+"name": "Hacienda CT.",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4500,
+"size": [
+2,
+4,
+2
+]
+},
+"148": {
+"name": "Clothing Boutique",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5500,
+"size": [
+2,
+1,
+2
+]
+},
+"149": {
+"name": "Corner Grocer",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5700,
+"size": [
+2,
+2,
+2
+]
+},
+"150": {
+"name": "Buff's Athletic Club",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5500,
+"size": [
+2,
+2,
+2
+]
+},
+"151": {
+"name": "Precious Shops",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5500,
+"size": [
+2,
+2,
+2
+]
+},
+"152": {
+"name": "Hurt Plaza",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6100,
+"size": [
+2,
+7,
+2
+]
+},
+"153": {
+"name": "Eugene Marazzani Memorial Plaza",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6100,
+"size": [
+2,
+8,
+2
+]
+},
+"154": {
+"name": "DePalma Savings Bank",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5500,
+"size": [
+2,
+2,
+2
+]
+},
+"155": {
+"name": "Arbor Plaza",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6300,
+"size": [
+2,
+7,
+2
+]
+},
+"156": {
+"name": "Buy and Buy Retail",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5700,
+"size": [
+2,
+2,
+2
+]
+},
+"157": {
+"name": "Drumm Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6100,
+"size": [
+2,
+5,
+2
+]
+},
+"158": {
+"name": "Cloth Dyeing Facility",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8300,
+"size": [
+2,
+2,
+2
+]
+},
+"159": {
+"name": "Storage Tanks",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8700,
+"size": [
+2,
+1,
+2
+]
+},
+"160": {
+"name": "Double Stogie Enterprise",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8500,
+"size": [
+2,
+6,
+2
+]
+},
+"161": {
+"name": "Factory Barn",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8500,
+"size": [
+2,
+4,
+2
+]
+},
+"162": {
+"name": "Gurgle and Smelt",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8500,
+"size": [
+2,
+5,
+2
+]
+},
+"163": {
+"name": "Furnaces",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8300,
+"size": [
+2,
+4,
+2
+]
+},
+"164": {
+"name": "Industrial Lab",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8700,
+"size": [
+2,
+1,
+2
+]
+},
+"165": {
+"name": "Construction Tools Plant",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8900,
+"size": [
+2,
+3,
+2
+]
+},
+"166": {
+"name": "Residential Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+2,
+1,
+2
+]
+},
+"167": {
+"name": "Residential Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+2,
+1,
+2
+]
+},
+"168": {
+"name": "Commercial Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+2,
+1,
+2
+]
+},
+"169": {
+"name": "Residential Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+2,
+1,
+2
+]
+},
+"170": {
+"name": "Abandoned Residential Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+2,
+2,
+2
+]
+},
+"171": {
+"name": "Abandoned Commercial Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+2,
+3,
+2
+]
+},
+"172": {
+"name": "Abandoned Commercial Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+2,
+2,
+2
+]
+},
+"173": {
+"name": "Abandoned Industrial Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+2,
+4,
+2
+]
+},
+"174": {
+"name": "The Fritz",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4700,
+"size": [
+3,
+5,
+3
+]
+},
+"175": {
+"name": "Regal Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4700,
+"size": [
+3,
+5,
+3
+]
+},
+"176": {
+"name": "Villard Apartments",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4100,
+"size": [
+3,
+3,
+3
+]
+},
+"177": {
+"name": "Royal Manor",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4700,
+"size": [
+3,
+6,
+3
+]
+},
+"178": {
+"name": "Federal Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+3,
+9,
+3
+]
+},
+"179": {
+"name": "Amalgamated Amalgamation Inc.",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6300,
+"size": [
+3,
+4,
+3
+]
+},
+"180": {
+"name": "Shop & Smile Mall",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5700,
+"size": [
+3,
+2,
+3
+]
+},
+"181": {
+"name": "Lansburgh Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6100,
+"size": [
+3,
+5,
+3
+]
+},
+"182": {
+"name": "Crazy Larry's Family Flea Market",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5100,
+"size": [
+3,
+2,
+3
+]
+},
+"183": {
+"name": "Kong Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+3,
+18,
+3
+]
+},
+"184": {
+"name": "Silver Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+3,
+13,
+3
+]
+},
+"185": {
+"name": "Retail Exchange",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6300,
+"size": [
+3,
+4,
+3
+]
+},
+"186": {
+"name": "Aquilina Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6100,
+"size": [
+3,
+5,
+3
+]
+},
+"187": {
+"name": "Gold Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+3,
+14,
+3
+]
+},
+"188": {
+"name": "Building Supply Manufacturer",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8900,
+"size": [
+3,
+3,
+3
+]
+},
+"189": {
+"name": "Building Supply Warehouse",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8900,
+"size": [
+3,
+2,
+3
+]
+},
+"190": {
+"name": "Grain Silos",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+3,
+5,
+3
+]
+},
+"191": {
+"name": "Mill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9100,
+"size": [
+3,
+3,
+3
+]
+},
+"192": {
+"name": "Car Factory",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8900,
+"size": [
+3,
+4,
+3
+]
+},
+"193": {
+"name": "Creamy Filling Consortium",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8300,
+"size": [
+3,
+3,
+3
+]
+},
+"194": {
+"name": "Residential Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+3,
+3,
+3
+]
+},
+"195": {
+"name": "Commercial Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+3,
+3,
+3
+]
+},
+"196": {
+"name": "Abandoned Commercial Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+3,
+4,
+3
+]
+},
+"197": {
+"name": "Abandoned Residential Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+3,
+3,
+3
+]
+},
+"200": {
+"name": "Wind Mill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12118,
+"size": [
+1,
+4,
+1
+]
+},
+"201": {
+"name": "Gas Power Plant",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12113,
+"size": [
+4,
+8,
+4
+]
+},
+"202": {
+"name": "Oil Power Plant",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12112,
+"size": [
+4,
+8,
+4
+]
+},
+"203": {
+"name": "Nuclear Power Plant",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12115,
+"size": [
+4,
+3,
+4
+]
+},
+"204": {
+"name": "Solar Power Collector",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12117,
+"size": [
+4,
+3,
+4
+]
+},
+"205": {
+"name": "Microwave Power Plant",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12114,
+"size": [
+4,
+6,
+4
+]
+},
+"206": {
+"name": "Fusion Power Plant",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12116,
+"size": [
+4,
+3,
+4
+]
+},
+"207": {
+"name": "Coal Power Plant",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12111,
+"size": [
+4,
+5,
+4
+]
+},
+"208": {
+"name": "City Hall",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 10120,
+"size": [
+3,
+4,
+3
+]
+},
+"209": {
+"name": "Hospital",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 13310,
+"size": [
+3,
+3,
+3
+]
+},
+"210": {
+"name": "Police Station",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 13130,
+"size": [
+3,
+5,
+3
+]
+},
+"211": {
+"name": "Fire Station",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 13002,
+"size": [
+3,
+2,
+3
+]
+},
+"212": {
+"name": "Museum",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14140,
+"size": [
+3,
+2,
+3
+]
+},
+"213": {
+"name": "Parque Verde del Caballo",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14312,
+"size": [
+3,
+2,
+3
+]
+},
+"214": {
+"name": "City College",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 13873,
+"size": [
+3,
+3,
+3
+]
+},
+"215": {
+"name": "Thomas W. MacIntyre Community Ballpark",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14313,
+"size": [
+4,
+3,
+4
+]
+},
+"218": {
+"name": "City Zoo",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14450,
+"size": [
+4,
+3,
+4
+]
+},
+"219": {
+"name": "Historic Statue",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14150,
+"size": [
+1,
+3,
+1
+]
+},
+"220": {
+"name": "Pumping Station",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12810,
+"size": [
+1,
+1,
+1
+]
+},
+"221": {
+"name": "Landing Strip",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"222": {
+"name": "Landing Strip Cross",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"223": {
+"name": "Seaport Pier",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12330,
+"size": [
+1,
+1,
+1
+]
+},
+"224": {
+"name": "Seaport Crane",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12330,
+"size": [
+1,
+2,
+1
+]
+},
+"225": {
+"name": "Airport Tower",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+4,
+1
+]
+},
+"227": {
+"name": "Terminal Building",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"228": {
+"name": "Airport Storage Supply Shed",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"229": {
+"name": "Airport Grounds Control Center",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"230": {
+"name": "Terminal Walkway",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"231": {
+"name": "Parked Airplane",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"233": {
+"name": "Subway Station",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12360,
+"size": [
+1,
+1,
+1
+]
+},
+"235": {
+"name": "Water Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12840,
+"size": [
+2,
+4,
+2
+]
+},
+"237": {
+"name": "Train Station",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12230,
+"size": [
+2,
+2,
+2
+]
+},
+"238": {
+"name": "Parking Garage",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6300,
+"size": [
+2,
+2,
+2
+]
+},
+"240": {
+"name": "Seaport Loading Bay",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12330,
+"size": [
+2,
+2,
+2
+]
+},
+"242": {
+"name": "Seaport Cargo Yard",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12330,
+"size": [
+2,
+1,
+2
+]
+},
+"243": {
+"name": "Mayor's House",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 10110,
+"size": [
+2,
+2,
+2
+]
+},
+"244": {
+"name": "Water Treatment Plant",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12820,
+"size": [
+2,
+1,
+2
+]
+},
+"245": {
+"name": "Library",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14130,
+"size": [
+2,
+3,
+2
+]
+},
+"246": {
+"name": "Airport Hangar",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+2,
+2,
+2
+]
+},
+"248": {
+"name": "McGavran Marina",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14430,
+"size": [
+3,
+2,
+3
+]
+},
+"250": {
+"name": "Desalinization Plant",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12830,
+"size": [
+3,
+2,
+3
+]
+},
+"329": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"332": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"333": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"334": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"335": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"344": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"345": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"346": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"347": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"348": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"1998": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"1999": {
+"name": "Road Ending",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+0,
+1
+]
+},
+"3000": {
+"name": "Bayberry Manor",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+2,
+2,
+2
+]
+},
+"3001": {
+"name": "Hampton's Apartments",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4100,
+"size": [
+2,
+2,
+2
+]
+},
+"3002": {
+"name": "Dirty Open Space",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"3003": {
+"name": "Rock Bottom Terrace",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4300,
+"size": [
+3,
+6,
+3
+]
+},
+"3004": {
+"name": "Svelte Towers",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4700,
+"size": [
+3,
+6,
+3
+]
+},
+"3005": {
+"name": "Hope Towers",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4300,
+"size": [
+2,
+6,
+2
+]
+},
+"3006": {
+"name": "Palazzo Apartments",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4100,
+"size": [
+3,
+4,
+3
+]
+},
+"3007": {
+"name": "Kevin Way Row Houses",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3900,
+"size": [
+2,
+2,
+2
+]
+},
+"3008": {
+"name": "Sketchy Towers",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3700,
+"size": [
+2,
+2,
+2
+]
+},
+"3009": {
+"name": "Sheza Brick Haus",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4500,
+"size": [
+3,
+6,
+3
+]
+},
+"3010": {
+"name": "Villars Apartments",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4700,
+"size": [
+3,
+7,
+3
+]
+},
+"3011": {
+"name": "Bleak's Abode",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3700,
+"size": [
+3,
+2,
+3
+]
+},
+"3012": {
+"name": "Zeke's Home",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"3013": {
+"name": "Zeke's Cousin's home",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"3014": {
+"name": "Walton's Dream",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3300,
+"size": [
+1,
+1,
+1
+]
+},
+"3015": {
+"name": "Red Brick Apartments",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4500,
+"size": [
+2,
+4,
+2
+]
+},
+"3017": {
+"name": "Fence",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+1,
+1,
+1
+]
+},
+"3018": {
+"name": "Edgewood Apartments",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3700,
+"size": [
+2,
+2,
+2
+]
+},
+"3020": {
+"name": "Goodplace Arms",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3900,
+"size": [
+2,
+2,
+2
+]
+},
+"3022": {
+"name": "Stoclet Apartments",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4100,
+"size": [
+3,
+3,
+3
+]
+},
+"3024": {
+"name": "Project Feelgood",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4300,
+"size": [
+3,
+9,
+3
+]
+},
+"3025": {
+"name": "Zeke's Uncle's home",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"3026": {
+"name": "Comfort Towers",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4500,
+"size": [
+3,
+5,
+3
+]
+},
+"3028": {
+"name": "Brick Arms Apartments",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4500,
+"size": [
+4,
+5,
+4
+]
+},
+"3032": {
+"name": "Gingerbread House",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3300,
+"size": [
+1,
+1,
+1
+]
+},
+"3034": {
+"name": "Garage",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3300,
+"size": [
+1,
+1,
+1
+]
+},
+"3035": {
+"name": "Tennis Court",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+1,
+1,
+1
+]
+},
+"3036": {
+"name": "Swimming Pool",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+1,
+1,
+1
+]
+},
+"3037": {
+"name": "Green Lawn",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+1,
+1,
+1
+]
+},
+"3039": {
+"name": "Stratton Hall",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+2,
+2,
+2
+]
+},
+"3040": {
+"name": "Onderdonk House",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+2,
+2,
+2
+]
+},
+"3041": {
+"name": "Above Ground Pool",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3300,
+"size": [
+1,
+1,
+1
+]
+},
+"3042": {
+"name": "Fenced Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3300,
+"size": [
+1,
+1,
+1
+]
+},
+"3043": {
+"name": "The grass is always greener",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"3044": {
+"name": "Community Garden",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4500,
+"size": [
+1,
+1,
+1
+]
+},
+"3047": {
+"name": "English Garden",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4500,
+"size": [
+1,
+1,
+1
+]
+},
+"3048": {
+"name": "Camino de Verde",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4700,
+"size": [
+1,
+1,
+1
+]
+},
+"3049": {
+"name": "Gazebo",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4500,
+"size": [
+1,
+1,
+1
+]
+},
+"3052": {
+"name": "Colonnaded Garden",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4100,
+"size": [
+1,
+1,
+1
+]
+},
+"3053": {
+"name": "Corner Fence",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+1,
+1,
+1
+]
+},
+"3054": {
+"name": "Fence",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+1,
+1,
+1
+]
+},
+"3055": {
+"name": "Fenced Garage",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+1,
+1,
+1
+]
+},
+"3056": {
+"name": "Brownstone",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3900,
+"size": [
+2,
+2,
+2
+]
+},
+"3057": {
+"name": "Row House",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3900,
+"size": [
+2,
+2,
+2
+]
+},
+"3058": {
+"name": "Concrete and Trees",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3900,
+"size": [
+1,
+1,
+1
+]
+},
+"3059": {
+"name": "Lawn in Concrete",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3900,
+"size": [
+1,
+1,
+1
+]
+},
+"3062": {
+"name": "Empty Concrete Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3900,
+"size": [
+1,
+1,
+1
+]
+},
+"3063": {
+"name": "Garage On Concrete",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3900,
+"size": [
+1,
+1,
+1
+]
+},
+"3064": {
+"name": "Fenced Gate",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+1,
+1,
+1
+]
+},
+"3065": {
+"name": "Pitched Roof Cottage",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"3066": {
+"name": "White Cottage",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"3067": {
+"name": "Open Lawn",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"3068": {
+"name": "Corner Fence",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+1,
+1,
+1
+]
+},
+"3069": {
+"name": "Corner Fence",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+1,
+1,
+1
+]
+},
+"3070": {
+"name": "Corner Fence",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+1,
+1,
+1
+]
+},
+"3071": {
+"name": "Mullet Hi-Rise",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4700,
+"size": [
+4,
+6,
+4
+]
+},
+"3072": {
+"name": "Rusted cars on lawn",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"3074": {
+"name": "Playground",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"3075": {
+"name": "Dead Garden",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3100,
+"size": [
+1,
+1,
+1
+]
+},
+"3077": {
+"name": "Ike's House",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3500,
+"size": [
+2,
+1,
+2
+]
+},
+"3078": {
+"name": "Stoic Arms Apartments",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4300,
+"size": [
+3,
+6,
+3
+]
+},
+"3079": {
+"name": "Playground",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3700,
+"size": [
+1,
+1,
+1
+]
+},
+"3080": {
+"name": "Playground",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4300,
+"size": [
+1,
+1,
+1
+]
+},
+"3081": {
+"name": "Dead Garden",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4300,
+"size": [
+1,
+1,
+1
+]
+},
+"3082": {
+"name": "Dead Garden",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3700,
+"size": [
+1,
+1,
+1
+]
+},
+"3083": {
+"name": "Open Lawn",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 3700,
+"size": [
+1,
+1,
+1
+]
+},
+"3084": {
+"name": "Open Lawn",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4300,
+"size": [
+1,
+1,
+1
+]
+},
+"3085": {
+"name": "Rusted cars on lawn",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4300,
+"size": [
+1,
+1,
+1
+]
+},
+"3086": {
+"name": "Concrete && Trees",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4500,
+"size": [
+1,
+1,
+1
+]
+},
+"3087": {
+"name": "English Garden",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4700,
+"size": [
+1,
+1,
+1
+]
+},
+"3088": {
+"name": "Community Garden",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4700,
+"size": [
+1,
+1,
+1
+]
+},
+"3089": {
+"name": "Camino de Verde",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4100,
+"size": [
+1,
+1,
+1
+]
+},
+"3090": {
+"name": "Gazebo",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 4100,
+"size": [
+1,
+1,
+1
+]
+},
+"4000": {
+"name": "Marky Market",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5700,
+"size": [
+2,
+2,
+2
+]
+},
+"4002": {
+"name": "Bradbury Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5700,
+"size": [
+3,
+4,
+3
+]
+},
+"4003": {
+"name": "Fashion Plus",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5500,
+"size": [
+1,
+1,
+1
+]
+},
+"4004": {
+"name": "The Relax Motel",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5100,
+"size": [
+2,
+2,
+2
+]
+},
+"4005": {
+"name": "Justin Brown Plaza",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+3,
+11,
+3
+]
+},
+"4006": {
+"name": "Kate Foundation",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+3,
+10,
+3
+]
+},
+"4007": {
+"name": "Wilkinson Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6300,
+"size": [
+3,
+11,
+3
+]
+},
+"4008": {
+"name": "FooFoo Shops",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5500,
+"size": [
+2,
+2,
+2
+]
+},
+"4009": {
+"name": "Gray Matter Place",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+4,
+13,
+4
+]
+},
+"4010": {
+"name": "Insurance Plaza",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6300,
+"size": [
+3,
+9,
+3
+]
+},
+"4011": {
+"name": "Smiley Sons and Daughters Foundation",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6100,
+"size": [
+3,
+3,
+3
+]
+},
+"4014": {
+"name": "MicroShops",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5500,
+"size": [
+1,
+1,
+1
+]
+},
+"4016": {
+"name": "Ted's Tires",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5700,
+"size": [
+2,
+2,
+2
+]
+},
+"4018": {
+"name": "Maxis Theater",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6100,
+"size": [
+2,
+3,
+2
+]
+},
+"4020": {
+"name": "Triangle Terrace",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6300,
+"size": [
+3,
+6,
+3
+]
+},
+"4022": {
+"name": "Corporate Ground Zero Plaza",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+4,
+14,
+4
+]
+},
+"4023": {
+"name": "Shicoff Multiplex",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5700,
+"size": [
+3,
+3,
+3
+]
+},
+"4024": {
+"name": "Pile o' dirt & Bulldozer",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+1,
+1,
+1
+]
+},
+"4025": {
+"name": "Park & Pay",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5700,
+"size": [
+1,
+1,
+1
+]
+},
+"4026": {
+"name": "Paved",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5100,
+"size": [
+1,
+1,
+1
+]
+},
+"4027": {
+"name": "Holiday Filler 2",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5100,
+"size": [
+1,
+1,
+1
+]
+},
+"4028": {
+"name": "Asphalt Grazing Here",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5100,
+"size": [
+1,
+1,
+1
+]
+},
+"4029": {
+"name": "Compact Only",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5100,
+"size": [
+1,
+1,
+1
+]
+},
+"4030": {
+"name": "This Space for Rent",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5100,
+"size": [
+1,
+1,
+1
+]
+},
+"4031": {
+"name": "Quigley Insurance",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+4,
+19,
+4
+]
+},
+"4033": {
+"name": "They Paved Paradise",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5700,
+"size": [
+1,
+1,
+1
+]
+},
+"4034": {
+"name": "Holiday Filler 1",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5700,
+"size": [
+1,
+1,
+1
+]
+},
+"4037": {
+"name": "This One Has Lights",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5700,
+"size": [
+1,
+1,
+1
+]
+},
+"4039": {
+"name": "Spicoli Center",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6300,
+"size": [
+3,
+7,
+3
+]
+},
+"4043": {
+"name": "Fountain of GenX",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5500,
+"size": [
+1,
+1,
+1
+]
+},
+"4044": {
+"name": "Three Tree Plaza",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5500,
+"size": [
+1,
+1,
+1
+]
+},
+"4045": {
+"name": "Fountain of GenX",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+1,
+1,
+1
+]
+},
+"4046": {
+"name": "Fountain of GenX",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6100,
+"size": [
+1,
+1,
+1
+]
+},
+"4047": {
+"name": "Three Tree Plaza",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6100,
+"size": [
+1,
+1,
+1
+]
+},
+"4048": {
+"name": "Three Tree Plaza",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+1,
+1,
+1
+]
+},
+"4049": {
+"name": "They Paved Paradise",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6300,
+"size": [
+1,
+1,
+1
+]
+},
+"4050": {
+"name": "Park & Pay",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6300,
+"size": [
+1,
+1,
+1
+]
+},
+"4051": {
+"name": "This one has lights",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6300,
+"size": [
+1,
+1,
+1
+]
+},
+"4052": {
+"name": "Fern Park",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+1,
+1,
+1
+]
+},
+"4053": {
+"name": "Fern Park",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6100,
+"size": [
+1,
+1,
+1
+]
+},
+"4054": {
+"name": "Hump Day Park",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6100,
+"size": [
+1,
+1,
+1
+]
+},
+"4055": {
+"name": "TGIF Hang Spot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+1,
+1,
+1
+]
+},
+"4056": {
+"name": "Fountain of 9 to 5",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+1,
+1,
+1
+]
+},
+"4057": {
+"name": "Wishing Fountain",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6100,
+"size": [
+1,
+1,
+1
+]
+},
+"4058": {
+"name": "Concrete Walk",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6100,
+"size": [
+1,
+1,
+1
+]
+},
+"4059": {
+"name": "Yuppie Memorial Park",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 6700,
+"size": [
+1,
+1,
+1
+]
+},
+"4060": {
+"name": "Parking Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5700,
+"size": [
+2,
+2,
+2
+]
+},
+"5000": {
+"name": "Windmill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+1,
+2,
+1
+]
+},
+"5001": {
+"name": "Barrel O' Fun Motor Oil Recycle",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8100,
+"size": [
+1,
+1,
+1
+]
+},
+"5002": {
+"name": "Glass Shop",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8700,
+"size": [
+1,
+1,
+1
+]
+},
+"5003": {
+"name": "Hans Silo",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+1,
+2,
+1
+]
+},
+"5004": {
+"name": "Petrol Plant",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8300,
+"size": [
+4,
+4,
+4
+]
+},
+"5005": {
+"name": "Salvage Yard",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8100,
+"size": [
+4,
+4,
+4
+]
+},
+"5006": {
+"name": "SimMars Research & Testing Facility",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9100,
+"size": [
+4,
+2,
+4
+]
+},
+"5007": {
+"name": "Software Studio",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8900,
+"size": [
+3,
+2,
+3
+]
+},
+"5008": {
+"name": "Auto Plant",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9100,
+"size": [
+4,
+4,
+4
+]
+},
+"5009": {
+"name": "Greenhouse",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+2,
+1,
+2
+]
+},
+"5010": {
+"name": "Farm House",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+2,
+1,
+2
+]
+},
+"5011": {
+"name": "Tool Shed",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+1,
+1,
+1
+]
+},
+"5012": {
+"name": "Chicken Coop",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+1,
+1,
+1
+]
+},
+"5014": {
+"name": "Barn",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+3,
+2,
+3
+]
+},
+"5016": {
+"name": "Water Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8100,
+"size": [
+1,
+2,
+1
+]
+},
+"5017": {
+"name": "Gravel Loading bay",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9100,
+"size": [
+1,
+1,
+1
+]
+},
+"5018": {
+"name": "Utility Muffin Research",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8700,
+"size": [
+1,
+1,
+1
+]
+},
+"5020": {
+"name": "Factory",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8300,
+"size": [
+2,
+2,
+2
+]
+},
+"5022": {
+"name": "Trucks O'Plenty",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8900,
+"size": [
+3,
+3,
+3
+]
+},
+"5024": {
+"name": "Armpit Central",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8500,
+"size": [
+4,
+7,
+4
+]
+},
+"5026": {
+"name": "Shiny Things INC.",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9100,
+"size": [
+3,
+3,
+3
+]
+},
+"5031": {
+"name": "Vacant Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8100,
+"size": [
+1,
+1,
+1
+]
+},
+"5034": {
+"name": "Grass Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8100,
+"size": [
+2,
+1,
+2
+]
+},
+"5035": {
+"name": "Agate Marble Inc.",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9100,
+"size": [
+3,
+4,
+3
+]
+},
+"5036": {
+"name": "Grass Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8100,
+"size": [
+2,
+1,
+2
+]
+},
+"5039": {
+"name": "Mine",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8500,
+"size": [
+3,
+6,
+3
+]
+},
+"5040": {
+"name": "Muck Factory",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8500,
+"size": [
+3,
+6,
+3
+]
+},
+"5041": {
+"name": "The white zone is for loading and  unloading  only",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8300,
+"size": [
+1,
+1,
+1
+]
+},
+"5042": {
+"name": "Shed",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8300,
+"size": [
+1,
+1,
+1
+]
+},
+"5045": {
+"name": "Sludge Field",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8300,
+"size": [
+1,
+1,
+1
+]
+},
+"5046": {
+"name": "Dusty Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8100,
+"size": [
+1,
+1,
+1
+]
+},
+"5047": {
+"name": "Factory Parking Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8100,
+"size": [
+1,
+1,
+1
+]
+},
+"5048": {
+"name": "Vacant Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8100,
+"size": [
+1,
+1,
+1
+]
+},
+"5049": {
+"name": "Propane Tank",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8100,
+"size": [
+1,
+1,
+1
+]
+},
+"5050": {
+"name": "Foreman Shack",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8100,
+"size": [
+1,
+1,
+1
+]
+},
+"5052": {
+"name": "Fountain walk",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8900,
+"size": [
+1,
+1,
+1
+]
+},
+"5053": {
+"name": "Concrete walk",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8900,
+"size": [
+1,
+1,
+1
+]
+},
+"5054": {
+"name": "Industry Concrete Park",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8700,
+"size": [
+1,
+1,
+1
+]
+},
+"5055": {
+"name": "Industry Brick Park",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8700,
+"size": [
+1,
+1,
+1
+]
+},
+"5058": {
+"name": "Fenced Transformer",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8900,
+"size": [
+1,
+1,
+1
+]
+},
+"5059": {
+"name": "Parking Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8900,
+"size": [
+1,
+1,
+1
+]
+},
+"5061": {
+"name": "Stack o' Crates",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8900,
+"size": [
+1,
+1,
+1
+]
+},
+"5062": {
+"name": "Wheat Field",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+1,
+1,
+1
+]
+},
+"5063": {
+"name": "Plowed Field",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+1,
+1,
+1
+]
+},
+"5064": {
+"name": "Stack o' Crates",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9100,
+"size": [
+1,
+1,
+1
+]
+},
+"5065": {
+"name": "Factory Parking Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8300,
+"size": [
+1,
+1,
+1
+]
+},
+"5066": {
+"name": "Factory Parking Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8500,
+"size": [
+1,
+1,
+1
+]
+},
+"5067": {
+"name": "Sludge Field",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8500,
+"size": [
+1,
+1,
+1
+]
+},
+"5068": {
+"name": "Parking Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8700,
+"size": [
+1,
+1,
+1
+]
+},
+"5069": {
+"name": "Parking Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9100,
+"size": [
+1,
+1,
+1
+]
+},
+"5070": {
+"name": "Crop Circle",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+4,
+2,
+4
+]
+},
+"5071": {
+"name": "Dust Bowl City",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+1,
+1,
+1
+]
+},
+"5072": {
+"name": "Salt of the Earth",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+1,
+1,
+1
+]
+},
+"5073": {
+"name": "In the Country",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+1,
+1,
+1
+]
+},
+"7000": {
+"name": "Small Pine Tree",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7001": {
+"name": "Pine Tree",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7002": {
+"name": "Two Pine Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7003": {
+"name": "Three Pine Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7004": {
+"name": "Four Pine Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7005": {
+"name": "Five Pine Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7006": {
+"name": "Five Big Pine Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7040": {
+"name": "Tiny Palm Tree",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7041": {
+"name": "Small Palm Tree",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7042": {
+"name": "Palm Tree",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7043": {
+"name": "Two Palm Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7044": {
+"name": "Three Palm Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+2,
+1
+]
+},
+"7045": {
+"name": "Four Palm Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+2,
+1
+]
+},
+"7046": {
+"name": "Five Palm Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+2,
+1
+]
+},
+"7047": {
+"name": "GreyCube1x",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 100,
+"size": [
+1,
+1,
+1
+]
+},
+"7048": {
+"name": "GreyCube2x",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 100,
+"size": [
+2,
+1,
+2
+]
+},
+"7049": {
+"name": "GreyCube3x",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 100,
+"size": [
+3,
+2,
+3
+]
+},
+"7050": {
+"name": "GreyCube4x",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 100,
+"size": [
+4,
+2,
+4
+]
+},
+"7051": {
+"name": "GreyCube5x",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 100,
+"size": [
+5,
+3,
+5
+]
+},
+"7052": {
+"name": "Five Huge Pine Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+2,
+1
+]
+},
+"7053": {
+"name": "Five Huge Palm Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+2,
+1
+]
+},
+"7054": {
+"name": "Wetlands",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7055": {
+"name": "Wetlands",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"7056": {
+"name": "Variation on a Theme of Deciduous Trees",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+2,
+1
+]
+},
+"7057": {
+"name": "Burned Tree",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"8001": {
+"name": "City Jail",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 13881,
+"size": [
+3,
+2,
+3
+]
+},
+"8008": {
+"name": "Maximum Security Prison",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 19004,
+"size": [
+5,
+4,
+5
+]
+},
+"8009": {
+"name": "Geyser Park",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14003,
+"size": [
+5,
+3,
+5
+]
+},
+"8010": {
+"name": "See and Want Emporium",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 5700,
+"size": [
+4,
+3,
+4
+]
+},
+"8011": {
+"name": "Performing Arts Center",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14170,
+"size": [
+2,
+2,
+2
+]
+},
+"8013": {
+"name": "County Courthouse",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 13005,
+"size": [
+3,
+3,
+3
+]
+},
+"8014": {
+"name": "Acid and Base Manufacturing",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 8300,
+"size": [
+2,
+2,
+2
+]
+},
+"8017": {
+"name": "Stock Exchange",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1002,
+"size": [
+4,
+3,
+4
+]
+},
+"8018": {
+"name": "Space Port",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12350,
+"size": [
+5,
+4,
+5
+]
+},
+"8019": {
+"name": "Lighthouse",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14550,
+"size": [
+2,
+4,
+2
+]
+},
+"8020": {
+"name": "Stadium",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14600,
+"size": [
+5,
+5,
+5
+]
+},
+"8021": {
+"name": "Toxic Waste Conversion Plant",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 19001,
+"size": [
+5,
+7,
+5
+]
+},
+"8022": {
+"name": "Medical Research Center",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 13872,
+"size": [
+3,
+3,
+3
+]
+},
+"8023": {
+"name": "Defense Contractor",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 11001,
+"size": [
+5,
+4,
+5
+]
+},
+"8027": {
+"name": "Casino Row",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 19003,
+"size": [
+5,
+3,
+5
+]
+},
+"8029": {
+"name": "Theme Park",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14325,
+"size": [
+4,
+2,
+4
+]
+},
+"8030": {
+"name": "Theme Park",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14325,
+"size": [
+4,
+2,
+4
+]
+},
+"8031": {
+"name": "Theme Park",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14325,
+"size": [
+4,
+2,
+4
+]
+},
+"8032": {
+"name": "Theme Park",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14325,
+"size": [
+4,
+4,
+4
+]
+},
+"8042": {
+"name": "Science Center",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 13874,
+"size": [
+5,
+6,
+5
+]
+},
+"8046": {
+"name": "Country Club",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14370,
+"size": [
+5,
+3,
+5
+]
+},
+"8047": {
+"name": "Abandoned Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+1,
+1,
+1
+]
+},
+"8049": {
+"name": "European Stadium",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 100,
+"size": [
+5,
+4,
+5
+]
+},
+"8054": {
+"name": "Lumber Mill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 9300,
+"size": [
+2,
+1,
+2
+]
+},
+"8075": {
+"name": "Military Base",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 11002,
+"size": [
+5,
+5,
+5
+]
+},
+"8076": {
+"name": "Military Base",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 11002,
+"size": [
+5,
+3,
+5
+]
+},
+"8077": {
+"name": "Military Base",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 11002,
+"size": [
+5,
+4,
+5
+]
+},
+"8078": {
+"name": "Military Base",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 11002,
+"size": [
+5,
+5,
+5
+]
+},
+"8084": {
+"name": "School",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 13010,
+"size": [
+3,
+2,
+3
+]
+},
+"8085": {
+"name": "GigaMall 9th Wonder of the World",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 19002,
+"size": [
+5,
+4,
+5
+]
+},
+"8086": {
+"name": "Bus Stop",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12210,
+"size": [
+1,
+1,
+1
+]
+},
+"8088": {
+"name": "University",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 13871,
+"size": [
+5,
+3,
+5
+]
+},
+"8089": {
+"name": "University",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 13871,
+"size": [
+5,
+3,
+5
+]
+},
+"8090": {
+"name": "University",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 13871,
+"size": [
+5,
+3,
+5
+]
+},
+"8091": {
+"name": "University",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 13871,
+"size": [
+5,
+4,
+5
+]
+},
+"9000": {
+"name": "Residential Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+4,
+3,
+4
+]
+},
+"9001": {
+"name": "Abandoned Residential Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+4,
+4,
+4
+]
+},
+"9003": {
+"name": "Building Ashes",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15420,
+"size": [
+1,
+1,
+1
+]
+},
+"9004": {
+"name": "Building Ashes",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15420,
+"size": [
+2,
+1,
+2
+]
+},
+"9005": {
+"name": "Building Ashes",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15420,
+"size": [
+3,
+2,
+3
+]
+},
+"9006": {
+"name": "Building Ashes",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15420,
+"size": [
+4,
+2,
+4
+]
+},
+"9007": {
+"name": "Building Ashes",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15420,
+"size": [
+5,
+3,
+5
+]
+},
+"9010": {
+"name": "Industrial Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+1,
+1,
+1
+]
+},
+"9011": {
+"name": "Industrial Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+2,
+2,
+2
+]
+},
+"9012": {
+"name": "Commercial Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+3,
+3,
+3
+]
+},
+"9013": {
+"name": "Industrial Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+3,
+2,
+3
+]
+},
+"9014": {
+"name": "Commercial Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+4,
+7,
+4
+]
+},
+"9015": {
+"name": "Industrial Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+4,
+2,
+4
+]
+},
+"9016": {
+"name": "Commercial Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+4,
+10,
+4
+]
+},
+"9017": {
+"name": "Abandoned Industrial Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+3,
+3,
+3
+]
+},
+"9018": {
+"name": "Abandoned Industrial Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+4,
+4,
+4
+]
+},
+"9019": {
+"name": "Abandoned Commercial Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+1,
+2,
+1
+]
+},
+"9020": {
+"name": "Abandoned Commercial Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+4,
+2,
+4
+]
+},
+"9022": {
+"name": "Abandoned Industrial Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+3,
+3,
+3
+]
+},
+"9024": {
+"name": "Commercial Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+1,
+1,
+1
+]
+},
+"9025": {
+"name": "Commercial Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+1,
+1,
+1
+]
+},
+"9026": {
+"name": "Industrial Construction",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15300,
+"size": [
+1,
+1,
+1
+]
+},
+"9027": {
+"name": "Building Rubble",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15410,
+"size": [
+1,
+1,
+1
+]
+},
+"9028": {
+"name": "Building Rubble",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15410,
+"size": [
+2,
+1,
+2
+]
+},
+"9029": {
+"name": "Building Rubble",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15410,
+"size": [
+3,
+1,
+3
+]
+},
+"9030": {
+"name": "Building Rubble",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15410,
+"size": [
+4,
+2,
+4
+]
+},
+"9031": {
+"name": "Building Rubble",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15410,
+"size": [
+5,
+3,
+5
+]
+},
+"9032": {
+"name": "Parque Aire Fresco",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14311,
+"size": [
+1,
+1,
+1
+]
+},
+"9033": {
+"name": "Parque Hermosas Flores",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14311,
+"size": [
+1,
+1,
+1
+]
+},
+"9035": {
+"name": "Playground",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14314,
+"size": [
+2,
+1,
+2
+]
+},
+"9036": {
+"name": "The Pond",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14315,
+"size": [
+2,
+1,
+2
+]
+},
+"9037": {
+"name": "Gazebo",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14311,
+"size": [
+1,
+1,
+1
+]
+},
+"9038": {
+"name": "Fountain",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14316,
+"size": [
+1,
+1,
+1
+]
+},
+"9039": {
+"name": "Pile of Rubble",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15411,
+"size": [
+1,
+1,
+1
+]
+},
+"9040": {
+"name": "Charred Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15421,
+"size": [
+1,
+1,
+1
+]
+},
+"9041": {
+"name": "They Paved Paradise",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14325,
+"size": [
+1,
+1,
+1
+]
+},
+"9042": {
+"name": "Parking Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12330,
+"size": [
+2,
+2,
+2
+]
+},
+"9043": {
+"name": "Queequeg Parked Here",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12330,
+"size": [
+1,
+1,
+1
+]
+},
+"9044": {
+"name": "Stack o'  Seaport Crates",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12330,
+"size": [
+1,
+1,
+1
+]
+},
+"9045": {
+"name": "Abandoned Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+1,
+1,
+1
+]
+},
+"9046": {
+"name": "Abandoned Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+1,
+1,
+1
+]
+},
+"9047": {
+"name": "Abandoned Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+1,
+1,
+1
+]
+},
+"9048": {
+"name": "Abandoned Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+1,
+1,
+1
+]
+},
+"9051": {
+"name": "Road Needing Repair",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16016,
+"size": [
+1,
+1,
+1
+]
+},
+"9200": {
+"name": "Burned Tree",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"9201": {
+"name": "Burned Tree",
+"owner": "0xffd30c03",
+"type": "0x80f48961",
+"category": 300,
+"size": [
+1,
+1,
+1
+]
+},
+"9274": {
+"name": "Neighbor Arrow",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12102,
+"size": [
+1,
+2,
+1
+]
+},
+"9275": {
+"name": "Neighbor sign 1",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12102,
+"size": [
+1,
+2,
+1
+]
+},
+"9276": {
+"name": "Seaport Pier Base",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12330,
+"size": [
+1,
+1,
+1
+]
+},
+"9277": {
+"name": "Seaport Pier Base",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12330,
+"size": [
+1,
+1,
+1
+]
+},
+"9278": {
+"name": "Pier",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12330,
+"size": [
+1,
+1,
+1
+]
+},
+"9279": {
+"name": "Sea Wall",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12330,
+"size": [
+1,
+1,
+1
+]
+},
+"9500": {
+"name": "San Francisco City Hall",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18044,
+"size": [
+5,
+6,
+5
+]
+},
+"9501": {
+"name": "Alcatraz Complex East",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18044,
+"size": [
+5,
+3,
+5
+]
+},
+"9502": {
+"name": "Bank of America",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18044,
+"size": [
+5,
+14,
+5
+]
+},
+"9507": {
+"name": "Coit Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18044,
+"size": [
+2,
+4,
+2
+]
+},
+"9508": {
+"name": "Lincoln Center",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18036,
+"size": [
+5,
+3,
+5
+]
+},
+"9510": {
+"name": "Palace of Fine Arts",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+4,
+2,
+4
+]
+},
+"9511": {
+"name": "American Museum of Natural History",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18036,
+"size": [
+5,
+4,
+5
+]
+},
+"9514": {
+"name": "United Nations",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18036,
+"size": [
+5,
+10,
+5
+]
+},
+"9516": {
+"name": "Empire State Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18036,
+"size": [
+5,
+20,
+5
+]
+},
+"9518": {
+"name": "Rockefeller Center",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18036,
+"size": [
+5,
+14,
+5
+]
+},
+"9519": {
+"name": "World Trade Center A",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18036,
+"size": [
+4,
+19,
+4
+]
+},
+"9521": {
+"name": "Grand Central Station",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18036,
+"size": [
+5,
+5,
+5
+]
+},
+"9522": {
+"name": "Statue of Liberty",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18036,
+"size": [
+2,
+6,
+2
+]
+},
+"9523": {
+"name": "Maison de Radio France",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18009,
+"size": [
+5,
+4,
+5
+]
+},
+"9524": {
+"name": "Conciergerie",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18009,
+"size": [
+5,
+4,
+5
+]
+},
+"9526": {
+"name": "Place de la Concorde",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18009,
+"size": [
+5,
+3,
+5
+]
+},
+"9528": {
+"name": "Arc de Triomphe",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18009,
+"size": [
+3,
+4,
+3
+]
+},
+"9529": {
+"name": "Eiffel Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18009,
+"size": [
+5,
+16,
+5
+]
+},
+"9531": {
+"name": "La Tour Montparnasse",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18009,
+"size": [
+5,
+14,
+5
+]
+},
+"9533": {
+"name": "Notre Dame",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18009,
+"size": [
+5,
+4,
+5
+]
+},
+"9537": {
+"name": "Tower of London",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18027,
+"size": [
+5,
+6,
+5
+]
+},
+"9538": {
+"name": "Trafalgar Square",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18027,
+"size": [
+5,
+3,
+5
+]
+},
+"9539": {
+"name": "St Paul's Cathedral",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18027,
+"size": [
+5,
+4,
+5
+]
+},
+"9543": {
+"name": "Big Ben",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18027,
+"size": [
+1,
+6,
+1
+]
+},
+"9546": {
+"name": "Westminster Abbey",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18027,
+"size": [
+5,
+3,
+5
+]
+},
+"9547": {
+"name": "Fernseeturm 2",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18010,
+"size": [
+5,
+18,
+5
+]
+},
+"9548": {
+"name": "Gedaechtniskirche",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18010,
+"size": [
+5,
+5,
+5
+]
+},
+"9552": {
+"name": "Congresshalle",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18010,
+"size": [
+5,
+3,
+5
+]
+},
+"9555": {
+"name": "Rotes Rathaus",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18010,
+"size": [
+5,
+4,
+5
+]
+},
+"9558": {
+"name": "Brandenburg Gate",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18010,
+"size": [
+3,
+3,
+3
+]
+},
+"9561": {
+"name": "Adler Planetarium",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18030,
+"size": [
+5,
+3,
+5
+]
+},
+"9563": {
+"name": "Art Institute of Chicago",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18030,
+"size": [
+4,
+2,
+4
+]
+},
+"9564": {
+"name": "Shedd Aquarium",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18030,
+"size": [
+5,
+3,
+5
+]
+},
+"9568": {
+"name": "Sydney Opera House",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18001,
+"size": [
+5,
+4,
+5
+]
+},
+"9571": {
+"name": "Alcatraz Complex West",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18044,
+"size": [
+5,
+4,
+5
+]
+},
+"9577": {
+"name": "St. Basil's Cathedral",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18023,
+"size": [
+4,
+6,
+4
+]
+},
+"9578": {
+"name": "Hagia Sofia",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18014,
+"size": [
+5,
+5,
+5
+]
+},
+"9580": {
+"name": "Melbourne Cricket Ground",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18002,
+"size": [
+5,
+3,
+5
+]
+},
+"9583": {
+"name": "Schloss Neuschwanstein",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18011,
+"size": [
+5,
+6,
+5
+]
+},
+"9584": {
+"name": "Holsten Tor",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18012,
+"size": [
+5,
+5,
+5
+]
+},
+"9586": {
+"name": "Peachtree Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18028,
+"size": [
+5,
+19,
+5
+]
+},
+"9589": {
+"name": "Quincy Market/Faneuil",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18029,
+"size": [
+3,
+3,
+3
+]
+},
+"9591": {
+"name": "Old State House",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18029,
+"size": [
+3,
+3,
+3
+]
+},
+"9592": {
+"name": "Old North Church",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18029,
+"size": [
+3,
+4,
+3
+]
+},
+"9594": {
+"name": "Renaissance Center",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18031,
+"size": [
+5,
+19,
+5
+]
+},
+"9595": {
+"name": "700 Louisiana",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18032,
+"size": [
+5,
+17,
+5
+]
+},
+"9603": {
+"name": "Capitol Records Bldg",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18033,
+"size": [
+5,
+7,
+5
+]
+},
+"9606": {
+"name": "Atlantis Condominium",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+5,
+6,
+5
+]
+},
+"9609": {
+"name": "Smith Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18039,
+"size": [
+3,
+10,
+3
+]
+},
+"9610": {
+"name": "Columbia Seafirst Center",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18039,
+"size": [
+4,
+16,
+4
+]
+},
+"9613": {
+"name": "Gateway Arch",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18041,
+"size": [
+5,
+5,
+5
+]
+},
+"9616": {
+"name": "Smithsonian Castle",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18043,
+"size": [
+5,
+3,
+5
+]
+},
+"9617": {
+"name": "Jefferson Memorial",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18043,
+"size": [
+5,
+3,
+5
+]
+},
+"9618": {
+"name": "Lincoln Memorial",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18043,
+"size": [
+4,
+3,
+4
+]
+},
+"9619": {
+"name": "United States Capitol",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18043,
+"size": [
+5,
+4,
+5
+]
+},
+"9620": {
+"name": "Washington Monument",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18043,
+"size": [
+2,
+5,
+2
+]
+},
+"9621": {
+"name": "White House",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18043,
+"size": [
+5,
+4,
+5
+]
+},
+"9622": {
+"name": "Schloss Schoenbrunn",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18003,
+"size": [
+5,
+3,
+5
+]
+},
+"9624": {
+"name": "CN Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18004,
+"size": [
+5,
+19,
+5
+]
+},
+"9625": {
+"name": "Bank Of China Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18005,
+"size": [
+5,
+17,
+5
+]
+},
+"9626": {
+"name": "Pharos of Alexandria",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18006,
+"size": [
+5,
+10,
+5
+]
+},
+"9627": {
+"name": "Sphinx",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18007,
+"size": [
+5,
+4,
+5
+]
+},
+"9628": {
+"name": "Great Pyramids",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18007,
+"size": [
+5,
+4,
+5
+]
+},
+"9629": {
+"name": "Parthenon",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18013,
+"size": [
+5,
+3,
+5
+]
+},
+"9632": {
+"name": "Taj Mahal",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18014,
+"size": [
+5,
+3,
+5
+]
+},
+"9633": {
+"name": "Dome of the Rock",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18015,
+"size": [
+5,
+4,
+5
+]
+},
+"9634": {
+"name": "The Duomo",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+5,
+5,
+5
+]
+},
+"9643": {
+"name": "Tokyo Tower",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18021,
+"size": [
+5,
+16,
+5
+]
+},
+"9644": {
+"name": "Petronas Twin Tower A",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18022,
+"size": [
+5,
+19,
+5
+]
+},
+"9645": {
+"name": "Temple Expiatiori de la Sagrada Familia",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18024,
+"size": [
+5,
+6,
+5
+]
+},
+"9647": {
+"name": "Palacio Real",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18025,
+"size": [
+5,
+4,
+5
+]
+},
+"9654": {
+"name": "City Hall or Independence Hall",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18037,
+"size": [
+5,
+6,
+5
+]
+},
+"9655": {
+"name": "The Alamo",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18044,
+"size": [
+2,
+2,
+2
+]
+},
+"9666": {
+"name": "California Plaza",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18045,
+"size": [
+4,
+3,
+4
+]
+},
+"9667": {
+"name": "Chartres Cathedral",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18008,
+"size": [
+5,
+7,
+5
+]
+},
+"9671": {
+"name": "Dr.  Sun Memorial Hall",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18022,
+"size": [
+5,
+3,
+5
+]
+},
+"9672": {
+"name": "CKS Memorial Hall",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18022,
+"size": [
+5,
+3,
+5
+]
+},
+"9673": {
+"name": "Grand Hotel",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18022,
+"size": [
+5,
+5,
+5
+]
+},
+"9674": {
+"name": "National Museum",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18022,
+"size": [
+5,
+3,
+5
+]
+},
+"9676": {
+"name": "Taiwan Presidential Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18022,
+"size": [
+5,
+3,
+5
+]
+},
+"9677": {
+"name": "World Trade Center B",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18036,
+"size": [
+4,
+19,
+4
+]
+},
+"9678": {
+"name": "Petronas Twin Tower B",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18022,
+"size": [
+5,
+19,
+5
+]
+},
+"10003": {
+"name": "Incinerator",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12852,
+"size": [
+3,
+3,
+3
+]
+},
+"10004": {
+"name": "Recycling Center",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12851,
+"size": [
+3,
+2,
+3
+]
+},
+"10005": {
+"name": "Piles of Garbage",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12854,
+"size": [
+1,
+1,
+1
+]
+},
+"10006": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"10007": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"10008": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"10009": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"10010": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"10011": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"10014": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"10015": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"10028": {
+"name": "Piles of Garbage",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12854,
+"size": [
+1,
+1,
+1
+]
+},
+"10029": {
+"name": "Waste to Energy Incinerator",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12853,
+"size": [
+3,
+4,
+3
+]
+},
+"10033": {
+"name": "High Tension Wire Water Juncture",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"10036": {
+"name": "Power Line Terminus",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12104,
+"size": [
+1,
+3,
+1
+]
+},
+"10037": {
+"name": "Power Line Terminus",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12104,
+"size": [
+1,
+3,
+1
+]
+},
+"10040": {
+"name": "High Tension Wire Water Juncture",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"10044": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"10054": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"10055": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"10056": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"10057": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"11008": {
+"name": "Airport Parking Lot",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"11009": {
+"name": "Airport Parking Garage",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+2,
+1
+]
+},
+"11010": {
+"name": "Runway",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"11011": {
+"name": "Runway End",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"11012": {
+"name": "Runway End",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"11013": {
+"name": "Airport Grass",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"11014": {
+"name": "Tarmac",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"11015": {
+"name": "Runway Connector",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"11016": {
+"name": "Airport Hangar",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+2,
+2,
+2
+]
+},
+"11017": {
+"name": "Airport Terminal",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"11018": {
+"name": "Airport Terminal Connector",
+"owner": "0x220055e1",
+"type": "0x0000057e",
+"category": 12310,
+"size": [
+1,
+1,
+1
+]
+},
+"11201": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"11202": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"11203": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"11204": {
+"name": "Avenue",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"11207": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+0,
+1
+]
+},
+"11208": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"11209": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"11210": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"11211": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"11212": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"11213": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+0,
+1
+]
+},
+"11214": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"11215": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"11216": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"11223": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"11224": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"11225": {
+"name": "Road Ending",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+0,
+1
+]
+},
+"11226": {
+"name": "Large Boat Wake",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11227": {
+"name": "Small Boat Wake",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 100,
+"size": [
+2,
+0,
+2
+]
+},
+"11235": {
+"name": "Highway Ending",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"11237": {
+"name": "Highway Ending",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"11258": {
+"name": "Highway Road Crossing",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17203,
+"size": [
+1,
+2,
+1
+]
+},
+"11262": {
+"name": "Shallow Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17100,
+"size": [
+1,
+3,
+1
+]
+},
+"11263": {
+"name": "Steep Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17100,
+"size": [
+1,
+3,
+1
+]
+},
+"11265": {
+"name": "Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+2,
+1
+]
+},
+"11266": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16007,
+"size": [
+1,
+2,
+1
+]
+},
+"11268": {
+"name": "Brooklyn Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+2,
+1
+]
+},
+"11269": {
+"name": "Brooklyn Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+3,
+1
+]
+},
+"11270": {
+"name": "Brooklyn Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+2,
+1
+]
+},
+"11271": {
+"name": "Brooklyn Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+2,
+1
+]
+},
+"11272": {
+"name": "Brooklyn Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+3,
+1
+]
+},
+"11273": {
+"name": "Brooklyn Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+3,
+1
+]
+},
+"11274": {
+"name": "Brooklyn Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+4,
+1
+]
+},
+"11275": {
+"name": "Brooklyn Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16003,
+"size": [
+1,
+4,
+1
+]
+},
+"11300": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16007,
+"size": [
+1,
+7,
+1
+]
+},
+"11301": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16007,
+"size": [
+1,
+5,
+1
+]
+},
+"11302": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16007,
+"size": [
+1,
+4,
+1
+]
+},
+"11303": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16007,
+"size": [
+1,
+3,
+1
+]
+},
+"11304": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16007,
+"size": [
+1,
+2,
+1
+]
+},
+"11401": {
+"name": "Police Car",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 205,
+"size": [
+1,
+0,
+1
+]
+},
+"11402": {
+"name": "Green Chevy",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 210,
+"size": [
+1,
+0,
+1
+]
+},
+"11405": {
+"name": "Strikers",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+1,
+1
+]
+},
+"11406": {
+"name": "Rioters",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"11407": {
+"name": "Ambulance",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 207,
+"size": [
+1,
+0,
+1
+]
+},
+"11410": {
+"name": "School Bus",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 213,
+"size": [
+1,
+0,
+1
+]
+},
+"11413": {
+"name": "Fire Engine",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 206,
+"size": [
+1,
+0,
+1
+]
+},
+"11425": {
+"name": "Rich Lincoln",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 208,
+"size": [
+1,
+0,
+1
+]
+},
+"11430": {
+"name": "Mayor's Limo",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 214,
+"size": [
+1,
+0,
+1
+]
+},
+"11431": {
+"name": "Utility Truck",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 212,
+"size": [
+1,
+0,
+1
+]
+},
+"11432": {
+"name": "Delivery Truck",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 212,
+"size": [
+1,
+0,
+1
+]
+},
+"11433": {
+"name": "Isetta",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 209,
+"size": [
+1,
+0,
+1
+]
+},
+"11441": {
+"name": "Moped",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 210,
+"size": [
+1,
+0,
+1
+]
+},
+"11442": {
+"name": "Yellow Sportscar",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 205,
+"size": [
+1,
+0,
+1
+]
+},
+"11448": {
+"name": "Bulldozer",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 202,
+"size": [
+1,
+0,
+1
+]
+},
+"11449": {
+"name": "Old Blue Pickup",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 210,
+"size": [
+1,
+0,
+1
+]
+},
+"11456": {
+"name": "Blue Citroen",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 209,
+"size": [
+1,
+0,
+1
+]
+},
+"11458": {
+"name": "White Chevy",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 210,
+"size": [
+1,
+0,
+1
+]
+},
+"11459": {
+"name": "Red Oil Truck",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 212,
+"size": [
+1,
+0,
+1
+]
+},
+"11460": {
+"name": "Green Wagon",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 210,
+"size": [
+1,
+0,
+1
+]
+},
+"11461": {
+"name": "Orange Delivery Truck",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 212,
+"size": [
+1,
+0,
+1
+]
+},
+"11462": {
+"name": "Beat-Up Wagon",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 210,
+"size": [
+1,
+0,
+1
+]
+},
+"11463": {
+"name": "Cute Red Car",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 209,
+"size": [
+1,
+0,
+1
+]
+},
+"11464": {
+"name": "Orange Pickup",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 210,
+"size": [
+1,
+0,
+1
+]
+},
+"11465": {
+"name": "Yellow Cab",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 212,
+"size": [
+1,
+0,
+1
+]
+},
+"11466": {
+"name": "White Van",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 209,
+"size": [
+1,
+0,
+1
+]
+},
+"11469": {
+"name": "White Top Bug",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 210,
+"size": [
+1,
+0,
+1
+]
+},
+"11470": {
+"name": "Green Bug",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 210,
+"size": [
+1,
+0,
+1
+]
+},
+"11479": {
+"name": "City Bus",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 212,
+"size": [
+1,
+0,
+1
+]
+},
+"11482": {
+"name": "Battleship",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 223,
+"size": [
+1,
+0,
+1
+]
+},
+"11485": {
+"name": "Tanker Car",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 219,
+"size": [
+1,
+0,
+1
+]
+},
+"11487": {
+"name": "Passenger car",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 218,
+"size": [
+1,
+0,
+1
+]
+},
+"11490": {
+"name": "Hopper Car",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 219,
+"size": [
+1,
+0,
+1
+]
+},
+"11491": {
+"name": "Box Car",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 219,
+"size": [
+1,
+0,
+1
+]
+},
+"11492": {
+"name": "Army Truck",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 203,
+"size": [
+1,
+0,
+1
+]
+},
+"11501": {
+"name": "DC-3",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 222,
+"size": [
+1,
+0,
+1
+]
+},
+"11502": {
+"name": "1950's Helicopter",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 221,
+"size": [
+1,
+0,
+1
+]
+},
+"11503": {
+"name": "Prop Plane",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 222,
+"size": [
+1,
+0,
+1
+]
+},
+"11506": {
+"name": "Garbage Truck",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11507": {
+"name": "Recycle Truck",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11509": {
+"name": "Military jet",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11510": {
+"name": "Airforce Bomber",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+1,
+1
+]
+},
+"11513": {
+"name": "Tanker",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+4,
+1,
+4
+]
+},
+"11515": {
+"name": "Sail Boat",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+1,
+1
+]
+},
+"11516": {
+"name": "Tuna Boat",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+1,
+1
+]
+},
+"11517": {
+"name": "Tug Boat",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+1,
+1
+]
+},
+"11519": {
+"name": "Caboose",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11521": {
+"name": "Passenger Car wth club",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11522": {
+"name": "Flat Bed with piles",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11525": {
+"name": "Tour Bus",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11526": {
+"name": "Hay Truck",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11527": {
+"name": "SUV a.k.a urban assault vehicle",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11528": {
+"name": "Garbage Barge",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+1,
+1
+]
+},
+"11530": {
+"name": "Trick or Treaters 4",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"11531": {
+"name": "Trick or Treaters2 4",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"11532": {
+"name": "Samhain 4",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"11534": {
+"name": "Frankie 4",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"11535": {
+"name": "Headless Horseman",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"11537": {
+"name": "Parade Anim",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+1,
+1
+]
+},
+"11538": {
+"name": "VW11538 Horses Anim 6",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11539": {
+"name": "VW11539 Grand Anim 4",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11543": {
+"name": "Carolers",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"11544": {
+"name": "Winter Wonderland",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 20002,
+"size": [
+3,
+2,
+3
+]
+},
+"11545": {
+"name": "Parade dino anim 4",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+1,
+1
+]
+},
+"11546": {
+"name": "Dude",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+2,
+1
+]
+},
+"11547": {
+"name": "Band Anim 4",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+1,
+1
+]
+},
+"11548": {
+"name": "Mouse float",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+2,
+1
+]
+},
+"11549": {
+"name": "Pig anim 4",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+1,
+1
+]
+},
+"11564": {
+"name": "Berlin Wall elbo-01",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11565": {
+"name": "Berlin wall elbo-02",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11566": {
+"name": "Berlin wall elbo-03",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11567": {
+"name": "Berlin wall elbo-04",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11568": {
+"name": "Berlin wall diagonal-01",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11569": {
+"name": "Berlin wall diagonal-01a",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11570": {
+"name": "Berlin wall diagonal-02",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11571": {
+"name": "Berlin wall diagonal-02a",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11572": {
+"name": "Berlin wall-EW",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11573": {
+"name": "Berlin wall-NS",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11574": {
+"name": "Berlin wall filler-01",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11575": {
+"name": "Berlin wall filler-02",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11576": {
+"name": "Berlin wall filler-03",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11577": {
+"name": "Berlin wall filler-04",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11578": {
+"name": "Berlin wall filler-05",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 1000,
+"size": [
+1,
+1,
+1
+]
+},
+"11595": {
+"name": "Bridge Destroyed-11265",
+"owner": "0xe223741f",
+"type": "0x0000057e",
+"category": 0,
+"size": [
+1,
+1,
+1
+]
+},
+"11596": {
+"name": "Bridge Destroyed-Susp 1",
+"owner": "0xe223741f",
+"type": "0x0000057e",
+"category": 0,
+"size": [
+1,
+6,
+1
+]
+},
+"11597": {
+"name": "Bridge Destroyed-Susp2 2k",
+"owner": "0xe223741f",
+"type": "0x0000057e",
+"category": 0,
+"size": [
+1,
+4,
+1
+]
+},
+"11598": {
+"name": "Bridge Destroyed-Rail",
+"owner": "0xe223741f",
+"type": "0x0000057e",
+"category": 0,
+"size": [
+1,
+2,
+1
+]
+},
+"11599": {
+"name": "Bridge Destroyed-Hwy",
+"owner": "0xe223741f",
+"type": "0x0000057e",
+"category": 0,
+"size": [
+1,
+2,
+1
+]
+},
+"11602": {
+"name": "Subway Station",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12360,
+"size": [
+1,
+2,
+1
+]
+},
+"11605": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11606": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11607": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11608": {
+"name": "Water Tower",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12840,
+"size": [
+1,
+5,
+1
+]
+},
+"11611": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11612": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11613": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11614": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+2,
+1
+]
+},
+"11615": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11616": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+2,
+1
+]
+},
+"11617": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11618": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11619": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11620": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11621": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11622": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11623": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11635": {
+"name": "Desalinization Plant",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12830,
+"size": [
+3,
+4,
+3
+]
+},
+"11636": {
+"name": "Pumping Station",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12810,
+"size": [
+1,
+2,
+1
+]
+},
+"11637": {
+"name": "Water Treatment Plant",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12820,
+"size": [
+2,
+3,
+2
+]
+},
+"11639": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11640": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11641": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11642": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11643": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11644": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11647": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11648": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11649": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11650": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11651": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"11652": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"11653": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11654": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"11655": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11656": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"11987": {
+"name": "Small Sail Boat",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+1,
+1
+]
+},
+"11988": {
+"name": "Cort's Sentra",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11991": {
+"name": "VW Bus",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11993": {
+"name": "Coal Car",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 219,
+"size": [
+1,
+0,
+1
+]
+},
+"11994": {
+"name": "Locomotive",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 219,
+"size": [
+1,
+0,
+1
+]
+},
+"11995": {
+"name": "Tractor",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11996": {
+"name": "Flatbed Truck",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11997": {
+"name": "Compressed Gas Car",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 219,
+"size": [
+1,
+0,
+1
+]
+},
+"11998": {
+"name": "Service Truck",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"11999": {
+"name": "Recreational Vehicle",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 210,
+"size": [
+1,
+0,
+1
+]
+},
+"12001": {
+"name": "Generic Dood 1",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 410,
+"size": [
+1,
+0,
+1
+]
+},
+"12002": {
+"name": "Two People",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 410,
+"size": [
+1,
+0,
+1
+]
+},
+"12003": {
+"name": "Sim w/Baby Carriage",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12004": {
+"name": "Sim w/Toolbox",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12005": {
+"name": "Sim w/Briefcase",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12006": {
+"name": "Sim Pushing hand trucks",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12007": {
+"name": "Sims carrying pipes or boards",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12008": {
+"name": "Sims Walking Conversation",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12009": {
+"name": "Sim Bike Messenger",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12010": {
+"name": "Sim in Business Suit",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12011": {
+"name": "Kid on Bicycle",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12012": {
+"name": "Skateboarder",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12013": {
+"name": "Sim in Wheelchair",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12014": {
+"name": "Alien",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12016": {
+"name": "Jogger",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12017": {
+"name": "Walker",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12018": {
+"name": "Hospital Walk",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12019": {
+"name": "Sim Pushing Gurney",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12020": {
+"name": "Sim Pushing Wheelchair",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12021": {
+"name": "Sim On Crutches",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12025": {
+"name": "Cops && Robbers",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12026": {
+"name": "Sim Cop",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12029": {
+"name": "Fireman Walking",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12030": {
+"name": "Kid w/Backpack",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12031": {
+"name": "Group Of Kids",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12032": {
+"name": "Teacher Ringing Hand Bell",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12033": {
+"name": "Sim Toga party",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12034": {
+"name": "Sims w/college pennants",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12035": {
+"name": "Sims in  school colors",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12037": {
+"name": "Sims with luggage",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12038": {
+"name": "Sims with carts &&  luggage",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12039": {
+"name": "Construction workers carrying",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12047": {
+"name": "Army guy drilling",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12049": {
+"name": "Sim Jailbird",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12051": {
+"name": "Sims sweeping sidewalk",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12062": {
+"name": "Sims with hobo packs",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12071": {
+"name": "Sim Tourist Walking",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12074": {
+"name": "Slow Moving Sim",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12075": {
+"name": "Swaggering Sim",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12077": {
+"name": "Mounted Policeman",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12080": {
+"name": "Hobo Walking",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12082": {
+"name": "Ed Koch",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12083": {
+"name": "Striker 1",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12084": {
+"name": "Striker 2",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12085": {
+"name": "striker 3",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"12086": {
+"name": "Striker 4",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 400,
+"size": [
+1,
+0,
+1
+]
+},
+"13003": {
+"name": "Police Dispatch",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 100,
+"size": [
+1,
+2,
+1
+]
+},
+"13004": {
+"name": "Fire Dispatch",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 100,
+"size": [
+1,
+2,
+1
+]
+},
+"14000": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+0,
+1
+]
+},
+"14001": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"14002": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"14003": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+0,
+1
+]
+},
+"14010": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+0,
+1
+]
+},
+"14011": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+0,
+1
+]
+},
+"14012": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"14013": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"14014": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+0,
+1
+]
+},
+"14015": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"14016": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"14017": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+0,
+1
+]
+},
+"14020": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"14021": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"14022": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"14023": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"14030": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+0,
+1
+]
+},
+"14031": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"14032": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"14094": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"14999": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15001": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15002": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15003": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15004": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15005": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15006": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15007": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15008": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15012": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15013": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15014": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15015": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15020": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15021": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15022": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15026": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15027": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15028": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17203,
+"size": [
+1,
+1,
+1
+]
+},
+"15030": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15031": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15032": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15033": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15034": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15035": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15036": {
+"name": "Wire Crossing Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17209,
+"size": [
+1,
+3,
+1
+]
+},
+"15037": {
+"name": "Wire Crossing Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17209,
+"size": [
+1,
+3,
+1
+]
+},
+"15040": {
+"name": "Road Needing Repair",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16016,
+"size": [
+1,
+1,
+1
+]
+},
+"15041": {
+"name": "Road Needing Repair",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16016,
+"size": [
+1,
+1,
+1
+]
+},
+"15042": {
+"name": "Road Needing Repair",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16016,
+"size": [
+1,
+1,
+1
+]
+},
+"15045": {
+"name": "On Ramp Intersection",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"15046": {
+"name": "On Ramp Intersection",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"15047": {
+"name": "On Ramp Intersection",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"15048": {
+"name": "Road",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+1,
+1
+]
+},
+"15051": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15052": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15053": {
+"name": "Highway End",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15054": {
+"name": "Highway End",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15055": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15056": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15057": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15058": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15059": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15060": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15061": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15062": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15063": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15064": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15065": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15066": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15067": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15068": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15069": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15070": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15071": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15072": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15073": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15074": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+0,
+1
+]
+},
+"15076": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15077": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15078": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15079": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15080": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15081": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15082": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15083": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15084": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15085": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15086": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15087": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15088": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15089": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15090": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15092": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15093": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15094": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15095": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15096": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15097": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15098": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15099": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15100": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15101": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15102": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15103": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15104": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15105": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15106": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"15107": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15108": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15109": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15110": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15111": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17204,
+"size": [
+1,
+2,
+1
+]
+},
+"15112": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17204,
+"size": [
+1,
+2,
+1
+]
+},
+"15113": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17204,
+"size": [
+1,
+2,
+1
+]
+},
+"15114": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17204,
+"size": [
+1,
+2,
+1
+]
+},
+"15115": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15116": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15117": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15118": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15119": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15120": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15121": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15122": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15123": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15124": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15125": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15126": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15127": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15128": {
+"name": "Highway Interchange",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15130": {
+"name": "Highway Onramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15131": {
+"name": "Highway Onramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15132": {
+"name": "Highway Onramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15133": {
+"name": "Highway Onramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+2,
+1
+]
+},
+"15134": {
+"name": "Highway Onramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15135": {
+"name": "Highway Onramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15136": {
+"name": "Highway Onramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15137": {
+"name": "Highway Onramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15138": {
+"name": "Highway Onramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15139": {
+"name": "Highway Onramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+0,
+1
+]
+},
+"15140": {
+"name": "Highway Onramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+0,
+1
+]
+},
+"15141": {
+"name": "Highway Onramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17202,
+"size": [
+1,
+1,
+1
+]
+},
+"15145": {
+"name": "The Way Less Traveled",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15146": {
+"name": "Highway Sign",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15147": {
+"name": "Highway Sign",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15148": {
+"name": "Highway Sign",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15149": {
+"name": "Highway Construction",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15150": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15151": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15152": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"15153": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"16002": {
+"name": "Railroad Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17003,
+"size": [
+1,
+2,
+1
+]
+},
+"16003": {
+"name": "Railroad Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17003,
+"size": [
+1,
+2,
+1
+]
+},
+"16006": {
+"name": "Rail Crossing Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16014,
+"size": [
+1,
+2,
+1
+]
+},
+"16007": {
+"name": "Railroad Crossing Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16014,
+"size": [
+1,
+2,
+1
+]
+},
+"16008": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"16009": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"16010": {
+"name": "Subway to Rail Connection",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12361,
+"size": [
+1,
+1,
+1
+]
+},
+"16011": {
+"name": "Subway to Rail Connection",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12361,
+"size": [
+1,
+2,
+1
+]
+},
+"16012": {
+"name": "Subway Double Wide",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17415,
+"size": [
+1,
+1,
+1
+]
+},
+"16013": {
+"name": "Subway Double Wide",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17415,
+"size": [
+1,
+1,
+1
+]
+},
+"16020": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"16021": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"16022": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"16024": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"16025": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"16026": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"16030": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"16031": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"16032": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"16033": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"16034": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+2,
+1
+]
+},
+"16035": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16001,
+"size": [
+1,
+1,
+1
+]
+},
+"16036": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"16037": {
+"name": "Subway Zipperizer",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17420,
+"size": [
+1,
+1,
+1
+]
+},
+"16038": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"16039": {
+"name": "Subway Zipperizer",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17420,
+"size": [
+1,
+1,
+1
+]
+},
+"16040": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"16041": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"16042": {
+"name": "Highway Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17204,
+"size": [
+1,
+2,
+1
+]
+},
+"16043": {
+"name": "Highway Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17204,
+"size": [
+1,
+2,
+1
+]
+},
+"16044": {
+"name": "Highway Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17204,
+"size": [
+1,
+2,
+1
+]
+},
+"16045": {
+"name": "Highway Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17204,
+"size": [
+1,
+2,
+1
+]
+},
+"16046": {
+"name": "Highway Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17204,
+"size": [
+1,
+2,
+1
+]
+},
+"16047": {
+"name": "Highway Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17204,
+"size": [
+1,
+2,
+1
+]
+},
+"16048": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16007,
+"size": [
+1,
+2,
+1
+]
+},
+"16049": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16007,
+"size": [
+1,
+7,
+1
+]
+},
+"16050": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16007,
+"size": [
+1,
+5,
+1
+]
+},
+"16051": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16007,
+"size": [
+1,
+3,
+1
+]
+},
+"16052": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16007,
+"size": [
+1,
+2,
+1
+]
+},
+"16053": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16007,
+"size": [
+1,
+2,
+1
+]
+},
+"16054": {
+"name": "Highway Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17204,
+"size": [
+1,
+2,
+1
+]
+},
+"16055": {
+"name": "Highway Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17204,
+"size": [
+1,
+1,
+1
+]
+},
+"16060": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"16061": {
+"name": "Power Line Over Water",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17106,
+"size": [
+1,
+3,
+1
+]
+},
+"16062": {
+"name": "Power Line Over Water",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17106,
+"size": [
+1,
+3,
+1
+]
+},
+"16063": {
+"name": "Power Line Over Water",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17106,
+"size": [
+1,
+3,
+1
+]
+},
+"16064": {
+"name": "Power Line Over Water",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17106,
+"size": [
+1,
+3,
+1
+]
+},
+"16065": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"16067": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16002,
+"size": [
+1,
+1,
+1
+]
+},
+"16070": {
+"name": "Golden Gate Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16002,
+"size": [
+1,
+0,
+1
+]
+},
+"16303": {
+"name": "Locust Swarm Dispatch Icon",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 100,
+"size": [
+1,
+2,
+1
+]
+},
+"16304": {
+"name": "Locust Swarm Crop Duster Plane",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+1,
+1
+]
+},
+"16312": {
+"name": "Destroyed Wheat",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 15100,
+"size": [
+1,
+1,
+1
+]
+},
+"16333": {
+"name": "Stadium",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 14600,
+"size": [
+5,
+3,
+5
+]
+},
+"16334": {
+"name": "NamSam Tower (images from DooRyoTower)",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+4,
+17,
+4
+]
+},
+"18000": {
+"name": "Train House",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17002,
+"size": [
+1,
+1,
+1
+]
+},
+"18002": {
+"name": "Train House",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17002,
+"size": [
+1,
+1,
+1
+]
+},
+"18003": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+0,
+1
+]
+},
+"18004": {
+"name": "Road Ending",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16000,
+"size": [
+1,
+0,
+1
+]
+},
+"18005": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+0,
+1
+]
+},
+"18006": {
+"name": "Railroad",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+1,
+1
+]
+},
+"18007": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"18008": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+0,
+1
+]
+},
+"18009": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"18010": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"18011": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"18012": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"18013": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+0,
+1
+]
+},
+"18014": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"18015": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"18016": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"18017": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+0,
+1
+]
+},
+"18018": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"18019": {
+"name": "Railroad Tunnel",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+2,
+1
+]
+},
+"18020": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"18021": {
+"name": "Subway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17400,
+"size": [
+1,
+1,
+1
+]
+},
+"18022": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"18023": {
+"name": "Water Pipe",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17300,
+"size": [
+1,
+1,
+1
+]
+},
+"18024": {
+"name": "Railroad Tunnel",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17000,
+"size": [
+1,
+2,
+1
+]
+},
+"18027": {
+"name": "Highway Tunnel Entrance",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16006,
+"size": [
+1,
+2,
+1
+]
+},
+"18028": {
+"name": "Highway Tunnel Entrance",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16006,
+"size": [
+1,
+2,
+1
+]
+},
+"18029": {
+"name": "Highway Tunnel Entrance",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16006,
+"size": [
+1,
+2,
+1
+]
+},
+"18030": {
+"name": "Highway Tunnel Entrance",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16006,
+"size": [
+1,
+2,
+1
+]
+},
+"18049": {
+"name": "Landfill",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12850,
+"size": [
+1,
+1,
+1
+]
+},
+"18050": {
+"name": "Bridge Ramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16011,
+"size": [
+1,
+1,
+1
+]
+},
+"18051": {
+"name": "Bridge Ramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16011,
+"size": [
+1,
+1,
+1
+]
+},
+"18052": {
+"name": "Bridge Ramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16011,
+"size": [
+1,
+1,
+1
+]
+},
+"18053": {
+"name": "Bridge Ramp",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16011,
+"size": [
+1,
+0,
+1
+]
+},
+"18057": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+3,
+1
+]
+},
+"18058": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+3,
+1
+]
+},
+"18059": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+3,
+1
+]
+},
+"18060": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+3,
+1
+]
+},
+"18061": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+3,
+1
+]
+},
+"18062": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+3,
+1
+]
+},
+"18063": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+3,
+1
+]
+},
+"18064": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+3,
+1
+]
+},
+"18065": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+3,
+1
+]
+},
+"18066": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+3,
+1
+]
+},
+"18067": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+3,
+1
+]
+},
+"18068": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+3,
+1
+]
+},
+"18069": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+2,
+1
+]
+},
+"18070": {
+"name": "Harbour Bridge",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16004,
+"size": [
+1,
+2,
+1
+]
+},
+"18080": {
+"name": "Inclined High Tension Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"18081": {
+"name": "Inclined High Tension Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"18082": {
+"name": "Inclined High Tension Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"18083": {
+"name": "Inclined High Tension Power Line",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 12103,
+"size": [
+1,
+3,
+1
+]
+},
+"18084": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17205,
+"size": [
+1,
+2,
+1
+]
+},
+"18085": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17205,
+"size": [
+1,
+2,
+1
+]
+},
+"18086": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17205,
+"size": [
+1,
+2,
+1
+]
+},
+"18087": {
+"name": "Highway",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 17205,
+"size": [
+1,
+2,
+1
+]
+},
+"18088": {
+"name": "Highway Tunnel Bottom A",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16006,
+"size": [
+1,
+2,
+1
+]
+},
+"18089": {
+"name": "Highway Tunnel Bottom B",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16006,
+"size": [
+1,
+1,
+1
+]
+},
+"18090": {
+"name": "Highway Tunnel Bottom C",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16006,
+"size": [
+1,
+1,
+1
+]
+},
+"18091": {
+"name": "Highway Tunnel Entrance",
+"owner": "0xe223741f",
+"type": "0xa317745f",
+"category": 16006,
+"size": [
+1,
+2,
+1
+]
+},
+"18092": {
+"name": "Abandoned Seaport",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12330,
+"size": [
+1,
+1,
+1
+]
+},
+"18093": {
+"name": "Abandoned Seaport",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 12330,
+"size": [
+1,
+1,
+1
+]
+},
+"18098": {
+"name": "Subway Car",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 200,
+"size": [
+1,
+0,
+1
+]
+},
+"20000": {
+"name": "Quigley Castle",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 19999,
+"size": [
+4,
+5,
+4
+]
+},
+"21080": {
+"name": "Liverpool Cathedral",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+5,
+5,
+5
+]
+},
+"21081": {
+"name": "One Canada",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+5,
+19,
+5
+]
+},
+"21082": {
+"name": "Stockholm Palace",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+5,
+3,
+5
+]
+},
+"21083": {
+"name": "Anglican Cathedral",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+5,
+3,
+5
+]
+},
+"21084": {
+"name": "Helsinki Cathedral",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+5,
+4,
+5
+]
+},
+"21085": {
+"name": "Liver Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+5,
+7,
+5
+]
+},
+"21092": {
+"name": "St. Stephen's Cathedral",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+5,
+12,
+5
+]
+},
+"21094": {
+"name": "Korea Life Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+4,
+18,
+4
+]
+},
+"21095": {
+"name": "Nam Dae moon",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+4,
+3,
+4
+]
+},
+"21096": {
+"name": "konjungjon",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+4,
+3,
+4
+]
+},
+"21097": {
+"name": "Himeji Castle",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+5,
+4,
+5
+]
+},
+"21099": {
+"name": "Shitennoji",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+5,
+3,
+5
+]
+},
+"21103": {
+"name": "Broadcasting Building",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18000,
+"size": [
+5,
+4,
+5
+]
+},
+"25000": {
+"name": "Haunted House",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 20001,
+"size": [
+5,
+3,
+5
+]
+},
+"35004": {
+"name": "Daibutu",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18021,
+"size": [
+3,
+2,
+3
+]
+},
+"35005": {
+"name": "Kokkai",
+"owner": "0x207edc0e",
+"type": "0x0000057e",
+"category": 18021,
+"size": [
+3,
+2,
+3
+]
+}
+}

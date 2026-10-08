@@ -1,0 +1,37 @@
+[project]
+name = "simcp-3000"
+version = "0.1.0"
+description = "SiMCP 3000: MCP servers that let AI agents play SimCity 3000 Unlimited and design buildings for it"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.29", "pillow", "numpy"]
+keywords = ["mcp", "model-context-protocol", "simcity", "simcity-3000", "agents", "game-automation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment :: Simulation",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+sc3k-mcp = "sc3k_mcp.server:main"
+bat-mcp = "bat_mcp.server:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["sc3k_mcp", "bat_mcp"]
+
+[tool.setuptools.package-data]
+sc3k_mcp = ["data/*.json", "guide.md"]
+bat_mcp = ["guide.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

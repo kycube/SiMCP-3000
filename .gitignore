@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Bridge build output (bridge\build.bat)
+bridge/build/
+
+# Output of the live tools and the static-analysis helpers (they read or dump the local game install)
+live/scans/
+live/shots/
+re/out/
+
+# Local files
+*.bak
+*.lnk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
