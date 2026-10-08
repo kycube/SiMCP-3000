@@ -178,6 +178,6 @@ scratchpad `lin\`.
 ## Still open
 - Graph value -> displayed approval %.
 - Agent O+0xC bits 16..31 meanings; what the O+0x18 object is.
-- Which disposal list is incinerators vs WTE (LIKELY as given).
-- P+0x29C index 0 = neighbour-bought power (LIKELY).
+- Which disposal list is incinerators vs WTE: CONFIRMED live as given (notes/LIVE_FACTS.md round 8).
+- P+0x29C index 0 = neighbour-bought power: CONFIRMED live (LIVE_FACTS round 8).
 - W+0xC0 "100" sentinel semantics: check live.

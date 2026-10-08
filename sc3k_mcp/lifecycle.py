@@ -1188,9 +1188,18 @@ class Lifecycle:
         return [self.list_items(w["window"]) for w in self.widgets(win) if w["class"] == self.GZ_LIST]
 
     def _picker_list(self, win: int) -> list[dict]:
-        """Items of the picker's list box."""
+        """Items of the picker's list box. The list cuts long names ("Waste to Energy Inciner..."): those are given
+        back in full from the building catalog when the prefix names exactly one building."""
+        from .catalog import buildings
         for rows in self.lists(win):
             if rows:
+                full = sorted({v["name"] for v in buildings().values() if v.get("name")})
+                for r in rows:
+                    n = r.get("name", "")
+                    if n.endswith("..."):
+                        hits = [f for f in full if f.lower().startswith(n[:-3].lower())]
+                        if len(hits) == 1:
+                            r["name"] = hits[0]
                 return rows
         return []
 

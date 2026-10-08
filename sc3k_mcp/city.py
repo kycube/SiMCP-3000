@@ -157,7 +157,8 @@ class City:
             "disaster_active": self._clock_has_minute_listeners(),
         }
 
-    # plant type index (plant vt[0x4C]) -> fuel; index 0 = power bought from neighbors (LIKELY)
+    # plant type index (plant vt[0x4C]) -> fuel; index 0 = power bought from neighbours (verified live: of the shipped
+    # cities only Moscow has a buy-power deal, and only Moscow has index 0 non-zero)
     FUELS = ("neighbor_deal", "coal", "fusion", "gas", "microwave", "nuclear", "oil", "solar", "waste_to_energy",
              "wind")
 
@@ -418,7 +419,8 @@ class City:
                           "landfill_used_percent": -(-100 * used // cap) if cap else 0,
                           "landfill_free_tons": round(max(free, 0) * 0.1),
                           "to_landfill": round(g.i64(P + 0x184) * 0.1), "recycled": round(g.i64(P + 0x16C) * 0.1),
-                          "incinerated": round((g.i64(P + 0x174) + g.i64(P + 0x17C)) * 0.1),
+                          "incinerated": round(g.i64(P + 0x174) * 0.1),            # incinerators
+                          "waste_to_energy": round(g.i64(P + 0x17C) * 0.1),        # burned for power
                           "exported_by_deals": round(g.i64(P + 0x164) * 0.1),
                           "landfill_capacity_tons": round(g.u32(P + 0x468) * 0x7FFF * 0.1),
                           "landfill_tiles": g.u32(P + 0x468)}
@@ -513,8 +515,12 @@ class City:
                         v = tx(self.g.u32(r + 0x20), self.g.u32(r + 0x1C)) or ""
                     elif typ == 4:
                         v = self.neighbors()[self.g.u32(r + 0x1C)]["name"] if self.g.u32(r + 0x1C) < 4 else ""
-                    else:
+                    elif typ == 3:                    # money, as the game's locale prints it (live/t14)
+                        v = f"-${-val:,}" if val < 0 else f"${val:,}"
+                    elif typ == 2:                    # a locale-formatted number
                         v = f"{val:,}"
+                    else:                             # 5: "%d"
+                        v = str(val)
                     if tok:
                         tokens[tok] = v
                     node = self.g.u32(node)

@@ -49,7 +49,8 @@ reloads the palette, repaints the terrain (posts 0x45462FD2) (CONFIRMED). Trees:
 (0x100068A7) (CONFIRMED). Buildings: unload old, load BuildingSets\%08lX\*.DAT (0x1000641B; id 0 = built-in), re-apply
 user-made replacements (CONFIRMED). Existing buildings re-skinned at once, sets purely cosmetic: LIKELY.
 Saved per city: loader SIMINIT 0x10009E1F (from 0x10008BF8) reads save record {0x0525A6B9, 0x4525A6E2, 1} = 3 dwords
-buildings, trees, landscape, then SetScheme(..., 0); no record -> 0/0/0. Writer not found (OPEN).
+buildings, trees, landscape, then SetScheme(..., 0); no record -> 0/0/0. Writer: the city save (see the replace
+report section 4); saved with the city CONFIRMED live (LIVE_FACTS round 8).
 Recipes: read S = *(*(SC3U 0x4FA86C)+0x108); landscape *(S+0x18); trees *(S+0x34) ? *(S+0x2C) : 0; buildings *(S+0x58) ?
 *(S+0x50) : 0. List: record lists S+0x20 (stride 0x28), S+0x38 (0x20), S+0x5C (0x20), id at +0. Set:
 call(SIMINIT 0x10006589, [landscape, trees, buildings, show], this=S) with current values for unchanged ones; no outer

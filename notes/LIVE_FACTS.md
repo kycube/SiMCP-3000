@@ -347,3 +347,21 @@ real-time play.
   &{0x856CD19A, 0xBA1DBF1E, inst}) replaced Squat St. with The Joneses: the game's Query then titled the house "The
   Joneses"; S vt[0xAC] reverted; S vt[0xBC] clears. Saved in the .sc3 (record {0x99F47014, 0x79F4702D}; repl.py read it
   from Cities\mcp_repl_test.sc3) and S vt[0xB8](cRZString path, vtable SIMINIT+0x2F230) imported it back.
+
+## Verified, round 8 (2026-10-08): the remaining "LIKELY" data fields
+
+- City styles are saved with the city (live/t12): MCP E2E set to winter / conifers / european, saved as
+  mcp_t12_styles, the styles put back in memory, another city loaded (temperate / mixed / north_american), the test
+  city loaded again -> winter / conifers / european. The save writes record {0x0525A6B9, 0x4525A6E2, 1} (replace
+  report section 4).
+- Garbage year totals (live/t13, shipped cities): P+0x174 = incinerators (non-zero only where incinerators stand:
+  Moscow 8, Craterville 3, Liverpool 3, Madrid 5), P+0x17C = waste-to-energy (Europolis, 22 WTE plants and no
+  incinerator: P+0x174 0, P+0x17C 10,628,308; cities with WTE power output all have it non-zero). Exposed separately
+  as population_details garbage "incinerated" and "waste_to_energy".
+- Power P+0x29C[0] = power bought from neighbours (live/t12): of the 15 shipped cities only Moscow has an active
+  buy_power deal (Marcello, 32,501) and only Moscow has index 0 non-zero (408,440 MWh over 12 months).
+- Advisor tokens (live/t14): the formatter's locale = SIMADV 0x10027B3D()->vt[0x94](0); vt[0x3C](int64, cIGZString*)
+  prints money ("$1,234,567", "-$5,000") and is used for token type 3; vt[0x40] prints a plain number ("1,234,567")
+  for type 2; type 5 is "%d". Advice templates read "at a cost of %Y%" (no currency sign of their own).
+- The building pickers' list cuts long names ("Waste to Energy Inciner..."); the reader now restores the catalog name
+  when the prefix names exactly one building.

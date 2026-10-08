@@ -427,7 +427,8 @@ def _metrics(traffic: bool = True) -> dict:
            "land_value_avg": s["land_value_avg"], "crime_avg": s["crime_avg"],
            "air_pollution_avg": s["pollution"]["air"], "water_pollution_avg": s["pollution"]["water"],
            "garbage_produced": g["produced_tons_per_year"],
-           "garbage_handled": g["to_landfill"] + g["recycled"] + g["incinerated"] + g["exported_by_deals"],
+           "garbage_handled": g["to_landfill"] + g["recycled"] + g["incinerated"] + g["waste_to_energy"] +
+                              g["exported_by_deals"],
            "school_use": [p["schools"]["students"], p["schools"]["desks"]],
            "college_use": [p["colleges"]["students"], p["colleges"]["capacity"]],
            "hospital_use": [p["hospitals"]["patients"], p["hospitals"]["beds"]]}

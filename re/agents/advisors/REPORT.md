@@ -45,7 +45,7 @@ ticker item). Read memory instead.
 Tokens: globals %MAYOR% %YOURNAME% %CITYNAME% %YOURCITY% %POPULATION% %YEAR% %PARADENAME% %ANYNEIGHBOR%
 (SIMADV 0x100385D0..). Per-entry token records (ctor 0x1002A019(type, token, value)): +4 type; +8 token string
 object (+0xC begin, +0x10 end); +0x1C/+0x20/+0x24 values. Formatter 0x1002A8C8: 1 text(table +0x20, index
-+0x1C); 2/3 int +0x24 locale-formatted (money vs number OPEN; Budget uses 3 for %X%); 4 neighbor (+0x1C);
++0x1C); 2/3 int +0x24 locale-formatted (3 = money "$1,234", 2 = number "1,234": CONFIRMED live, LIVE_FACTS round 8); 4 neighbor (+0x1C);
 5 "%d" of +0x24. Advisor messages with %X%/%Y% (disaster damage, 140-286, 401-411) and %NEIGHBOR% (249).
 
 ## B. Scenarios
