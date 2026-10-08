@@ -585,6 +585,22 @@ class City:
         S = self.g.u32(self.C + 0x100)
         if not S:
             return {"scenario": False}
+        file_texts = {}
+        try:                                    # texts a scenario carries in its own .SNR (path at S+0x938)
+            from . import scenarios
+            path = self.g.rz_string(S + 0x938, 1024)
+            if path and os.path.isfile(path):
+                if getattr(self, "_scn_cache", (None,))[0] != path:
+                    info = scenarios.read(path)
+                    self._scn_cache = (path, int(info.get("header", ["0"])[0], 16),
+                                       {int(k): v for k, v in info["texts"].items()})
+                file_texts = {(self._scn_cache[1], k): v for k, v in self._scn_cache[2].items()}
+        except Exception:
+            pass
+
+        def tx(table, index, _tx=tx):
+            v = _tx(table, index)
+            return v if v is not None else file_texts.get((table, index))
         running = bool(self.g.proc.read(S + 9, 1)[0])
         rank = self.g.i32(S + 0x8D8)
         table = self.g.u32(S + 0x8BC)

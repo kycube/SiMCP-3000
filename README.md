@@ -5,7 +5,7 @@
 SiMCP 3000 is two [Model Context Protocol](https://modelcontextprotocol.io) servers for **SimCity 3000 Unlimited**
 (the stock GOG build 2.0.949, Windows):
 
-- **simcity3000** (`python -m sc3k_mcp`, 86 tools): plays the game. It reads the game's state from process memory
+- **simcity3000** (`python -m sc3k_mcp`, 88 tools): plays the game. It reads the game's state from process memory
   and acts by calling the game's own code on its UI thread, so costs, placement rules, availability and the
   simulation are the game's own. No screenshots are needed to know anything: every number comes from memory.
   Time steps exactly and reproducibly, which makes it a tool for city-efficiency experiments as much as for play.
@@ -57,7 +57,7 @@ for clients that connect to a URL. Set `SC3K_GAME_DIR` if the game is not in the
   powered town with water) and `save_city("mcp_e2e")`. Coordinates in `t6_stdio.py` refer to the developers' copy;
   adjust them for yours.
 
-## Tools (86)
+## Tools (88)
 
 | Group | Tools |
 |---|---|
@@ -65,6 +65,7 @@ for clients that connect to a URL. Set `SC3K_GAME_DIR` if the game is not in the
 | Lifecycle | `game_launch`, `game_status`, `start_trial` (reproducible experiment: fresh game + seeded randomness + load), `new_city` (name, mayor, difficulty, start year, size, disasters, terrain: hills/water/trees, river/lake/mountain, coasts), `generate_terrain`, `edit_terrain`, `finish_map_editor`, `list_cities`, `load_city` (saved city, starter town, real-city terrain, scenario), `load_scenario`, `scenario_status`, `save_city`, `rename_city`, `set_auto_budget`, `preferences`, `set_preferences` (traffic / pedestrian / animation display, auto go to disasters, tips, music and the songs in rotation, sound effects, ambient sound, volumes, 3D sound), `set_city_options` (landscape, tree and building styles: North American / European / Asian; description), `building_replacements` / `replace_building` / `reset_building_replacements` (show default buildings as user-made Building Architect buildings, as the game's Building Replacement Manager does), `quit_game` |
 | Observe | `metrics` (one flat efficiency snapshot), `city_status` (incl. power produced by fuel type, water served %, approval), `map_text` / `map_data` / `map_image` / `layer_stats` (terrain, zones, buildings and every data layer: land value, crime, police, fire, air and water pollution, radiation, landfill garbage, power, water, pipes, traffic, aura, flammability, density), `tile_info` (every layer at a tile with the game's labels, salt or fresh water), `building_info` / `buildings` (state, residents / jobs, service, plant fuel / capacity / age, water source and intake, treatment, recycling, waste-to-energy, stations' passengers...), `zone_summary` (incl. undeveloped zoned land), `population_details` (ages, EQ, life expectancy, workforce, unemployment, schools / colleges / hospitals, libraries / museums, garbage flows and landfill fullness), `transit`, `rewards`, `building_counts`, `find_empty_area`, `graphs` (14 history series), `news`, `game_events`, `advisors` (messages and mood), `disasters`, `query` (the game's own Query window for any tile), `city_options` (styles, description), `screenshot`, `center_view`, `set_view` (rotation, zoom, underground and data-view overlays, layers, grid, toolbars) |
 | Photo Album | `take_snapshot`, `snapshots` (with each one's city, mayor, date, population, funds and caption), `snapshot_image`, `set_snapshot_caption`, `delete_snapshot` (to the Recycle Bin) |
+| Scenarios | `load_scenario`, `scenario_status`, `scenario_file` (any scenario decoded: goals, ranks, texts, scripts in the game's scenario language), `create_scenario` (a new scenario from a saved city: goals checked monthly, a time limit, win / lose texts - what the game's Scenario Creator made) |
 | Cheats | `cheats` (the codes the game accepts and the ones used), `cheat` (as the game's cheat box; "Crash" and "Internet chat" refused) |
 | Build | `tool_catalog`, `build` (line / area / click tools by tile; reports what changed, read back from memory), `bulldoze`, `building_options` (what each game picker offers now), `place_building` (power / water / garbage / landmark / reward buildings by name, chosen in the game's own picker), `build_many` |
 | Economy | `get_budget` (taxes, departments, bonds, ledgers by month), `set_tax`, `set_department_funding`, `ordinances` (monthly amount of every ordinance at the current city size), `set_ordinance`, `issue_bond`, `petitions` (with text and the real deal terms), `answer_petition` |
@@ -180,8 +181,9 @@ MCP client --stdio or HTTP--> Python FastMCP server (64-bit)
   screen recipes (dialog layouts, toolbar and picker positions, `ui_*` and screenshot coordinates) are measured at
   that size.
 - Outside the game itself: the Building Architect (`Apps\Baapp.exe`) has its own server (`bat_mcp`, above); the
-  Scenario Creator is a separate program not covered, and the game's online features (SimCity.com exchange) no longer
-  exist. Buildings made with the Architect show up in the game as user-made buildings (`building_replacements`).
+  game's online features (SimCity.com exchange) no longer exist. The Scenario Creator (an Access 97 / 2000
+  database in Apps\ScenarioCreator) does not run with current 64-bit Office; `create_scenario` writes scenarios
+  directly instead (goal-based ones; `scenario_file` shows the full script language of the shipped scenarios). Buildings made with the Architect show up in the game as user-made buildings (`building_replacements`).
   The Building Architect's "building sets" (.bst / .scs) are stubs in this build of the program (its menu
   strings exist, the functions do nothing), so there is nothing to cover.
 - Building Architect: `render_building(install=true)` writes Apps\BARender\BAT.DAT (backed up first) and needs

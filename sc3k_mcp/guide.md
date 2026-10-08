@@ -73,6 +73,18 @@ The simulation stays paused except while `advance_time` or `run_realtime` runs.
   final rank (1 is best), `close_dialog` answers with "Replay Scenario", "Play Another Scenario" or "Return to Main
   Menu".
 
+## Scenarios
+
+- Play: `load_scenario(name)` (`list_cities(kind="scenario")`), `scenario_status` for the goals and the months
+  elapsed; when it ends the results window offers "Replay Scenario", "Play Another Scenario", "Return to Main Menu".
+- Read: `scenario_file(name)` shows any scenario without playing it - its goals, rank titles, texts and every
+  script in the game's scenario language (conditions, pop-ups, disasters, timers). The shipped ones are good
+  examples.
+- Write: `create_scenario(name, base_city, goals, months, ...)` makes a new scenario from a saved city (set the
+  city up first and `save_city` it): goals such as population at least N or crime at most N, checked once a month;
+  all goals met = rank 1, the time limit passed first = rank 2. Then play it with `load_scenario(name)`. Useful for
+  experiments: the same challenge, replayed by different strategies.
+
 ## Money
 
 - `get_budget`: funds, taxes, department funding and costs, bonds, and ledgers by month (fares, deals, ordinances).

@@ -326,6 +326,72 @@ def _scenario() -> dict:
 
 
 @tool("read")
+def scenario_file(name: str, scripts: bool = True) -> dict:
+    """Read a scenario file (Cities/Scenarios/*.SNR) without playing it: name, description, base city, goals, rank
+    titles, its texts and every script as readable instructions (the game's scenario language: goals, conditions,
+    pop-up messages, disasters, timers). The game need not be running. Learn from the shipped scenarios before
+    writing one with create_scenario.
+
+    Args:
+        name: Scenario name as list_cities(kind="scenario") shows it, or a path to an .SNR file.
+        scripts: Include the scripts as readable lines.
+    """
+    def run():
+        from . import scenarios
+        r = scenarios.read(name)
+        table = int(r.get("header", ["0"])[0], 16)
+        texts = {int(k): v for k, v in r["texts"].items()}
+        out = {k: r[k] for k in ("file", "name", "description", "base_city", "entry_script", "guide_advisor",
+                                 "picture", "texts_embedded", "city_records") if k in r}
+        entry = [i for v in r["scripts"].values() for i in v]              # goals may be added by a subroutine
+        out["goals"] = [{"id": i["args"][0][1], "text": texts.get(i["args"][2][1], "")} for i in entry
+                        if i["name"] == "AddGoal" and len(i["args"]) == 3]
+        out["ranks"] = [{"rank": i["args"][0][1], "title": texts.get(i["args"][2][1], "")} for i in entry
+                        if i["name"] == "AddRankInfo" and len(i["args"]) == 3]
+        if scripts:
+            out["scripts"] = {k: scenarios.listing(v, table, texts) for k, v in r["scripts"].items()}
+        return out
+    return _guard(run, _attach=False)
+
+
+@tool("act")
+def create_scenario(name: str, base_city: str, goals: list[dict], description: str = "", briefing: str = "",
+                    months: int = 0, win_title: str = "Scenario Completed!", win_text: str = "",
+                    lose_title: str = "Time Is Up", lose_text: str = "", advisor: str = "planner",
+                    picture_path: str = "", overwrite: bool = False) -> dict:
+    """Write a new scenario (Cities/Scenarios/<name>.SNR) - what the game's Scenario Creator made, which cannot run
+    on current Windows / Office: a saved city plus goals the game checks once a month. When all goals are met the
+    scenario ends with rank 1 (win); when the time limit passes first, with rank 2. Then load_scenario(name) plays
+    it like the game's own scenarios (scenario_status, the results window). The game need not be running.
+
+    Args:
+        name: The scenario's name and file name.
+        base_city: A saved city as list_cities shows it (kind city), e.g. one made with save_city.
+        goals: Up to 10 goals, each {"measure", "at_least" or "at_most": number, "text": what the player reads}.
+            measure: population | funds | crime | land_value | traffic | approval | air_pollution | water_pollution |
+            garbage_pollution | unpowered_buildings | unwatered_buildings | debt | power_surplus | water_surplus.
+        description: Shown in the scenario picker (e.g. the goal and difficulty).
+        briefing: Opening message shown when the scenario starts.
+        months: Time limit in months (0 = none: the scenario ends only when all goals are met).
+        win_title: Title for rank 1.
+        win_text: Results text when all goals are met.
+        lose_title: Title for rank 2.
+        lose_text: Results text when time runs out.
+        advisor: Who presents the scenario: planner | budget | utilities | environment | health_education | safety |
+            transportation.
+        picture_path: A picture for the scenario picker (fitted to 163 x 152); default a card with the name.
+        overwrite: Replace an existing scenario of that name (never one of the game's own).
+    """
+    def run():
+        from . import scenarios
+        if len(goals) > 10:
+            raise GameError("at most 10 goals")
+        return scenarios.create(name, base_city, description, goals, months, briefing, win_title, win_text,
+                                lose_title, lose_text, advisor, picture_path, overwrite)
+    return _guard(run, _attach=False)
+
+
+@tool("read")
 def scenario_status() -> dict:
     """The running scenario: name, description, goals with met / not met, months elapsed and, once it has ended, the
     final rank (1 is best) and result text. When a scenario ends the game shows its results window (dialog_status):
