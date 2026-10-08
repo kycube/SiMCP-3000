@@ -27,7 +27,7 @@ Usage:
                                           its block list and check the decoded geometry is identical
   python bld.py thumbs OUTDIR [FILE ...]  write the stored 200x200 thumbnails (and embedded textures) as PNG
   python bld.py render FILE OUT.png       flat-shaded isometric preview of the 3D model (PIL)
-  python bld.py example OUT.bld           build the minimal example (UNTESTED in the BAT / game)
+  python bld.py example OUT.bld           build the minimal example (loads and renders in the Architect)
 """
 from __future__ import annotations
 
@@ -864,7 +864,8 @@ def place_prop(bld, met_line, cx, cy, z0=1, rot=None):
     """Place one prop (one MET line = one orientation) with its footprint centred on cell (cx, cy) and its bottom at
     z0, like the BAT's prop tool: one shape-15 cell per block of the x*y*z volume (clipped to the lot / height),
     faces 1..4 = the 4 view bitmaps, uv bytes = signed offsets of the cell from the reference cell
-    (cx, cy, z0 + (sz-1)//2) per view. Reference/clipping rule from the samples (LIKELY); NOT tested in the BAT."""
+    (cx, cy, z0 + (sz-1)//2) per view. Reference/clipping rule from the samples; a tree placed this way renders
+    correctly in the Architect (notes/BAT_PHASE0.md)."""
     sx, sy, sz, views = met_line
     m = bld.model
     rot = m.view_rot if rot is None else rot
@@ -1295,8 +1296,8 @@ def render_thumbnail(bld: Building) -> Image:
 
 # ------------------------------------------------------------------------------------- minimal example
 def example(path=None):
-    """1x1 lot, grass ground, a 4x4-cell footprint, 2 blocks tall box with brick walls and a flat roof.
-    NOT TESTED in the BAT or the game."""
+    """1x1 lot, grass ground, a 4x4-cell footprint, 2 blocks tall box with brick walls and a flat roof (the
+    "Agent Box" that loaded and rendered in the Architect, notes/BAT_PHASE0.md)."""
     b = Building.new("Agent Box", "sc3k-mcp", lot=1, description="2-storey brick box", building_type=0x208)
     m = b.model
     brick, roof = "brick 04.tga", "flatr 01.tga"

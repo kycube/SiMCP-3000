@@ -563,7 +563,17 @@ class Architect:
             s = t.lower()
             if not any(i["name"].lower() == s or os.path.splitext(i["name"])[0].lower() == s for i in lib):
                 unknown.append(t)
-        if missing or bad or unknown:
+        # the model's texture table has 255 usable slots (M+0x1AC: 256 x {refcount, Item*}, slot 0 unused, face
+        # records hold a one-byte slot): a building can use at most 255 different paints and details
+        m = self.model()
+        raw = self.a.proc.read(self.a.u32(m + 0x1AC), 8 * 256)
+        in_use = {self.a.rz_string(struct.unpack_from("<I", raw, 8 * s + 4)[0] + 0x48).lower()
+                  for s in range(1, 256) if struct.unpack_from("<II", raw, 8 * s)[0]
+                  and struct.unpack_from("<I", raw, 8 * s + 4)[0]}
+        stems = {os.path.splitext(t)[0] for t in in_use}
+        new = {t.lower() for t in names if t.lower() not in in_use and t.lower() not in stems}
+        too_many = len(in_use) + len(new) > 255
+        if missing or bad or unknown or too_many:
             parts = []
             if missing:
                 parts.append(f"{len(missing)} cells have no block, e.g. {sorted(set(missing))[:6]}")
@@ -571,6 +581,9 @@ class Architect:
                 parts.append(f"{len(bad)} faces do not exist: {bad[:3]}")
             if unknown:
                 parts.append(f"unknown textures {sorted(unknown)} (library lists them)")
+            if too_many:
+                parts.append(f"a building can use at most 255 different textures (the program's limit): it uses "
+                             f"{len(in_use)} and this call adds {len(new)} new ones - reuse textures already on it")
             raise GameError("nothing was changed: " + "; ".join(parts))
 
     def paint_mapped(self, faces: list[dict], detail: bool = False) -> int:

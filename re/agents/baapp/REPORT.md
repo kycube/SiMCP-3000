@@ -157,3 +157,6 @@ refcounts when replacing a face texture via SetBlock (limit 255 per building). 4
 blocks; hit-struct size; prop ids for .met entries. 5. One SetBlock = one undo step? Is 0x40F336(m+0x6C) needed?
 6. Render via 0x401C73 with a dummy this; toolkit visibility. 7. Library item name format. 8. .bld path on the
 command line (string 0x2CF).
+Answered live later (notes/BAT_PHASE0.md round 6): 1, 3, 4, 5 by the bat_mcp work (model.py); 8 = no, the program
+starts with nothing open (live/b2_cmdline.py); the 255-texture limit is enforced by bat_mcp before painting; the
+program ignores WM_CLOSE - bat_quit uses the framework's Quit (vtable 0x48414C slot 16).

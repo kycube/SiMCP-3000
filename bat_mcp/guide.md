@@ -169,9 +169,11 @@ identical pixel values), so either can be used to judge colours; construct mode 
    `prop_template`'s grid (a 3x3x5 cone is a 128 px prop).
 5. Build in an order that keeps paint where it belongs: walls and their paint, then `roof` (with its textures),
    then anything that rises through the roof (towers, chimneys), then details and props.
-6. Paint and detail calls are all or nothing: if any cell or face does not exist, nothing changes and the error
+6. A building can use at most 255 different paints and details (the program's texture table); paint calls that
+   would go beyond refuse before changing anything - reuse textures (a few walls, a few trims) as real buildings do.
+7. Paint and detail calls are all or nothing: if any cell or face does not exist, nothing changes and the error
    lists every problem - fix the list and call again.
-7. Choose the front's side knowingly: the game never turns a building toward its street, every copy is drawn the
+8. Choose the front's side knowingly: the game never turns a building toward its street, every copy is drawn the
    same way. The game's own houses show their fronts on +x (lower-left, lit, in the default view); +y (lower-right)
    is the other side visible by default. (Photo to building, best practice 11.)
 

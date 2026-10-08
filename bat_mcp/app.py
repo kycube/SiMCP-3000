@@ -58,16 +58,23 @@ class BatApp(Game):
                     "window": wins[0]["title"] if wins else None}
 
     def quit(self, timeout: float = 15.0) -> dict:
-        """Close the Architect (WM_CLOSE to its window); unsaved work is lost."""
+        """Close the Architect with its framework's Quit (framework *(0x4971C8), vtable slot 16 -> PostQuitMessage;
+        the program ignores WM_CLOSE, as the game does); no save prompt: unsaved work is lost."""
         with self.lock:
             if not self.proc or not self.proc.alive():
                 pid = self._find()
                 if not pid:
                     return {"running": False}
                 self.proc = win32.Process(pid)
-            for w in _windows_of(self.proc.pid):
-                if w["cls"] == "Gonzo":
-                    win32.post_message(w["hwnd"], 0x10)
+            try:
+                if not self.bridge:
+                    self.attach(launch=False)
+                fw = self.u32(0x4971C8)
+                self.call(self.vfn(fw, 16), [0], this=fw)
+            except Exception:                                   # no bridge: ask the window instead
+                for w in _windows_of(self.proc.pid):
+                    if w["cls"] == "Gonzo":
+                        win32.post_message(w["hwnd"], 0x10)
             deadline = time.time() + timeout
             while self.proc.alive() and time.time() < deadline:
                 time.sleep(0.2)

@@ -94,7 +94,7 @@ async def main():
                 errors += bad
                 flag = " isError" if res.isError else ""
                 print(f"{'ERR' if bad else 'ok '}{flag} {tool} {json.dumps(args)}: {text[:300]}")
-    print(f"{errors} errors")
+    print(f"{errors} errors (3 expected: the refused Crash code, no deal with NE, a tile off the map)")
 
 
 if __name__ == "__main__":

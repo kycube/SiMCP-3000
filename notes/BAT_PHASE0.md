@@ -132,3 +132,15 @@ visuals should be ingested (images of the building) but without screenshots.
   the left (0.37); the game's own sprites are about 0.55 - 0.65.
 - FastMCP runs sync tools in a worker thread: a first `import numpy` there hung the server; import it at start-up.
 - The mcp stdio client's shutdown also ends a game launched by the server in that session (one session per test).
+
+## Verified live, round 6 (2026-10-08)
+- Exit: the Architect ignores WM_CLOSE (the old bat_quit waited 15 s and gave up). The framework's Quit -
+  framework *(0x4971C8), vtable 0x48414C slot 16 = 0x45F75C (PostQuitMessage, or a deferred quit flag at +0xFC) -
+  closes it at once, without a save prompt.
+- Command line: Baapp.exe -w -r1024x768 "<Buildings>\The Joneses.bld" starts with no building open: a path on the
+  command line is ignored (live/b2_cmdline.py). open_building is the way to open a project.
+- Texture table: 255 usable slots per building (M+0x1AC, slot 0 unused, one-byte slot ids in the face records).
+  bat_mcp refuses a paint / detail call that would need more, before anything changes (a 1x1 tower: 260 new
+  textures refused, 250 painted, then 10 more refused and 5 more painted).
+- Building sets (.bst / .scs): the program's menu strings exist ("Load a Building Set", "Prepare Building Set"...),
+  but its functions are stubs returning 0 in this build (re/agents/baapp/REPORT.md): nothing to drive.
