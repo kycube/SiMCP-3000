@@ -190,7 +190,7 @@ MEASURES = {
     "unwatered_buildings": ("CountUnwateredBuildings", []), "debt": ("GetTotalDebt", []),
     "power_surplus": ("GetSurplusPower", []), "water_surplus": ("GetSurplusWater", []),
 }
-MONTHLY = 2                     # RepeatRegular period code for once a month
+MONTHLY = 2                     # RepeatRegular periods: 0 daily, 1 weekly, 2 monthly, 3 yearly (re/agents/scenario)
 V_MONTHS = 200                  # script variable for the months elapsed (goal k uses variable k)
 T_BRIEFING, T_GOAL0, T_RANK0, T_RESULT0 = 101, 141, 160, 170
 
@@ -223,7 +223,8 @@ def compile_goals(table: int, goals: list[dict], months: int, briefing: bool) ->
             met, unmet = _ins("GreaterThan", _var(v), int(gl["at_least"]) - 1), _ins("LessThan", _var(v), int(gl["at_least"]))
         else:
             met, unmet = _ins("LessThan", _var(v), int(gl["at_most"]) + 1), _ins("GreaterThan", _var(v), int(gl["at_most"]))
-        check += [_ins("If"), met, _ins("MarkGoalStatus", k + 1, 1), _ins("If"), unmet, _ins("MarkGoalStatus", k + 1, 0)]
+        check += [_ins("If"), met, _ins("BeginBlock"), _ins("MarkGoalStatus", k + 1, 1), _ins("EndBlock"),
+                  _ins("If"), unmet, _ins("BeginBlock"), _ins("MarkGoalStatus", k + 1, 0), _ins("EndBlock")]
     check += [_ins("If"), _ins("AllGoalsMet"), _ins("BeginBlock"), _ins("SetResultsDlgText", T, T_RESULT0, 1),
               _ins("EndScenario", 1), _ins("EndBlock")]
     if months:

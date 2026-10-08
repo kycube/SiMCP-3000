@@ -24,7 +24,9 @@ itself (live/t16: a copy of Rags To Riches with all 75 texts embedded under a ne
 and script references moved to that id, loaded and showed "MCP Rags To Riches" and its briefings).
 
 Opcode names: Apps\Sys\SYS.PAK SC3ScenarioLayer.ini (0 Add ... 74 IsNeighborDealPresent; sc3k_mcp/scenarios.py
-OPS). scenario_file lists any scenario's scripts readably, e.g. Rags To Riches' monthly crime check:
+OPS); every command's arguments, the interpreter and the loader: re/agents/scenario/REPORT.md. The number before
+each opcode is a start time (1/1440 day) that only matters in the entry script. scenario_file lists any
+scenario's scripts readably, e.g. Rags To Riches' monthly crime check:
 
 ```
 GetCrimeValue(1)
