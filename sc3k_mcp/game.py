@@ -377,6 +377,19 @@ class Game:
         self._check(self.bridge.tool_points(tool, cam, pts, click_each, defer=True))
         return self.finish_pending()
 
+    def run_deferred(self, fn: int, args=(), this: int = 0, what: str = "action") -> dict:
+        """Call a game function from the message loop (like run_tool), so a window it opens does not block:
+        {"cost", "funds"} once done, or {"pending": what} while a dialog waits for an answer (close_dialog)."""
+        if self.pending and "pending" in self.finish_pending(timeout=0.3):
+            raise GameError("a game dialog from an earlier action is waiting for an answer (close_dialog)")
+        if self.bridge.deferred_state()["running"]:
+            raise GameError("a deferred game action is still running (is a game dialog open?)")
+        c = self.need_city()
+        budget = self.u32(c + CITY_BUDGET)
+        self.pending = {"what": what, "funds0": self.i64(budget + BUDGET_FUNDS), "depth0": self.modal_depth()}
+        self._check(self.bridge.defer_call(fn, args, this))
+        return self.finish_pending()
+
     def finish_pending(self, timeout: float = 30.0) -> dict:
         """Wait for the pending tool operation: its cost once done, or {"pending": ...} while a dialog is open."""
         p = self.pending

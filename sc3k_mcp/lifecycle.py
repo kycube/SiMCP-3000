@@ -132,15 +132,23 @@ class Lifecycle:
         return out
 
     def _buttons(self, w: list[dict]) -> list[tuple[str, dict]]:
-        """(label, button) for every button of a window: its own text, else the text label right next to it on
-        the same row (option buttons such as "Cancel Deal" / "Keep Deal", "Impact Analysis:")."""
+        """(label, button) for every button of a window: its own text, else a text label with the same widget id
+        (picture buttons under a caption, e.g. the scenario results' "Replay Scenario"), else the text label right
+        next to it on the same row (option buttons such as "Cancel Deal" / "Keep Deal", "Impact Analysis:")."""
         out = []
         labels = [x for x in w if x["class"] == self.GZ_TEXT and x["text"].strip()]
+        by_id = {}
+        for lab in labels:
+            if lab["id"] and lab["depth"] == 0:
+                by_id.setdefault(lab["id"], lab)
         for b in w:
             if b["class"] != self.GZ_BUTTON or b["depth"] > 0:
                 continue
             if b["text"].strip():
                 out.append((b["text"].strip(), b))
+                continue
+            if b["id"] in by_id:
+                out.append((by_id[b["id"]]["text"].strip().rstrip(":"), b))
                 continue
             bx0, by0, bx1, by1 = b["rect"]
             for lab in labels:
@@ -580,6 +588,103 @@ class Lifecycle:
         if got != data.decode("cp1252"):
             raise GameError(f"the description reads {got!r}")
         return self.city_options()
+
+    # ------------------------------------------------------------ the Hide / Show Toolbars tab
+    # A SIMUI tab button (vtable SIMUI 0x100A9F0C, the bottom-right corner of the screen); +0xD0 = 1 while the
+    # toolbars are hidden (verified 2026-10-08: one click hides the toolbars and status bar, the next shows them).
+    def _toolbar_tab(self) -> dict:
+        vt = self.g.mod("simui.dll") + 0xA9F0C
+        tabs = [w for w in self.widgets(self._root()) if self.g.u32(w["window"]) == vt]
+        if not tabs:
+            raise GameError("the Hide / Show Toolbars tab was not found (is a city open?)")
+        return tabs[0]
+
+    def toolbars_shown(self) -> bool:
+        try:
+            return self.g.u32(self._toolbar_tab()["window"] + 0xD0) == 0
+        except GameError:
+            return True
+
+    def set_toolbars(self, show: bool) -> bool:
+        self.g.need_city()
+        if self.modal():
+            raise GameError("close the open game dialog first")
+        t = self._toolbar_tab()
+        if (self.g.u32(t["window"] + 0xD0) == 0) != bool(show):
+            x0, y0, x1, y1 = t["rect"]
+            self.g.click((x0 + x1) // 2, (y0 + y1) // 2, wait_ms=500)
+        if self.toolbars_shown() != bool(show):
+            raise GameError("the toolbars did not change")
+        return bool(show)
+
+    # ------------------------------------------------------------ cheat codes (re/agents/events/REPORT.md section 6)
+    # The cheat manager (SC3U vtable 0x4D7900) = X->vt[0x2C](), X cached at SIMMISC .data 0x1004A0E8: +0x04 list of
+    # registered codes (node +8 string, +0x1C id), +0x08 listeners, +0x0C ids used, +0x2C enabled. vt[0x2C]
+    # Match(cIGZString*, &id) -> 0 none / 1 code + parameters / 2 exact (case-insensitive); vt[0x28] Send(text, id)
+    # delivers {0x230E27AC, id, text} to the listeners - what the game's cheat box (Ctrl+Alt+Shift+C) does.
+    CHEATS_BLOCKED = {0x8889284A: "crashes the game (it writes to address 0)",
+                      0x53483962: "opens the game's online chat, a service that no longer exists"}
+
+    def _cheat_manager(self) -> int:
+        g = self.g
+        X = g.u32(g.mod("simmisc.dll") + 0x4A0E8)
+        if not X:
+            raise GameError("the cheat manager is not available yet (start or load a city)")
+        return g.call(g.vfn(X, 0x2C // 4), [], this=X)
+
+    def _cheat_ids_used(self, mgr: int) -> list[int]:
+        """The ids in the used set: a tree whose head is *(mgr+0x0C) (head+4 root; node +8 / +0xC children, value
+        +0x10), walked like the other game maps (verified: "I am weak" appears after use)."""
+        return [self.g.u32(n + 0x10) for n in self._tree(self.g.u32(mgr + 0x0C))]
+
+    def cheats(self) -> dict:
+        g = self.g
+        g.need_city()
+        mgr = self._cheat_manager()
+        head, codes = g.u32(mgr + 4), []
+        n = g.u32(head)
+        while n and n != head and len(codes) < 500:
+            cid = g.u32(n + 0x1C)
+            c = {"code": g.rz_string(n + 8), "id": f"{cid:#010x}"}
+            if cid in self.CHEATS_BLOCKED:
+                c["blocked"] = self.CHEATS_BLOCKED[cid]
+            codes.append(c)
+            n = g.u32(n)
+        names = {int(c["id"], 16): c["code"] for c in codes}
+        used = self._cheat_ids_used(mgr)
+        return {"enabled": bool(g.proc.read(mgr + 0x2C, 1)[0]), "codes": codes,
+                "used_in_this_session": [names.get(i, f"{i:#010x}") for i in used]}
+
+    def cheat(self, text: str) -> dict:
+        g = self.g
+        g.need_city()
+        text = text.strip()
+        if not text:
+            raise GameError("type a cheat code (cheats lists them)")
+        if self.modal():
+            raise GameError("close the open game dialog first")
+        mgr = self._cheat_manager()
+        data = text.encode("cp1252", "replace")[:500]
+        buf = g.scratch() + 0x3000
+        p, idp = buf + 0x20, buf + 0x18
+        g.proc.write(p, data + b"\0")
+        g.proc.write(buf, struct.pack("<5I", g.mod("simcity.dll") + 0x1378C, p, p + len(data), p + len(data), 1))
+        g.proc.write(idp, b"\0" * 4)
+        match = g.call(g.vfn(mgr, 0x2C // 4), [buf, idp], this=mgr) & 0xFF
+        cid = g.u32(idp)
+        if not match:
+            raise GameError(f"{text!r} is not a cheat code the game knows (cheats lists them)")
+        if cid in self.CHEATS_BLOCKED:
+            raise GameError(f"{text!r} is blocked: it {self.CHEATS_BLOCKED[cid]}")
+        r = g.run_deferred(g.vfn(mgr, 0x28 // 4), [buf, cid], this=mgr, what=f"cheat {text!r}")
+        out = {"code": text, "id": f"{cid:#010x}", "matched": "exact" if match == 2 else "code with parameters"}
+        if "pending" in r:
+            out["dialog"] = self.modal()
+            out["note"] = "the cheat opened a game window: answer it with close_dialog"
+        else:
+            out["funds"] = r.get("funds")
+            out["funds_change"] = -r.get("cost", 0)
+        return out
 
     # ------------------------------------------------------------ user-made building replacements
     # (re/agents/replace/REPORT.md): the scheme manager S keeps the user-made (Building Architect) buildings

@@ -69,6 +69,9 @@ The simulation stays paused except while `advance_time` or `run_realtime` runs.
   `answer_petition(id, accept)` answers. New neighbor deals cannot be requested; the game proposes them when a
   connection (road, rail, pipe, power line...) to that neighbor exists and supply / demand conditions hold.
 - `game_events` returns what the news ticker announced since its last call.
+- When a scenario ends (its goals met, or its time up), the game shows the results window: `scenario_status` has the
+  final rank (1 is best), `close_dialog` answers with "Replay Scenario", "Play Another Scenario" or "Return to Main
+  Menu".
 
 ## Money
 
@@ -99,7 +102,9 @@ The simulation stays paused except while `advance_time` or `run_realtime` runs.
 | the game's own settings (display, sound, music tracks, auto go to disasters) | `preferences`, `set_preferences` |
 | the city's look (landscape, trees, building style) and description | `city_options`, `set_city_options` |
 | user-made (Building Architect) buildings shown in place of default ones | `building_replacements`, `replace_building` |
-| the game window's camera and overlays, pictures | `set_view`, `center_view`, `take_snapshot`, `snapshots`, `screenshot` |
+| the game window's camera, overlays and toolbars, pictures | `set_view`, `center_view`, `take_snapshot`, `screenshot` |
+| the Photo Album: snapshots, their details and captions | `snapshots`, `snapshot_image`, `set_snapshot_caption`, `delete_snapshot` |
+| cheat codes the game accepts and the ones used | `cheats` |
 
 ## Experiments and reproducibility
 
@@ -124,4 +129,7 @@ The simulation stays paused except while `advance_time` or `run_realtime` runs.
 
 - Only actions the game itself offers, at the game's prices; deals only as the game proposes them; scenarios that
   cannot be paused stay that way.
+- Cheat codes are part of the game (`cheat`, as its Ctrl+Alt+Shift+C box), but they change its rules: free
+  buildings, money, unlocked buildings, terrain. Use them only when asked to; an honest experiment checks that
+  `cheats().used_in_this_session` is empty. "Crash" and "Internet chat" are refused.
 - The tools never change memory values directly to gain an advantage; reading memory is only for observing.

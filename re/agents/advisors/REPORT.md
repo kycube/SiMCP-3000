@@ -93,7 +93,9 @@ the month tests (Locusts 60, Criminalville 60, Betterfeld 48, Rags 36; tutorials
 Outcome: EndScenario 0x10006DB8(rank): s+0x8D8 = rank, running = 0, results dialog (0x1000412D -> +0x8F0) +
 city vt[0x21C] (modal pause), listen for 0xBA44EB51 = results dialog CLOSED (SC3U command 0xC425A194, Execute
 0x412C65); handler 0x10006B4F closes, unpauses (vt[0x220]), sends 0x54E23EE9 {1}, choice 0 replay, 1 load
-scenario picker, 2 0x1000A906 (OPEN). Rank 1 = best; worst rank = loss (titles via AddRankInfo).
+scenario picker, 2 0x1000A906 = "Return to Main Menu" (CONFIRMED live, live/t15: the results window's picture
+buttons are "Replay Scenario" / "Play Another Scenario" / "Return to Main Menu"). Rank 1 = best; worst rank = loss
+(titles via AddRankInfo).
 
 ## C. Auto options
 Auto Budget = city+0x1F1 (default 1; get vt[0x90], set vt[0x94](bool) sends 0x6569DE54; budget caches at

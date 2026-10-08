@@ -13,11 +13,13 @@ from __future__ import annotations
 
 import datetime
 import io
+import json
 import os
 import time
 
 from mcp.server.fastmcp import FastMCP, Image
 
+from . import album as album_mod
 from . import catalog
 from .city import City, DEPARTMENTS
 from .game import Game, GameError, calendar_days, date_to_jdn, jdn_to_date
@@ -326,7 +328,9 @@ def _scenario() -> dict:
 @tool("read")
 def scenario_status() -> dict:
     """The running scenario: name, description, goals with met / not met, months elapsed and, once it has ended, the
-    final rank (1 is best) and result text. {"scenario": false} outside scenarios.
+    final rank (1 is best) and result text. When a scenario ends the game shows its results window (dialog_status):
+    answer it with close_dialog("Replay Scenario"), "Play Another Scenario" or "Return to Main Menu".
+    {"scenario": false} outside scenarios.
     """
     return _guard(_scenario)
 
@@ -675,7 +679,7 @@ def center_view(x: int, y: int, zoom: int | None = None) -> dict:
 def set_view(rotation: int | None = None, zoom: int | None = None, data_view: str | None = None,
              zones: bool | None = None, transport: bool | None = None, power_lines: bool | None = None,
              trees: bool | None = None, zoned_buildings: bool | None = None,
-             other_buildings: bool | None = None, grid: bool | None = None) -> dict:
+             other_buildings: bool | None = None, grid: bool | None = None, toolbars: bool | None = None) -> dict:
     """The game window's camera and display layers, as its rotate / zoom buttons and Layer Views panel set them
     (only what the screen and screenshots show). Returns the view: centre tile, zoom, rotation, data view, layers.
     Call it without arguments to read the view.
@@ -692,12 +696,20 @@ def set_view(rotation: int | None = None, zoom: int | None = None, data_view: st
         zoned_buildings: Show buildings on zones.
         other_buildings: Show all other buildings.
         grid: Show the terrain grid (the G key).
+        toolbars: Show (true) or hide (false) the game's toolbars and status bar (its Hide / Show Toolbars tab).
     """
     layers = {k: v for k, v in dict(zones=zones, transport=transport, power_lines=power_lines, trees=trees,
                                     zoned_buildings=zoned_buildings, other_buildings=other_buildings).items()
               if v is not None}
-    return _guard(game.set_view, zoom=zoom, rotation=rotation, data_view=data_view, layers=layers or None,
-                  grid=grid)
+
+    def run():
+        if toolbars is not None:
+            life.set_toolbars(toolbars)
+        out = game.set_view(zoom=zoom, rotation=rotation, data_view=data_view, layers=layers or None, grid=grid)
+        if isinstance(out, dict):
+            out["toolbars"] = life.toolbars_shown()
+        return out
+    return _guard(run)
 
 
 @tool("read")
@@ -1724,9 +1736,91 @@ def take_snapshot(size: str = "medium") -> dict:
 
 
 @tool("read")
-def snapshots() -> dict:
-    """The snapshots in the game's Albums folder (the Photo Album): album, file name, path, size, time."""
-    return _guard(lambda: {"snapshots": life.snapshots()})
+def snapshots(album: str | None = None) -> dict:
+    """The game's Photo Album: every snapshot with its album (one per city), file name, path, size, time, and what the
+    album shows for it - city, mayor, game date, population, funds and the description (caption). Read from the
+    Albums folder; the game need not be running.
+
+    Args:
+        album: Only this album (its folder name, or the city name); omit for all.
+    """
+    return _guard(lambda: {"snapshots": album_mod.snapshots(album)}, _attach=False)
+
+
+@tool("read", structured_output=False)
+def snapshot_image(file: str, album: str | None = None, scale: float = 1.0):
+    """One snapshot from the Photo Album as a picture, with its details (city, mayor, date, population, funds,
+    caption).
+
+    Args:
+        file: The snapshot's file name as snapshots lists it (with or without .jpg).
+        album: Its album, when the same file name is in several albums.
+        scale: Shrink factor for the returned picture (1 = as saved).
+    """
+    def run():
+        from PIL import Image as PImage
+        p = album_mod.find(file, album)
+        info = next(s for s in album_mod.snapshots() if s["path"] == p)
+        img = PImage.open(p).convert("RGB")
+        if scale != 1:
+            img = img.resize((max(1, int(img.width * scale)), max(1, int(img.height * scale))))
+        return [json.dumps({**info, "pixels": list(img.size)}), _png(img)]
+    return _guard(run, _attach=False)
+
+
+@tool("set")
+def set_snapshot_caption(file: str, caption: str, album: str | None = None) -> dict:
+    """Set a snapshot's description, as typing it in the Photo Album's text box does (an empty caption removes it).
+    Close the game's Photo Album window first if it is open: it saves its own text box when it closes.
+
+    Args:
+        file: The snapshot's file name as snapshots lists it.
+        caption: The description text.
+        album: Its album, when the same file name is in several albums.
+    """
+    def run():
+        if game.proc and game.proc.alive() and life._find_window(title="View Snapshots"):
+            raise GameError("the game's Photo Album window is open: close it first (it saves its own text box)")
+        return album_mod.set_caption(file, caption, album)
+    return _guard(run, _attach=False)
+
+
+@tool("destructive")
+def delete_snapshot(file: str, album: str | None = None) -> dict:
+    """Delete a snapshot as the Photo Album's Delete button does (the picture, its details and its description),
+    but into the Windows Recycle Bin, so it can be restored (the game's own Delete removes it for good).
+
+    Args:
+        file: The snapshot's file name as snapshots lists it.
+        album: Its album, when the same file name is in several albums.
+    """
+    def run():
+        if game.proc and game.proc.alive() and life._find_window(title="View Snapshots"):
+            raise GameError("the game's Photo Album window is open: close it first")
+        return album_mod.delete(file, album)
+    return _guard(run, _attach=False)
+
+
+@tool("read")
+def cheats() -> dict:
+    """The cheat codes the game accepts in its cheat box (Ctrl+Alt+Shift+C), as registered in its cheat manager, and
+    the ones used since the game started. Cheats change the game's rules (free buildings, money, unlocked buildings,
+    terrain), so experiments that must stay honest should check this list. Two are blocked here: "Crash" (crashes the
+    game) and "Internet chat" (an online service that no longer exists).
+    """
+    return _guard(life.cheats)
+
+
+@tool("act")
+def cheat(code: str) -> dict:
+    """Enter a cheat code as the game's cheat box (Ctrl+Alt+Shift+C) does: the game matches it (case-insensitive;
+    some take parameters, e.g. "force Moe to say 12") and sends it to the parts of the game that act on it. Returns
+    the change in funds; if the cheat opens a game window (e.g. "call cousin Vinnie"), answer it with close_dialog.
+
+    Args:
+        code: The text to enter, e.g. "I am weak", "garbage in, garbage out", "Terrain one up" (cheats lists all).
+    """
+    return _guard(life.cheat, code)
 
 
 @tool("read")

@@ -23,6 +23,11 @@ STEPS = [
     ("set_view", {"rotation": 0, "data_view": "normal"}),
     ("query", {"x": 62, "y": 26}),
     ("take_snapshot", {"size": "small"}),
+    ("snapshots", {"album": "MCP E2E"}),
+    ("set_view", {"toolbars": False}),
+    ("set_view", {"toolbars": True}),
+    ("cheats", {}),
+    ("cheat", {"code": "Crash"}),                                             # refused (expected error)
     ("building_replacements", {"size": 1, "category": "residential"}),
     ("replace_building", {"building": "Squat St.", "user_building": "The Joneses"}),
     ("replace_building", {"building": "Squat St.", "user_building": ""}),
